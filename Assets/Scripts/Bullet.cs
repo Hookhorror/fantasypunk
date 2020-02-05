@@ -13,5 +13,6 @@ public class Bullet : MonoBehaviour
         // Destroys the effect after given time
         Destroy(effect, 1);
         Destroy(gameObject);
+        Destroy(gameObject, 3);
     }
 }

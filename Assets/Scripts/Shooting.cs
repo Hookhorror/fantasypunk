@@ -6,9 +6,19 @@ public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public AudioClip soundEffect;
 
     public float bulletForce = 20f;
     // Update is called once per frame
+
+    private AudioSource source;
+
+    void Awake()
+    {
+
+        source = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -24,6 +34,7 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
+        source.PlayOneShot(soundEffect);
         // Spawn a bullet
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         // Adds rigidbody to the bullet
