@@ -29,4 +29,20 @@ public class Enemy : MonoBehaviour
     {
         health = maxHealth;
     }
+
+    // TODO: Damagelogic has probably a better place somewhere else
+    private void TakeDamage(float damage)
+    {
+        if (damage >= health)
+        {
+            Die();
+        }
+        else health -= damage;
+
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+    }
 }
