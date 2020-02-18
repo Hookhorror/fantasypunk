@@ -7,7 +7,10 @@ public class Enemy : MonoBehaviour
     public float maxHealth;
     public float range;
     public float damage;
+    public float moveSpeed;
+    public Rigidbody2D rb;
     private float health;
+    private Vector2 movement;
 
     void Awake()
     {
@@ -22,7 +25,8 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // Some testing
+        // rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
     private void SetHealthToMax()
@@ -44,5 +48,10 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+    }
+
+    private void MoveLeftToRight()
+    {
+
     }
 }
