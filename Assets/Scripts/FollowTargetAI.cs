@@ -6,6 +6,7 @@ public class Patrol : MonoBehaviour
 {
     public float speed;
     public Transform[] checkpoints;
+    public Rigidbody2D target;
 
     private int randomCheckpoint;
     // Start is called before the first frame update
@@ -16,8 +17,11 @@ public class Patrol : MonoBehaviour
 
     void Update()
     {
+        // transform.position = Vector2.MoveTowards(transform.position
+        //                    , checkpoints[randomCheckpoint].position
+        //                    , speed * Time.deltaTime);
         transform.position = Vector2.MoveTowards(transform.position
-                           , checkpoints[randomCheckpoint].position
+                           , target.position
                            , speed * Time.deltaTime);
     }
 }

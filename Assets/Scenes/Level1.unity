@@ -529,6 +529,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1229134109}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &1229134111 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 386517850357848906, guid: ce626a4a299aaaf47b304c8e493c059b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229134109}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1278565240
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +949,21 @@ MonoBehaviour:
   damage: 0
   moveSpeed: 100
   rb: {fileID: 1671109970}
+--- !u!114 &1671109972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671109969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 100
+  checkpoints: []
+  target: {fileID: 1229134111}
 --- !u!1 &1839177168
 GameObject:
   m_ObjectHideFlags: 0
