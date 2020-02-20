@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float maxHealth;
-    public float range;
+    public float maxHealth = 100;
+    public float range = 5;
     public float damage;
     public float moveSpeed;
     public Rigidbody2D rb;
