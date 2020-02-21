@@ -5,7 +5,6 @@ using UnityEngine;
 public class FollowTargetAI : MonoBehaviour
 {
     public float speed;
-    public Transform[] checkpoints;
     public Rigidbody2D target;
     public float spottingRange;
     public float firingRange;
@@ -15,7 +14,7 @@ public class FollowTargetAI : MonoBehaviour
     public Animator animator;
 
     private Vector2 lastPosition;
-    private Vector2 movement;
+    private Vector2 movementDirection;
 
     void Awake()
     {
@@ -24,19 +23,20 @@ public class FollowTargetAI : MonoBehaviour
 
     void Update()
     {
-        // transform.position = Vector2.MoveTowards(transform.position
-        //                    , checkpoints[randomCheckpoint].position
-        //                    , speed * Time.deltaTime);
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        animator.SetFloat("Horizontal", movementDirection.x);
+        animator.SetFloat("Vertical", movementDirection.y);
+        animator.SetFloat("Speed", movementDirection.sqrMagnitude);
 
         float distanceToTarget = Vector2.Distance(transform.position
                                                 , target.transform.position);
 
+        ResetMovementDirection();
+
         if (distanceToTarget <= spottingRange)
         {
-            movement = Vector2.MoveTowards(transform.position
+            SetMovementDirection();
+
+            transform.position = Vector2.MoveTowards(transform.position
                               , target.position
                               , speed * Time.deltaTime);
         }
@@ -50,11 +50,15 @@ public class FollowTargetAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, spottingRange);
     }
 
-    private void TurnToMovementDirection()
+    private void ResetMovementDirection()
     {
-        if (lastPosition.x < transform.position.x)
-        {
-        }
+        movementDirection.x = 0;
+        movementDirection.y = 0;
+    }
+    private void SetMovementDirection()
+    {
+        movementDirection.x = target.position.x;
+        movementDirection.y = target.position.y;
     }
 
     private void Shoot()
