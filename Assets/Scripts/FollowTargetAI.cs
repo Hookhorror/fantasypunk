@@ -7,7 +7,7 @@ public class FollowTargetAI : MonoBehaviour
     public float speed;
     public Rigidbody2D target;
     public float spottingRange;
-    public float firingRange;
+    public float attackRange;
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float bulletForce = 15;
@@ -15,6 +15,7 @@ public class FollowTargetAI : MonoBehaviour
 
     private Vector2 lastPosition;
     private Vector2 movementDirection;
+    private bool shooting = false;
 
     void Awake()
     {
@@ -27,8 +28,7 @@ public class FollowTargetAI : MonoBehaviour
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementDirection.sqrMagnitude);
 
-        float distanceToTarget = Vector2.Distance(transform.position
-                                                , target.transform.position);
+        float distanceToTarget = Vector2.Distance(transform.position, target.transform.position);
 
         ResetMovementDirection();
 
@@ -36,12 +36,26 @@ public class FollowTargetAI : MonoBehaviour
         {
             SetMovementDirection();
 
-            transform.position = Vector2.MoveTowards(transform.position
-                              , target.position
-                              , speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         }
-        // Shoot();
 
+        if (distanceToTarget <= attackRange && !shooting)
+        {
+            shooting = true;
+            InvokeRepeating("Shoot", 1f, 1f);
+        }
+        else if (distanceToTarget > attackRange && shooting)
+        {
+            shooting = false;
+            CancelInvoke("Shoot");
+        }
+    }
+
+    void FixedUpdate()
+    {
+        // GameObject aim = GetComponentInChildren<GameObject>();
+        // aim.transform.rotation = Quaternion.RotateTowards(transform.rotation, target.transform.rotation, 0.1f);
+        // Debug.Log(aim);
     }
 
     void OnDrawGizmosSelected()
@@ -57,6 +71,12 @@ public class FollowTargetAI : MonoBehaviour
     }
     private void SetMovementDirection()
     {
+        // TODO: Do some research which works better for enemy turning
+
+        // float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
+        // movementDirection.x = target.position.x / hypotenuse;
+        // movementDirection.y = target.position.y / hypotenuse;
+
         movementDirection.x = target.position.x;
         movementDirection.y = target.position.y;
     }

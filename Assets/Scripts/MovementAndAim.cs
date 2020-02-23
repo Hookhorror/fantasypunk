@@ -16,11 +16,6 @@ public class MovementAndAim : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (Input.anyKey)
-        {
-            Debug.Log("Movement x: " + movement.x + "\n"
-                    + "Movement y: " + movement.y);
-        }
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
