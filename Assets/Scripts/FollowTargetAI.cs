@@ -73,12 +73,15 @@ public class FollowTargetAI : MonoBehaviour
     {
         // TODO: Do some research which works better for enemy turning
 
-        // float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
-        // movementDirection.x = target.position.x / hypotenuse;
-        // movementDirection.y = target.position.y / hypotenuse;
+        float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
+        movementDirection.x = target.position.x / hypotenuse;
+        movementDirection.y = target.position.y / hypotenuse;
 
-        movementDirection.x = target.position.x;
-        movementDirection.y = target.position.y;
+        // movementDirection.x = target.position.x;
+        // movementDirection.y = target.position.y;
+
+        Debug.Log("enemy x: " + movementDirection.x);
+        Debug.Log("enemy y: " + movementDirection.y);
     }
 
     private void Shoot()
