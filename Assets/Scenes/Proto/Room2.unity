@@ -1315,8 +1315,8 @@ GameObject:
   m_Component:
   - component: {fileID: 741028178}
   - component: {fileID: 741028177}
-  - component: {fileID: 741028176}
   - component: {fileID: 741028175}
+  - component: {fileID: 741028176}
   m_Layer: 0
   m_Name: slum_doorsouth
   m_TagString: Untagged
@@ -5183,12 +5183,12 @@ PrefabInstance:
     - target: {fileID: 5841479406506257861, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -200
+      value: -783
       objectReference: {fileID: 0}
     - target: {fileID: 5841479406506257861, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 151
+      value: 484
       objectReference: {fileID: 0}
     - target: {fileID: 5841479407749001202, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
@@ -5569,15 +5569,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8500003702233387864, guid: 4c4e72be08bd7e7baa015f68731e787f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8500003702233387866, guid: 4c4e72be08bd7e7baa015f68731e787f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.36
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 8500003702233387866, guid: 4c4e72be08bd7e7baa015f68731e787f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.72
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 8500003702233387866, guid: 4c4e72be08bd7e7baa015f68731e787f,
         type: 3}

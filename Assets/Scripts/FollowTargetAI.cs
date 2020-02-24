@@ -79,9 +79,6 @@ public class FollowTargetAI : MonoBehaviour
 
         // movementDirection.x = target.position.x;
         // movementDirection.y = target.position.y;
-
-        Debug.Log("enemy x: " + movementDirection.x);
-        Debug.Log("enemy y: " + movementDirection.y);
     }
 
     private void Shoot()
