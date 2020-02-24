@@ -1261,6 +1261,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5841479406506257861, guid: bdd40066db9f64a4d8104e9528baf3e4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5841479406506257861, guid: bdd40066db9f64a4d8104e9528baf3e4,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 151
+      objectReference: {fileID: 0}
     - target: {fileID: 5841479407749001202, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -1309,7 +1319,7 @@ PrefabInstance:
     - target: {fileID: 5841479407867245648, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5841479407867245648, guid: bdd40066db9f64a4d8104e9528baf3e4,
         type: 3}
@@ -1429,7 +1439,7 @@ GameObject:
   - component: {fileID: 1392644935}
   - component: {fileID: 1392644934}
   m_Layer: 0
-  m_Name: slum_doornorth
+  m_Name: DoorToN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1447,7 +1457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0655ec55271e4ec79e100171edd6a44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lvlName: 
+  lvlName: Room2
 --- !u!61 &1392644935
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1532,11 +1542,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392644933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 319.78375, y: 360.60117, z: 0}
+  m_LocalPosition: {x: 313.74, y: 367.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1479949469
 GameObject:
@@ -1886,7 +1896,7 @@ PrefabInstance:
     - target: {fileID: 3431440362223790568, guid: e48f106d800e247f39573df5451df2fc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3431440362223790568, guid: e48f106d800e247f39573df5451df2fc,
         type: 3}
@@ -1955,7 +1965,7 @@ Transform:
   - {fileID: 1533905759}
   - {fileID: 2133498409}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2113688415
 GameObject:
@@ -7724,7 +7734,7 @@ PrefabInstance:
     - target: {fileID: 5379944133187961050, guid: 6b8d02e039e434aff87ea6aeef766021,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5379944133187961050, guid: 6b8d02e039e434aff87ea6aeef766021,
         type: 3}
