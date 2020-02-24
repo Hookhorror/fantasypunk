@@ -1233,6 +1233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyLatest
       objectReference: {fileID: 0}
+    - target: {fileID: 1393811800347830301, guid: e5051ce6891a175d7b2de3d917b7f65b,
+        type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1393811800347830302, guid: e5051ce6891a175d7b2de3d917b7f65b,
         type: 3}
       propertyPath: m_SortingOrder
