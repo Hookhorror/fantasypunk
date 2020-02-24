@@ -17,10 +17,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: 29dc35dca41cbf26087ac0e616b45365
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Joni/JoniTestScene.unity
     guid: 1ab360753364467e09401f5c5638c4b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Joni/JoniTestNextLevel.unity
     guid: 705f09117be57496c8ea31bd04cd122b
+  - enabled: 1
+    path: Assets/Scenes/Proto/Room1.unity
+    guid: 653ddfd92e0244e0e849b97c408ac4eb
+  - enabled: 0
+    path: Assets/Scenes/Proto/Room2.unity
+    guid: d020d1e138ad2427d8f9f04e55ee9590
   m_configObjects: {}

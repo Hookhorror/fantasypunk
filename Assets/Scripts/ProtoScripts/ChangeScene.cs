@@ -5,16 +5,21 @@ using UnityEngine.SceneManagement;
 
 
 
-public class ChangeScene : MonoBehaviour {
+public class ChangeScene : MonoBehaviour
+{
 
     public string lvlName;
-    
-    void OnTriggerEnter2D(Collider2D other) {
-        if(other.CompareTag("Player")){
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
             SceneManager.LoadScene(lvlName);
+            // SceneManager.LoadScene("Room2");
+
         }
     }
 }
- 
+
 
 

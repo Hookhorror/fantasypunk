@@ -18,12 +18,11 @@ public class PlayerHP : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDMG(1);
+    void OnCollisionEnter2D(Collision2D other) {
+        if(other.gameObject.CompareTag("Projectile")){
+           TakeDMG(1); 
         }
+        
     }
 
     void TakeDMG(int dmg)
