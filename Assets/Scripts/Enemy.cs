@@ -5,12 +5,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float maxHealth = 100;
-    public float range = 5;
-    public float damage;
-    public float moveSpeed;
-    public Rigidbody2D rb;
+    // TODO: implement better way of inflicting damage
+    public float damageTaken;
     private float health;
-    private Vector2 movement;
 
     void Awake()
     {
@@ -27,6 +24,18 @@ public class Enemy : MonoBehaviour
     {
         // Some testing
         // rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Projectile"))
+        {
+            health -= damageTaken;
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
     }
 
     private void SetHealthToMax()
