@@ -1682,10 +1682,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1392644933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0655ec55271e4ec79e100171edd6a44, type: 3}
+  m_Script: {fileID: 11500000, guid: 2f3e31e4187a742e1870911c7a8ad65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lvlName: Room2
 --- !u!61 &1392644935
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ChangeToPrev : MonoBehaviour
 {
     private int prevScene;
     // Start is called before the first frame update
@@ -12,7 +12,8 @@ public class NewBehaviourScript : MonoBehaviour
         prevScene = SceneManager.GetActiveScene().buildIndex - 1;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         SceneManager.LoadScene(prevScene);
     }
 }
