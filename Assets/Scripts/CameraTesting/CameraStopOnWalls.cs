@@ -14,8 +14,9 @@ public class CameraStopOnWalls : MonoBehaviour
     //public GameObject wallS;
     //public GameObject wallW;
     //public GameObject wallE;
-    private float cameraStopVertical;
-    private float cameraStopHorizontal;
+    private float cameraPositionVertical;
+    private float cameraPositionHorizontal;
+    private bool cameraMoving = true;
 
 
     // Update is called once per frame
@@ -25,16 +26,18 @@ public class CameraStopOnWalls : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        // cam.transform.position = rb.position;
+        //cam.transform.position = rb.position;
         if (Vertical())
         {
-            cam.transform.position = new Vector3(rb.position.x, cameraStopVertical, cam.transform.position.z);
+            cam.transform.position = new Vector3(cameraPositionHorizontal, cameraPositionVertical, cam.transform.position.z);
         }
         if (Horizontal())
         {
-            cam.transform.position = new Vector3(rb.position.x, cameraStopHorizontal, cam.transform.position.z);
+            cam.transform.position = new Vector3(cameraPositionHorizontal, cameraPositionVertical, cam.transform.position.z);
         }
-        
+
+
+
     }
 
     void FixedUpdate()
@@ -46,26 +49,27 @@ public class CameraStopOnWalls : MonoBehaviour
         rb.rotation = angle;
 
         // cam.transform.
-        
+
     }
 
     private bool Horizontal()
     {
-        if (rb.position.x < -5f || rb.position.x > 5f) 
+        // if (cameraMoving) return true;
+        if (rb.position.x < -5f || rb.position.x > 5f)
         {
-            cameraStopHorizontal = cam.transform.position.x;
             return false;
         }
+        cameraPositionHorizontal = rb.position.x;
         return true;
     }
 
     private bool Vertical()
     {
-        if (rb.position.y < -4f || rb.position.y > 4f) 
+        if (rb.position.y < -6f || rb.position.y > 4f)
         {
-            cameraStopVertical = cam.transform.position.y;
             return false;
         }
+        cameraPositionVertical = rb.position.y;
         return true;
     }
 
