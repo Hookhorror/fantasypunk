@@ -54,7 +54,7 @@ public class CameraStopOnWalls : MonoBehaviour
 
     private bool Horizontal()
     {
-        // if (cameraMoving) return true;
+        // TODO: if we're to continue with this remove hard coding
         if (rb.position.x < -5f || rb.position.x > 5f)
         {
             return false;
@@ -65,6 +65,7 @@ public class CameraStopOnWalls : MonoBehaviour
 
     private bool Vertical()
     {
+        // TODO: if we're to continue with this remove hard coding
         if (rb.position.y < -6f || rb.position.y > 4f)
         {
             return false;
