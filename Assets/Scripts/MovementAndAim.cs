@@ -7,6 +7,7 @@ public class MovementAndAim : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     public Camera cam;
+    public Animator animator;
     Vector2 movement;
     Vector2 mousePos;
 
@@ -17,6 +18,10 @@ public class MovementAndAim : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
     }
 
@@ -24,8 +29,8 @@ public class MovementAndAim : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        // Vector2 lookDir = mousePos - rb.position;
+        // float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
+        // rb.rotation = angle;
     }
 }
