@@ -9,7 +9,7 @@ public class MovementAndAim : MonoBehaviour
     public Camera cam;
     //public Animator legs;
     //public Animator torso;
-    public Animator animator;
+    // public Animator animator;
     Vector2 movement;
     Vector2 mousePos;
 
@@ -20,14 +20,14 @@ public class MovementAndAim : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("MovementHorizontal", movement.x);
-        animator.SetFloat("MovementVertical", movement.y);
-        animator.SetFloat("MovementSpeed", movement.sqrMagnitude);
+        // animator.SetFloat("MovementHorizontal", movement.x);
+        // animator.SetFloat("MovementVertical", movement.y);
+        // animator.SetFloat("MovementSpeed", movement.sqrMagnitude);
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
 
-        animator.SetFloat("FacingHorizontal", mousePos.x);
-        animator.SetFloat("FacingVertical", mousePos.y);
+        // animator.SetFloat("FacingHorizontal", mousePos.x);
+        // animator.SetFloat("FacingVertical", mousePos.y);
     }
 
     void FixedUpdate()
