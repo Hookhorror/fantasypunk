@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 0ea6253cdd28e874db19bebd9300be7c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8252644215758981902
+    second: pm_down_0
+  - first:
+      213: -4212775618227728116
+    second: pm_down_1
+  - first:
+      213: -4943832912117270319
+    second: pm_down_2
+  - first:
+      213: -1239231425564694550
+    second: pm_down_3
+  - first:
+      213: -6722409471547424730
+    second: pm_down_4
+  - first:
+      213: -6313735165788797858
+    second: pm_down_5
+  - first:
+      213: -3857422913409882386
+    second: pm_down_6
+  - first:
+      213: -4428205467291461151
+    second: pm_down_7
+  - first:
+      213: -5098050880601521629
+    second: pm_down_8
+  - first:
+      213: 15657937545752119
+    second: pm_down_9
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pm_down_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 39
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5163315, y: 0.9430887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0ff99038478270800000000000000
+      internalID: 8252644215758981902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 14
+        width: 38
+        height: 44
+      alignment: 9
+      pivot: {x: 0.541903, y: 0.9198011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c011c1d35e63985c0800000000000000
+      internalID: -4212775618227728116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 15
+        width: 40
+        height: 44
+      alignment: 9
+      pivot: {x: 0.4920372, y: 0.89084935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d87d54f82af36bb0800000000000000
+      internalID: -4943832912117270319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 14
+        width: 39
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49999842, y: 0.9458578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae727bc859d5dcee0800000000000000
+      internalID: -1239231425564694550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_4
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 12
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5655652, y: 0.9268853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620c1b5d33435b2a0800000000000000
+      internalID: -6722409471547424730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 14
+        width: 34
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5561981, y: 0.94151497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54444d715b1168a0800000000000000
+      internalID: -6313735165788797858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 15
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.55970955, y: 0.9198012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee660c93c4ea77ac0800000000000000
+      internalID: -3857422913409882386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_7
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 11
+        width: 36
+        height: 48
+      alignment: 9
+      pivot: {x: 0.55307513, y: 0.92462665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e956a1d69adb82c0800000000000000
+      internalID: -4428205467291461151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_8
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 13
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.49062932, y: 0.92924196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32201e61cb51049b0800000000000000
+      internalID: -5098050880601521629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pm_down_9
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 12
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0.42037964, y: 0.9133334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e645dafc0a73000800000000000000
+      internalID: 15657937545752119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
