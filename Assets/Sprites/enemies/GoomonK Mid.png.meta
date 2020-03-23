@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: ff90dae4696d68ecb9239b6d34be8999
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2678995026244811982
+    second: GoomonK Mid_0
+  - first:
+      213: 7409060703984791858
+    second: GoomonK Mid_1
+  - first:
+      213: -4377099278665028531
+    second: GoomonK Mid_2
+  - first:
+      213: 5155028057393609899
+    second: GoomonK Mid_3
+  - first:
+      213: 5914889235040544750
+    second: GoomonK Mid_4
+  - first:
+      213: 4973508568714861294
+    second: GoomonK Mid_5
+  - first:
+      213: 2899453604803403939
+    second: GoomonK Mid_6
+  - first:
+      213: -5346614946746917531
+    second: GoomonK Mid_7
+  - first:
+      213: -8988017455989786659
+    second: GoomonK Mid_8
+  - first:
+      213: 7982644867925757461
+    second: GoomonK Mid_9
+  - first:
+      213: 3207727120758301130
+    second: GoomonK Mid_10
+  - first:
+      213: 1849554717484550051
+    second: GoomonK Mid_11
+  - first:
+      213: -1485307039812766211
+    second: GoomonK Mid_0
+  - first:
+      213: -4099221399391867680
+    second: GoomonK Mid_1
+  - first:
+      213: -677368028331503570
+    second: GoomonK Mid_2
+  - first:
+      213: 6556677431808525925
+    second: GoomonK Mid_3
+  - first:
+      213: 1686259226239852596
+    second: GoomonK Mid_4
+  - first:
+      213: -5931303685033290026
+    second: GoomonK Mid_5
+  - first:
+      213: -185509880711808110
+    second: GoomonK Mid_6
+  - first:
+      213: 1506687952560594753
+    second: GoomonK Mid_7
+  - first:
+      213: 7768383474285400063
+    second: GoomonK Mid_8
+  - first:
+      213: 7449116567877390390
+    second: GoomonK Mid_9
+  - first:
+      213: 3842373798863019390
+    second: GoomonK Mid_10
+  - first:
+      213: -4949158363469384380
+    second: GoomonK Mid_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +112,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +142,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GoomonK Mid_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 188
+        width: 59
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5b295ed11236be0800000000000000
+      internalID: -1485307039812766211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 190
+        width: 56
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec61991bd3ac17c0800000000000000
+      internalID: -4099221399391867680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 190
+        width: 57
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e201819fd518996f0800000000000000
+      internalID: -677368028331503570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 191
+        width: 59
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56684cda26ffdfa50800000000000000
+      internalID: 6556677431808525925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 106
+        width: 60
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430604305dbc66710800000000000000
+      internalID: 1686259226239852596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 107
+        width: 59
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d610ae49b6cfada0800000000000000
+      internalID: -5931303685033290026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 107
+        width: 58
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf8d11fbfec6df0800000000000000
+      internalID: -185509880711808110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_7
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 108
+        width: 60
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f1cb7c5b4d8e410800000000000000
+      internalID: 1506687952560594753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 31
+        width: 55
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffcbc77c97decb60800000000000000
+      internalID: 7768383474285400063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 32
+        width: 55
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6301fc62d04906760800000000000000
+      internalID: 7449116567877390390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 34
+        width: 55
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9f7fbc9ad25530800000000000000
+      internalID: 3842373798863019390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoomonK Mid_11
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 34
+        width: 58
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445f040b0be015bb0800000000000000
+      internalID: -4949158363469384380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
