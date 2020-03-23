@@ -18,7 +18,7 @@ public class MenuNavigationLogic : MonoBehaviour
     public void OpenLevel1()
     {
         Debug.Log("StartGame clicked");
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Test");
     }
 
     public void QuitGame()

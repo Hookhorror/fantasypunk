@@ -3511,12 +3511,12 @@ PrefabInstance:
     - target: {fileID: 5826355730026515121, guid: 7fcf1b62286aad84f97aa7563c21ad81,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -238
+      value: -699
       objectReference: {fileID: 0}
     - target: {fileID: 5826355730026515121, guid: 7fcf1b62286aad84f97aa7563c21ad81,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 228
+      value: 466
       objectReference: {fileID: 0}
     - target: {fileID: 5826355730194107592, guid: 7fcf1b62286aad84f97aa7563c21ad81,
         type: 3}
@@ -3627,6 +3627,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HpBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826355730194107598, guid: 7fcf1b62286aad84f97aa7563c21ad81,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826355730194107598, guid: 7fcf1b62286aad84f97aa7563c21ad81,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 5826355730194107598, guid: 7fcf1b62286aad84f97aa7563c21ad81,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 5826355730311295883, guid: 7fcf1b62286aad84f97aa7563c21ad81,
         type: 3}
