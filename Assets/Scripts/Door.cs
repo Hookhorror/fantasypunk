@@ -7,6 +7,8 @@ public class Door : MonoBehaviour
     public Vector2 camChange;
 
     public Vector3 playerChange;
+
+    public bool active = true;
     private CameraMovement cam;
 
     private void Start() 
@@ -21,7 +23,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag("Player") && active==true)
         {
             cam.minP += camChange;
             cam.maxP += camChange;
