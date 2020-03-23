@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHP : MonoBehaviour
 {
 
-    public int maxHP = 10;
+    public int maxHP = 100;
     public int currentHP;
 
     public HPBar hpBar;
@@ -18,11 +18,19 @@ public class PlayerHP : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionEnter2D(Collision2D other) {
-        if(other.gameObject.CompareTag("Projectile")){
-           TakeDMG(1); 
+    void OnCollisionEnter2D(Collision2D other)
+    {
+    if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
+           TakeDMG(10); 
         }
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
+           TakeDMG(10); 
+        }
     }
 
     void TakeDMG(int dmg)
