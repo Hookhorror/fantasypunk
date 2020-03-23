@@ -2869,7 +2869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 790126940}
-  smoothing: 0.02
+  smoothing: 0.2
   maxP: {x: 12.89, y: -4}
   minP: {x: 7.11, y: -9}
 --- !u!81 &1891363863
