@@ -329,6 +329,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!50 &1640448738 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5539043995779566333, guid: d822ffc436c40e5cea1d11a7e5d17325,
+    type: 3}
+  m_PrefabInstance: {fileID: 5539043995221805087}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1646203864
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,6 +346,7 @@ GameObject:
   - component: {fileID: 1646203867}
   - component: {fileID: 1646203866}
   - component: {fileID: 1646203865}
+  - component: {fileID: 1646203868}
   m_Layer: 0
   m_Name: GooMonster
   m_TagString: Untagged
@@ -425,12 +432,32 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646203864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5534616, y: 0.17321792, z: 0}
+  m_LocalPosition: {x: -5.8, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1646203868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646203864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.001
+  target: {fileID: 1640448738}
+  spottingRange: 5
+  attackRange: 0
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  bulletForce: 15
+  animator: {fileID: 1646203865}
 --- !u!1001 &5539043995221805087
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -22,6 +22,11 @@ public class FollowTargetAI : MonoBehaviour
         lastPosition = transform.position;
     }
 
+    void Start()
+    {
+        InvokeRepeating("ConsoleMessage", 1f, 1f);
+    }
+
     void Update()
     {
         animator.SetFloat("Horizontal", movementDirection.x);
@@ -73,12 +78,15 @@ public class FollowTargetAI : MonoBehaviour
     {
         // TODO: Do some research which works better for enemy turning
 
-        float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
-        movementDirection.x = target.position.x / hypotenuse;
-        movementDirection.y = target.position.y / hypotenuse;
+        // float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
+        // movementDirection.x = target.position.x / hypotenuse;
+        // movementDirection.y = target.position.y / hypotenuse;
 
         // movementDirection.x = target.position.x;
         // movementDirection.y = target.position.y;
+
+        movementDirection.x = target.position.x - transform.position.x;
+        movementDirection.y = target.position.y - transform.position.y;
     }
 
     private void Shoot()
@@ -88,5 +96,10 @@ public class FollowTargetAI : MonoBehaviour
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         // Makes the bullet fly in simple
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+    }
+
+    private void ConsoleMessage()
+    {
+        Debug.Log("x: " + movementDirection.x + " y: " + movementDirection.y);
     }
 }
