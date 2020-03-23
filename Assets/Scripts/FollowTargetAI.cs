@@ -24,7 +24,7 @@ public class FollowTargetAI : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("ConsoleMessage", 1f, 1f);
+        // InvokeRepeating("ConsoleMessage", 1f, 1f);
     }
 
     void Update()
