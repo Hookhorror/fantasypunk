@@ -732,6 +732,21 @@ PrefabInstance:
       propertyPath: rb
       value: 
       objectReference: {fileID: 1640448738}
+    - target: {fileID: 5539043995483989355, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1417499475
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995483989355, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995483989355, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5539043995779566273, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: m_Name
@@ -796,6 +811,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995779566335, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1417499475
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995779566335, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995779566335, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995910277084, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1417499475
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995910277084, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d822ffc436c40e5cea1d11a7e5d17325, type: 3}
