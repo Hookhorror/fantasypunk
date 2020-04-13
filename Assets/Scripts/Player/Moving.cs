@@ -12,6 +12,11 @@ public class Moving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Animations based on moving direction and speed
+        animator.SetFloat("MovingHorizontal", movement.x);
+        animator.SetFloat("MovingVertical", movement.y);
+        animator.SetFloat("MovingSpeed", movement.sqrMagnitude);
+
         // Moving
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
@@ -20,9 +25,5 @@ public class Moving : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // Animations based on moving direction and speed
-        animator.SetFloat("MovingHorizontal", movement.x);
-        animator.SetFloat("MovingVertical", movement.y);
-        animator.SetFloat("MovingSpeed", movement.sqrMagnitude);
     }
 }
