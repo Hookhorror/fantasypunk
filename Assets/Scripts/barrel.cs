@@ -28,7 +28,7 @@ public class barrel : MonoBehaviour
         StartCoroutine(breakCo());
     }
 
-    IEnumerator breakCo()
+    public IEnumerator breakCo()
     {
         yield return new WaitForSecondsRealtime(5);
         this.gameObject.SetActive(false);

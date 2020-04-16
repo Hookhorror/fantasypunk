@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class Door : MonoBehaviour
 
     public bool active = true;
     private CameraMovement cam;
+    public bool needText;
+    public string placeName;
+    public GameObject text;
+    public Text placeText;
 
     private void Start() 
     {
@@ -28,6 +33,18 @@ public class Door : MonoBehaviour
             cam.minP += camChange;
             cam.maxP += camChange;
             other.transform.position += playerChange;
+            if(needText)
+            {
+                StartCoroutine(placeNameCo());
+            }
         }
+    }
+
+    private IEnumerator placeNameCo()
+    {
+        text.SetActive(true);
+        placeText.text = placeName;
+        yield return new WaitForSeconds(4f);
+        text.SetActive(false);
     }
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8895610726028688411}
   - component: {fileID: 8895610726028688420}
   m_Layer: 0
-  m_Name: Room Transfer North
+  m_Name: RT North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,3 +72,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camChange: {x: 0, y: 13}
   playerChange: {x: 0, y: 5, z: 0}
+  active: 1
