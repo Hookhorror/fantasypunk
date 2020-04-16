@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 927593563a511d371990c916fad874d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -207061555201131296
+    second: enemy_goo2_0
+  - first:
+      213: 8515790500049678033
+    second: enemy_goo2_1
+  - first:
+      213: 293301451564119355
+    second: enemy_goo2_2
+  - first:
+      213: -8879022493215129437
+    second: enemy_goo2_3
+  - first:
+      213: 5187542367669946537
+    second: enemy_goo2_4
+  - first:
+      213: -7139516791078134725
+    second: enemy_goo2_5
+  - first:
+      213: -206203920777413727
+    second: enemy_goo2_6
+  - first:
+      213: -7229723400156639975
+    second: enemy_goo2_7
+  - first:
+      213: 8482637187910405592
+    second: enemy_goo2_8
+  - first:
+      213: 4381470029726302693
+    second: enemy_goo2_9
+  - first:
+      213: -3803268560483422679
+    second: enemy_goo2_10
+  - first:
+      213: 6424196105733128455
+    second: enemy_goo2_11
+  - first:
+      213: -5744503527383569705
+    second: enemy_goo2_12
+  - first:
+      213: -8394537471963842910
+    second: enemy_goo2_13
+  - first:
+      213: -2153728681295115000
+    second: enemy_goo2_14
+  - first:
+      213: -1916122494948504013
+    second: enemy_goo2_15
+  - first:
+      213: 6933796172067331507
+    second: enemy_goo2_16
+  - first:
+      213: -8151627449456049628
+    second: enemy_goo2_17
+  - first:
+      213: -4967065749415727026
+    second: enemy_goo2_18
+  - first:
+      213: -6082065093028511470
+    second: enemy_goo2_19
+  - first:
+      213: -1132775997099308229
+    second: enemy_goo2_20
+  - first:
+      213: -7480026008670058134
+    second: enemy_goo2_21
+  - first:
+      213: 902665257317216902
+    second: enemy_goo2_22
+  - first:
+      213: 295809037628796204
+    second: enemy_goo2_23
+  - first:
+      213: -8927202427796138325
+    second: enemy_goo2_24
+  - first:
+      213: 7796727598059387627
+    second: enemy_goo2_25
+  - first:
+      213: 3135950263577555458
+    second: enemy_goo2_26
+  - first:
+      213: 2551466277141681319
+    second: enemy_goo2_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_goo2_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 386
+        width: 126
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecb893dc9e502df0800000000000000
+      internalID: -207061555201131296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 391
+        width: 125
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de6b19575a2e2670800000000000000
+      internalID: 8515790500049678033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 387
+        width: 121
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f590cd14021400800000000000000
+      internalID: 293301451564119355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 387
+        width: 114
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08533e51067c480800000000000000
+      internalID: -8879022493215129437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 267
+        width: 122
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a881427c4addf740800000000000000
+      internalID: 5187542367669946537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 274
+        width: 122
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cd9d72e475bec90800000000000000
+      internalID: -7139516791078134725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 276
+        width: 122
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abf4c660aa632df0800000000000000
+      internalID: -206203920777413727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 270
+        width: 123
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d855d4fdcdaab90800000000000000
+      internalID: -7229723400156639975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 121
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd0be7549168b570800000000000000
+      internalID: 8482637187910405592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 219
+        width: 30
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e14bdb27cb1ecc30800000000000000
+      internalID: 4381470029726302693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 214
+        width: 26
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e69f21563183bc0800000000000000
+      internalID: -3803268560483422679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_11
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 202
+        width: 109
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701cba14254572950800000000000000
+      internalID: 6424196105733128455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 211
+        width: 60
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dae25f3a7c6740b0800000000000000
+      internalID: -5744503527383569705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_13
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 215
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6b3e935ac908b80800000000000000
+      internalID: -8394537471963842910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 148
+        width: 44
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d85d0ec2b6c12e0800000000000000
+      internalID: -2153728681295115000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 142
+        width: 49
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e857e2eb09865e0800000000000000
+      internalID: -1916122494948504013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 131
+        width: 52
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd5905b1eac93060800000000000000
+      internalID: 6933796172067331507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 144
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42249dd160a9fde80800000000000000
+      internalID: -8151627449456049628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_18
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 141
+        width: 51
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40f01e7400711bb0800000000000000
+      internalID: -4967065749415727026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_19
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 144
+        width: 41
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2118b35a50a289ba0800000000000000
+      internalID: -6082065093028511470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 60
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b8eca7b329740f0800000000000000
+      internalID: -1132775997099308229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 71
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69c98ad9fb913890800000000000000
+      internalID: -7480026008670058134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 74
+        width: 52
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682ba7dd449e68c00800000000000000
+      internalID: 902665257317216902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 65
+        width: 47
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2de631a0ccea1400800000000000000
+      internalID: 295809037628796204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 59
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6d435b0b43c1480800000000000000
+      internalID: -8927202427796138325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 7
+        width: 47
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea70dc017a833c60800000000000000
+      internalID: 7796727598059387627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 8
+        width: 54
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20235d55622258b20800000000000000
+      internalID: 3135950263577555458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_goo2_27
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 5
+        width: 46
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a41b619f01a86320800000000000000
+      internalID: 2551466277141681319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
