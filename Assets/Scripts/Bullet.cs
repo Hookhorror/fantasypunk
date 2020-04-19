@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
 
         if(other.gameObject.CompareTag("breakable"))
         {
-            other.GetComponent<barrel>().Smash();
+            other.GetComponent<breakable>().Smash();
             Destroy(gameObject);
         }
     }
