@@ -17,8 +17,12 @@ public class MovementAndAim : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Get player input for movement
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        // Normalizing movement direction prevents movement being faster diagonally
+        movement = movement.normalized;
 
         // animator.SetFloat("MovementHorizontal", movement.x);
         // animator.SetFloat("MovementVertical", movement.y);

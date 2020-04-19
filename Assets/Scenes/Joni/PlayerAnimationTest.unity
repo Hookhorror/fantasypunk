@@ -1084,6 +1084,11 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5539043995483989357, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5539043995779566273, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: m_Name
@@ -1207,6 +1212,17 @@ PrefabInstance:
     - target: {fileID: 5539043995910277084, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539043995910277084, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6295647136071227489, guid: 6cda54399e819fa41b42c65a4314da8e,
+        type: 3}
+    - target: {fileID: 5539043995910277084, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
