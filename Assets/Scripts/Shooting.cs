@@ -40,6 +40,7 @@ public class Shooting : MonoBehaviour
     void Shoot()
     {
         source.PlayOneShot(soundEffect);
+        Vector3 forward = firePoint.up * bulletForce;
 
         for (int i = 0; i < firePattern.angles.Length; i++)
         {
@@ -48,9 +49,8 @@ public class Shooting : MonoBehaviour
             // Adds rigidbody to the bullet
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             // Makes the bullet fly in simple
-            rb.AddForce(Quaternion.Euler(0, firePattern.angles[i], 0) * firePoint.up * bulletForce, ForceMode2D.Impulse);
-            //rb.AddForce(Quaternion.AngleAxis(-90, firePoint.up) * firePoint.up * bulletForce, ForceMode2D.Impulse);
-    }
+            rb.AddForce(rotateVector(forward, firePattern.angles[i]), ForceMode2D.Impulse);
+        }
 
         fireTimer = weapon.fireRate;
         mag--;
@@ -63,5 +63,17 @@ public class Shooting : MonoBehaviour
         reloadTimer = weapon.reload;
         mag = weapon.magazine;
         Debug.Log("RELOAD END");
+    }
+
+    private static Vector3 rotateVector(Vector3 v, float degrees)
+    {
+        float sin = Mathf.Sin(degrees * Mathf.Deg2Rad);
+        float cos = Mathf.Cos(degrees * Mathf.Deg2Rad);
+
+        float tx = v.x;
+        float ty = v.y;
+        v.x= (cos * tx) - (sin * ty);
+        v.y = (sin * tx) + (cos * ty);
+        return v;
     }
 }
