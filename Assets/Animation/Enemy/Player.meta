@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animation/Enemy/Player.meta
 guid: 5c98f9fc350ffd927bd4cb80e7132235
+=======
+guid: 2f9720e7379765240bf630efa7ddb35d
+>>>>>>> bc448f7ba6c7bb93516bff1fba52af1134f20089:Assets/Scenes/Niko.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
