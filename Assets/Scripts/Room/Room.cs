@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Observer : MonoBehaviour
+public class Room : MonoBehaviour
 {
     public Enemy[] enemies;
-    public barrel[] barrels;
+    public breakable[] breakables;
 
     public virtual void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        if((other.CompareTag("Player") && !other.isTrigger))
         {
             // Activates
             // Enemies
@@ -19,10 +19,10 @@ public class Observer : MonoBehaviour
             }
 
             
-            // barrels
-             for (int i = 0; i < barrels.Length; i++)
+            // breakabbles
+             for (int i = 0; i < breakables.Length; i++)
             {
-                ChangeActivation(barrels[i], true);
+                ChangeActivation(breakables[i], true);
             }
             
         }
@@ -40,16 +40,16 @@ public class Observer : MonoBehaviour
             }
 
             
-            // barrels
-             for (int i = 0; i < barrels.Length; i++)
+            // breakables
+             for (int i = 0; i < breakables.Length; i++)
             {
-                ChangeActivation(barrels[i], false);
+                ChangeActivation(breakables[i], false);
             }
             
         }
     }
 
-    void ChangeActivation(Component component, bool activation)
+    protected void ChangeActivation(Component component, bool activation)
     {
         component.gameObject.SetActive(activation);
     }

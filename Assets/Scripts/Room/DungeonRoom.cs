@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitBarrel : MonoBehaviour
+public class DungeonRoom : Room
 {
     // Start is called before the first frame update
     void Start()
@@ -14,12 +14,5 @@ public class HitBarrel : MonoBehaviour
     void Update()
     {
         
-    }
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if(other.CompareTag("breakable"))
-        {
-            other.GetComponent<breakable>().Smash();
-        }
     }
 }

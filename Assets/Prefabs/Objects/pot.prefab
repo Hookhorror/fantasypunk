@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1081497052293183389}
   - component: {fileID: 1081497052293183388}
   - component: {fileID: 1081497052293183387}
-  - component: {fileID: 1081497052293183386}
   - component: {fileID: 1081497052293183391}
+  - component: {fileID: 7270397244202844338}
   m_Layer: 0
   m_Name: pot
   m_TagString: breakable
@@ -131,20 +131,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1081497052293183386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081497052293183385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab5f9e4263e6f9548930e12fbad7b4ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundEffect:
-  - {fileID: 8300000, guid: f9f4558471b413640af7e0063fe3f24a, type: 3}
 --- !u!82 &1081497052293183391
 AudioSource:
   m_ObjectHideFlags: 0
@@ -241,3 +227,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7270397244202844338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081497052293183385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffect:
+  - {fileID: 8300000, guid: 0f901a15986aa4b419955136631aa9d0, type: 3}
+  - {fileID: 8300000, guid: fc5f7f86111336c498d72247c99c7881, type: 3}

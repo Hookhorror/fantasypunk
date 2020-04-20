@@ -17,6 +17,8 @@ public class Door : MonoBehaviour
     public GameObject text;
     public Text placeText;
 
+    private BoxCollider2D box;
+
     private void Start() 
     {
         cam = Camera.main.GetComponent<CameraMovement>();
@@ -25,6 +27,16 @@ public class Door : MonoBehaviour
     private void Update() 
     {
         
+    }
+
+    public void Open()
+    {
+        box.enabled = true;
+    }
+
+    public void Close()
+    {
+        box.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other) 

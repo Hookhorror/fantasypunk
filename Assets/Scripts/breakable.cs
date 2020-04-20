@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class barrel : MonoBehaviour
+public class breakable : MonoBehaviour
 {
 
     private Animator animator;
@@ -35,8 +35,8 @@ public class barrel : MonoBehaviour
         {
             animator.SetBool("smash", true);
             source.PlayOneShot(soundEffect[UnityEngine.Random.Range(0, soundEffect.Length)]);
-            boxCollider.enabled = false;
-            StartCoroutine(breakCo());
+            //StartCoroutine(breakCo());
+            //boxCollider.enabled = false;
         }
         catch(NullReferenceException ex)
         {
