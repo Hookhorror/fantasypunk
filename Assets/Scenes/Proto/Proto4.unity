@@ -121510,7 +121510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc21397e263ec0468a91b0d5db80615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: []
+  enemies:
+  - {fileID: 107949796}
   breakables:
   - {fileID: 0}
   - {fileID: 41191213}
