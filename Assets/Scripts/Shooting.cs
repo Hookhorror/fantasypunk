@@ -31,6 +31,7 @@ public class Shooting : MonoBehaviour
     {
         fireTimer -= Time.deltaTime;
         reloadTimer -= Time.deltaTime;
+
         if (reloadTimer<=0 && fireTimer<=0 && Input.GetButton("Fire1"))
         {
             Shoot();
@@ -62,7 +63,6 @@ public class Shooting : MonoBehaviour
         Debug.Log("RELOAD START");
         reloadTimer = weapon.reload;
         mag = weapon.magazine;
-        Debug.Log("RELOAD END");
     }
 
     private static Vector3 rotateVector(Vector3 v, float degrees)

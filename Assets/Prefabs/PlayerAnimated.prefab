@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5539043995235702343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Firing Point
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5539043995235702344}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5539043995345738559}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 5539043995345738559}
   - component: {fileID: 5539043995345738557}
   - component: {fileID: 5539043995345738558}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 5539043995483989355}
   - component: {fileID: 5539043995483989356}
   - component: {fileID: 5539043995483989354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 1069509639}
   - component: {fileID: 7044841090211999399}
   - component: {fileID: 962698214846904230}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerAnimated
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 5539043995910277084}
   - component: {fileID: 5539043995910277083}
   - component: {fileID: 5539043995910277082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}

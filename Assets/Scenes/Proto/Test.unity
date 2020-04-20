@@ -858,6 +858,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.data[1]
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.data[3]
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: angles.Array.data[4]
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 5539043995345738558, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: cam
@@ -932,6 +962,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: fireRate
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: magazine
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
+        type: 3}
+      propertyPath: bulletForce
+      value: 10.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d822ffc436c40e5cea1d11a7e5d17325, type: 3}
