@@ -17,11 +17,12 @@ public class Door : MonoBehaviour
     public GameObject text;
     public Text placeText;
 
-    private BoxCollider2D box;
+   // protected BoxCollider2D box;
 
     private void Start() 
     {
         cam = Camera.main.GetComponent<CameraMovement>();
+       // box = GetComponent<BoxCollider2D>();
     }
 
     private void Update() 
@@ -31,12 +32,14 @@ public class Door : MonoBehaviour
 
     public void Open()
     {
-        box.enabled = true;
+        active = true;
+        //box.enabled = true;
     }
 
     public void Close()
     {
-        box.enabled = false;
+        active = false;
+       // box.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other) 

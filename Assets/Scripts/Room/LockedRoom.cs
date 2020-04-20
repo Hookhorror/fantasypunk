@@ -8,6 +8,10 @@ public class LockedRoom : DungeonRoom
 
 
     // Start is called before the first frame update
+    private void Start() {
+        CloseDoors();
+        CheckEnemies();
+    }
 
 
     protected void CheckEnemies()
@@ -38,7 +42,7 @@ public class LockedRoom : DungeonRoom
             doors[i].Open();
         }
     }
-
+/**
     public override void OnTriggerEnter2D(Collider2D other) 
     {
         if((other.CompareTag("Player") && !other.isTrigger))
@@ -82,5 +86,6 @@ public class LockedRoom : DungeonRoom
             
         }
     }
+    */
 
 }

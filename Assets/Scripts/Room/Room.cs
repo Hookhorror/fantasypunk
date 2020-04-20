@@ -7,6 +7,7 @@ public class Room : MonoBehaviour
     public Enemy[] enemies;
     public breakable[] breakables;
 
+    /**
     public virtual void OnTriggerEnter2D(Collider2D other) 
     {
         if((other.CompareTag("Player") && !other.isTrigger))
@@ -53,5 +54,5 @@ public class Room : MonoBehaviour
     {
         component.gameObject.SetActive(activation);
     }
-
+    */
 }
