@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 5532560370144322774}
   - component: {fileID: 7753216651702549518}
   - component: {fileID: 1173100680742494667}
+  - component: {fileID: 770199660}
   m_Layer: 0
   m_Name: Drone2
   m_TagString: Enemy
@@ -197,8 +198,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 763053989
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -7612496756400125628, guid: 97fda71cd985a34c5856579b21fcfa27,
     type: 3}
@@ -243,13 +244,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  spottingRange: 5
-  attackRange: 4
-  bulletPrefab: {fileID: 1577370579275266397, guid: 23cd130000c10950fb56d7844b1cfba6,
+  speed: 7
+  spottingRange: 10
+  attackRange: 7
+  bulletPrefab: {fileID: 6168108956303286039, guid: 58499020e90b37b248fd61b62b7e7684,
     type: 3}
   firePoint: {fileID: 926052515}
-  bulletForce: 15
+  bulletForce: 10
   animator: {fileID: 5532560370144322775}
 --- !u!60 &7753216651702549518
 PolygonCollider2D:
@@ -302,3 +303,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63c6e894a2ad05549a07b86ffd230482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &770199660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532560370144322761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 900184864883556660, guid: 193489576be2f0fddbd8c2238618cc8b,
+    type: 3}

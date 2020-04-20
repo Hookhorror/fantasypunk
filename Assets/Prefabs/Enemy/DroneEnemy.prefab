@@ -118,7 +118,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  target: {fileID: 0}
   spottingRange: 7
   attackRange: 0
   bulletPrefab: {fileID: 0}
@@ -163,5 +162,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  damageTaken: 34
