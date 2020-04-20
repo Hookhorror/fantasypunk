@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 98394025962608605}
   - component: {fileID: 98394025962608604}
   - component: {fileID: 98394025962608607}
+  - component: {fileID: 3716042076941971841}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -97,7 +98,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -306504859
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7200279845657982525, guid: 3f2a70db6ff3e622abf82617c20af8f4,
     type: 3}
@@ -111,6 +112,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3716042076941971841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98394025962608606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0877ca9b44f356f42b0778ccbffb9f34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &98394026124551641
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +193,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -306504859
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 7509860518518112746, guid: 3f2a70db6ff3e622abf82617c20af8f4,
     type: 3}
