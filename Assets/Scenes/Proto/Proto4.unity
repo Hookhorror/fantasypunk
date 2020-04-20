@@ -222,8 +222,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 363928}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &363931
-AudioSource:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58394654}
+  m_Layer: 0
+  m_Name: Doors (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58394654
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -322,7 +332,29 @@ AudioSource:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6764045439823581339, guid: 55a0f460b228497498b00cab2cff340d,
     type: 3}
-  m_PrefabInstance: {fileID: 1424001552}
+  m_PrefabInstance: {fileID: 74930707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &81697634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81697635}
+  m_Layer: 0
+  m_Name: Doors (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &81697635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -724,7 +756,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &15647920
+--- !u!4 &107949795 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8932269673663184975, guid: a21dbd28dd9a951178ef21a47455dbb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 533585016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &107949796 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 934953635, guid: a21dbd28dd9a951178ef21a47455dbb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 533585016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204211055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &110913827
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -750,9 +800,49 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1703523839}
-  m_RootOrder: 2
+  m_Children:
+  - {fileID: 364917950}
+  - {fileID: 1597773992}
+  - {fileID: 149477853}
+  - {fileID: 2085647035}
+  - {fileID: 1846178732}
+  - {fileID: 1805702275}
+  m_Father: {fileID: 2029015845}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &125011638
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 125011639}
+  m_Layer: 0
+  m_Name: Doors (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &125011639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125011638}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27, y: -16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1676974164}
+  - {fileID: 1664649379}
+  - {fileID: 1454471417}
+  - {fileID: 132685585}
+  m_Father: {fileID: 2117510294}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &18133915
 PrefabInstance:
@@ -1666,6 +1756,11 @@ GameObject:
   - component: {fileID: 55303955}
   m_Layer: 8
   m_Name: Furniture
+  - component: {fileID: 202625207}
+  - component: {fileID: 202625209}
+  - component: {fileID: 202625208}
+  m_Layer: 0
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10392,6 +10487,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!82 &239711235
 AudioSource:
+--- !u!1 &204211055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8932269673663184979, guid: a21dbd28dd9a951178ef21a47455dbb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 533585016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &204211056
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10487,6 +10590,15 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!1001 &240143058
+  m_GameObject: {fileID: 204211055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 900184864883556660, guid: 193489576be2f0fddbd8c2238618cc8b,
+    type: 3}
+--- !u!1001 &221791529
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10570,7 +10682,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 240397119}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Pots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11131,7 +11243,7 @@ GameObject:
   - component: {fileID: 276413808}
   - component: {fileID: 276413807}
   - component: {fileID: 276413810}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15623,6 +15735,29 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1081497052293183390, guid: 46c731f2c09c4d84eadb8f3ded8e3e89,
     type: 3}
   m_PrefabInstance: {fileID: 474841326}
+  m_PrefabInstance: {fileID: 296018474}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &343002024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343002025}
+  m_Layer: 0
+  m_Name: Enemies
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &343002025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &476845499
 PrefabInstance:
@@ -16986,7 +17121,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &507931459
+--- !u!1 &483185842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5532560370144322761, guid: ee909bd85f058cb29a946346417a83de,
+    type: 3}
+  m_PrefabInstance: {fileID: 686262776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &483185846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483185842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &484274508
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -17149,7 +17302,7 @@ GameObject:
   - component: {fileID: 511021361}
   - component: {fileID: 511021363}
   - component: {fileID: 511021362}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21168,7 +21321,7 @@ GameObject:
   - component: {fileID: 561111720}
   - component: {fileID: 561111722}
   - component: {fileID: 561111721}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29531,7 +29684,7 @@ GameObject:
   - component: {fileID: 653173115}
   - component: {fileID: 653173117}
   - component: {fileID: 653173116}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33467,7 +33620,7 @@ GameObject:
   - component: {fileID: 673605305}
   - component: {fileID: 673605307}
   - component: {fileID: 673605306}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43636,8 +43789,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 918096550}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &918096553
-AudioSource:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 904087904}
+  m_Layer: 0
+  m_Name: Barrels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904087904
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -43747,7 +43910,7 @@ GameObject:
   - component: {fileID: 923354473}
   - component: {fileID: 923354472}
   - component: {fileID: 923354475}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusPath1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46785,7 +46948,7 @@ GameObject:
   - component: {fileID: 1018736773}
   - component: {fileID: 1018736775}
   - component: {fileID: 1018736774}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57753,7 +57916,7 @@ GameObject:
   - component: {fileID: 1255475740}
   - component: {fileID: 1255475742}
   - component: {fileID: 1255475741}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64798,8 +64961,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1376104151}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1376104154
-AudioSource:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1333725461}
+  m_Layer: 0
+  m_Name: Furniture
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1333725461
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -66295,7 +66468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433693282}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66943,7 +67116,7 @@ GameObject:
   - component: {fileID: 1485438202}
   - component: {fileID: 1485438201}
   - component: {fileID: 1485438204}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77861,7 +78034,7 @@ GameObject:
   - component: {fileID: 1741154851}
   - component: {fileID: 1741154850}
   - component: {fileID: 1741154853}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusPath2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85095,7 +85268,7 @@ GameObject:
   - component: {fileID: 1936337107}
   - component: {fileID: 1936337108}
   - component: {fileID: 1936337110}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85983,7 +86156,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 1
+  m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -88365,7 +88538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993713324}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88623,8 +88796,7 @@ GameObject:
   - component: {fileID: 2029015848}
   - component: {fileID: 2029015850}
   - component: {fileID: 2029015851}
-  - component: {fileID: 2029015852}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90927,7 +91099,7 @@ GameObject:
   - component: {fileID: 2070510140}
   - component: {fileID: 2070510139}
   - component: {fileID: 2070510142}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92723,7 +92895,7 @@ GameObject:
   - component: {fileID: 2091692421}
   - component: {fileID: 2091692420}
   - component: {fileID: 2091692423}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94208,7 +94380,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105637072}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Torches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94439,7 +94611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2117244601}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94479,7 +94651,7 @@ GameObject:
   - component: {fileID: 2117510298}
   - component: {fileID: 2117510297}
   - component: {fileID: 2117510300}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BossRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95861,7 +96033,7 @@ GameObject:
   - component: {fileID: 2136871837}
   - component: {fileID: 2136871839}
   - component: {fileID: 2136871838}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
