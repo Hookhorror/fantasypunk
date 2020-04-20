@@ -116,7 +116,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.001
-  target: {fileID: 0}
   spottingRange: 5
   attackRange: 0
   bulletPrefab: {fileID: 0}
