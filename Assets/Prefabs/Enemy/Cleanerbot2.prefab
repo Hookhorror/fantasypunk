@@ -137,6 +137,9 @@ GameObject:
   - component: {fileID: 4845565827107229770}
   - component: {fileID: 4845565827107229769}
   - component: {fileID: 4845565827107229768}
+  - component: {fileID: 1873082403}
+  - component: {fileID: 1873082401}
+  - component: {fileID: 7289613897167126880}
   m_Layer: 0
   m_Name: Cleanerbot2
   m_TagString: Untagged
@@ -195,8 +198,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 763053989
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -2202320709489785202, guid: 0ea28a3f11255dfa887588f35d407337,
     type: 3}
@@ -241,11 +244,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
-  spottingRange: 5
-  attackRange: 4
-  bulletPrefab: {fileID: 1577370579275266397, guid: 23cd130000c10950fb56d7844b1cfba6,
+  speed: 3
+  spottingRange: 6
+  attackRange: 5
+  bulletPrefab: {fileID: 6168108956303286039, guid: 58499020e90b37b248fd61b62b7e7684,
     type: 3}
   firePoint: {fileID: 1800724149}
   bulletForce: 5
   animator: {fileID: 4845565827107229769}
+--- !u!60 &1873082403
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845565827107229783}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.59, y: 0.57}
+    newSize: {x: 0.59, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.16499999, y: 0.44}
+      - {x: 0.125, y: 0.57}
+      - {x: 0.035, y: 0.57}
+      - {x: -0.035, y: 0.52}
+      - {x: -0.225, y: 0.42999998}
+      - {x: -0.295, y: 0.38}
+      - {x: -0.295, y: 0.13}
+      - {x: -0.255, y: 0.08}
+      - {x: -0.125, y: 0.01}
+      - {x: -0.065, y: 0}
+      - {x: 0.285, y: 0}
+      - {x: 0.295, y: 0.01}
+      - {x: 0.295, y: 0.19}
+      - {x: 0.205, y: 0.26}
+--- !u!114 &1873082401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845565827107229783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 900184864883556660, guid: 193489576be2f0fddbd8c2238618cc8b,
+    type: 3}
+--- !u!114 &7289613897167126880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845565827107229783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: decb8643397fb7d448ab72dee43d68dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

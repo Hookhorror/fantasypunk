@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 5532560370144322775}
   - component: {fileID: 5532560370144322774}
   - component: {fileID: 7753216651702549518}
+  - component: {fileID: 1173100680742494667}
   m_Layer: 0
   m_Name: Drone2
   m_TagString: Enemy
@@ -289,3 +290,15 @@ PolygonCollider2D:
       - {x: -0.18492031, y: 0.51779556}
       - {x: -0.12805748, y: 0.405576}
       - {x: -0.24251652, y: 0.29018116}
+--- !u!114 &1173100680742494667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532560370144322761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c6e894a2ad05549a07b86ffd230482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

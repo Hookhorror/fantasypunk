@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3344013023537676423}
   - component: {fileID: 3344013023537676422}
   - component: {fileID: 1225591973}
-  - component: {fileID: 1225591975}
   - component: {fileID: 1225591974}
+  - component: {fileID: 7475672508674754353}
   m_Layer: 0
   m_Name: Goo2
   m_TagString: Untagged
@@ -179,18 +179,6 @@ PolygonCollider2D:
       - {x: -0.12, y: 0.02}
       - {x: -0.04, y: 0}
       - {x: 0.35999998, y: 0}
---- !u!114 &1225591975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3344013023537676441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1225591974
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -207,3 +195,15 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.58}
   serializedVersion: 2
   m_Radius: 0.63
+--- !u!114 &7475672508674754353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3344013023537676441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def4595af5a10f343a2e97dd48a6af96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
