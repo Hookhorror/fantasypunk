@@ -2482,18 +2482,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 64381771}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &64381773 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2077461018, guid: 057fed181267e72c2bf2d67b5ebbb07b,
-    type: 3}
-  m_PrefabInstance: {fileID: 64381771}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc139d5366a916489a22c76fffe1fe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &66206147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24228,8 +24216,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 667216395}
+  m_Children: []
   m_Father: {fileID: 2117510294}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38234,12 +38221,9 @@ Transform:
   m_LocalPosition: {x: -27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 826311112}
   - {fileID: 1040679915}
   - {fileID: 908284993}
-  - {fileID: 1977841815}
   - {fileID: 736895951}
-  - {fileID: 465705774}
   - {fileID: 442380317}
   - {fileID: 1054789770}
   - {fileID: 1609444975}
@@ -86256,16 +86240,10 @@ Transform:
   m_Children:
   - {fileID: 202694019}
   - {fileID: 33680858}
-  - {fileID: 1876286614}
-  - {fileID: 2105528134}
   - {fileID: 1854327887}
   - {fileID: 168580111}
   - {fileID: 92054018}
-  - {fileID: 1591522905}
-  - {fileID: 717395191}
-  - {fileID: 2022262665}
   - {fileID: 1870743658}
-  - {fileID: 534956186}
   m_Father: {fileID: 1070416009}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -88229,35 +88207,11 @@ Transform:
   m_LocalPosition: {x: -27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 877337844}
-  - {fileID: 1965991008}
-  - {fileID: 616862362}
-  - {fileID: 1639266633}
-  - {fileID: 1102342749}
-  - {fileID: 770939350}
-  - {fileID: 1568548841}
-  - {fileID: 308351893}
-  - {fileID: 284339014}
-  - {fileID: 631637989}
-  - {fileID: 2023275382}
-  - {fileID: 1756412423}
-  - {fileID: 121949424}
   - {fileID: 31866739}
   - {fileID: 1176348224}
-  - {fileID: 80821772}
-  - {fileID: 1991088271}
-  - {fileID: 850875607}
-  - {fileID: 802053650}
-  - {fileID: 1595177774}
-  - {fileID: 1704035761}
   - {fileID: 506526516}
-  - {fileID: 1564194469}
   - {fileID: 1356839951}
-  - {fileID: 290032137}
-  - {fileID: 1078890121}
   - {fileID: 1924709656}
-  - {fileID: 1893670850}
-  - {fileID: 70024621}
   - {fileID: 1413318808}
   - {fileID: 499846858}
   - {fileID: 958332651}
@@ -89835,14 +89789,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1220457058}
   - {fileID: 621303466}
-  - {fileID: 1542045156}
-  - {fileID: 532208032}
-  - {fileID: 1665595300}
-  - {fileID: 375681311}
   - {fileID: 94491750}
-  - {fileID: 855147248}
   m_Father: {fileID: 1485438198}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -95648,12 +95596,8 @@ Transform:
   m_LocalPosition: {x: -27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1130041636}
   - {fileID: 607928186}
   - {fileID: 114732645}
-  - {fileID: 1855888751}
-  - {fileID: 449349161}
-  - {fileID: 1584483189}
   m_Father: {fileID: 1888921253}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -113825,6 +113769,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1892564054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8940982147879366621, guid: d86a52422549b034a8c9da744cec4af5,
+    type: 3}
+  m_PrefabInstance: {fileID: 584203554}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8959660dd36ce41289997bc124ce9ec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1893353654
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -116206,7 +116162,7 @@ MonoBehaviour:
   - {fileID: 1979738368}
   - {fileID: 1055716373}
   - {fileID: 746159019}
-  - {fileID: 1691429096}
+  - {fileID: 0}
   - {fileID: 90193322}
   - {fileID: 1678191737}
   - {fileID: 692812250}
@@ -116215,7 +116171,7 @@ MonoBehaviour:
   - {fileID: 946213071}
   - {fileID: 2019785190}
   - {fileID: 365699050}
-  - {fileID: 1829398604}
+  - {fileID: 0}
   - {fileID: 344913535}
   - {fileID: 585717742}
   - {fileID: 2126173977}
@@ -116232,7 +116188,7 @@ MonoBehaviour:
   - {fileID: 1463666331}
   - {fileID: 1532591223}
   - {fileID: 1837162561}
-  - {fileID: 1052905920}
+  - {fileID: 0}
   - {fileID: 676288705}
   - {fileID: 1458692285}
   - {fileID: 1254334624}
@@ -116240,7 +116196,7 @@ MonoBehaviour:
   - {fileID: 448913175}
   - {fileID: 1453426805}
   - {fileID: 357199811}
-  - {fileID: 1471788559}
+  - {fileID: 0}
   - {fileID: 193353781}
   - {fileID: 1608365120}
   - {fileID: 1621094763}
@@ -116248,15 +116204,15 @@ MonoBehaviour:
   - {fileID: 2105449879}
   - {fileID: 291333108}
   - {fileID: 1728066840}
-  - {fileID: 1472480713}
+  - {fileID: 0}
   - {fileID: 2123217444}
-  - {fileID: 1922100398}
+  - {fileID: 0}
   - {fileID: 1664851640}
   - {fileID: 1581863752}
   - {fileID: 1591903761}
   - {fileID: 55533889}
-  - {fileID: 1117807050}
-  - {fileID: 1854871423}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 1781563676}
   - {fileID: 1764294789}
   - {fileID: 1497756430}
@@ -116266,18 +116222,18 @@ MonoBehaviour:
   - {fileID: 686925855}
   - {fileID: 1554152636}
   - {fileID: 1564492630}
-  - {fileID: 21673661}
+  - {fileID: 0}
   - {fileID: 2032637574}
   - {fileID: 450903312}
   - {fileID: 659441998}
   - {fileID: 1221353352}
   - {fileID: 1261405764}
   - {fileID: 1965057507}
-  - {fileID: 1411114889}
+  - {fileID: 0}
   - {fileID: 2146544549}
   - {fileID: 1866296782}
   torches:
-  - {fileID: 1920134565}
+  - {fileID: 0}
   - {fileID: 971263124}
   - {fileID: 1989826991}
   - {fileID: 1963555322}
@@ -121556,7 +121512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies: []
   breakables:
-  - {fileID: 1031030717}
+  - {fileID: 0}
   - {fileID: 41191213}
   - {fileID: 585820346}
   - {fileID: 265240152}
@@ -121566,12 +121522,12 @@ MonoBehaviour:
   - {fileID: 1652226183}
   - {fileID: 138317264}
   - {fileID: 387172405}
-  - {fileID: 1868984585}
+  - {fileID: 0}
   - {fileID: 36222803}
   - {fileID: 347908115}
   - {fileID: 1661015836}
   - {fileID: 883126446}
-  - {fileID: 1609350168}
+  - {fileID: 0}
   - {fileID: 1891688098}
   - {fileID: 914930175}
   - {fileID: 975530350}
@@ -121609,7 +121565,7 @@ MonoBehaviour:
   - {fileID: 1009917214}
   - {fileID: 1386043527}
   - {fileID: 1965731166}
-  - {fileID: 1853302957}
+  - {fileID: 0}
   - {fileID: 289408982}
   - {fileID: 2055373991}
   - {fileID: 1381522234}
@@ -121636,7 +121592,7 @@ MonoBehaviour:
   - {fileID: 1979508621}
   - {fileID: 641688174}
   - {fileID: 797523850}
-  - {fileID: 1049279322}
+  - {fileID: 0}
   - {fileID: 237106507}
   - {fileID: 127449717}
   - {fileID: 1807446004}
@@ -121670,7 +121626,7 @@ MonoBehaviour:
   - {fileID: 810117211}
   - {fileID: 1714139511}
   - {fileID: 740975680}
-  - {fileID: 18133919}
+  - {fileID: 0}
   - {fileID: 1819336124}
   torches:
   - {fileID: 1203676634}
@@ -121680,12 +121636,11 @@ MonoBehaviour:
   - {fileID: 827693280}
   - {fileID: 651106319}
   candles:
-  - {fileID: 2077461018}
+  - {fileID: 0}
   - {fileID: 1445791506}
-  - {fileID: 64381773}
   doors:
   - {fileID: 1283950353}
-  - {fileID: 930168163}
+  - {fileID: 1892564054}
   - {fileID: 381596236}
 --- !u!1001 &2029978885
 PrefabInstance:
@@ -125127,14 +125082,14 @@ MonoBehaviour:
   - {fileID: 1744442007}
   - {fileID: 1785877007}
   - {fileID: 747604101}
-  - {fileID: 932762233}
+  - {fileID: 0}
   - {fileID: 2083015696}
   - {fileID: 1948369806}
   - {fileID: 278736660}
   - {fileID: 141446733}
   - {fileID: 804322201}
   - {fileID: 1562416081}
-  - {fileID: 1870077232}
+  - {fileID: 0}
   - {fileID: 835128686}
   - {fileID: 148418626}
   - {fileID: 1624452064}
@@ -125142,15 +125097,15 @@ MonoBehaviour:
   - {fileID: 1250358049}
   - {fileID: 7297465}
   - {fileID: 663358036}
-  - {fileID: 435278868}
+  - {fileID: 0}
   - {fileID: 1809275563}
   - {fileID: 2013418033}
   - {fileID: 1805296265}
-  - {fileID: 1171882475}
+  - {fileID: 0}
   - {fileID: 1400224475}
   - {fileID: 1531362554}
   - {fileID: 1563859700}
-  - {fileID: 617433374}
+  - {fileID: 0}
   - {fileID: 1066462152}
   - {fileID: 1128575953}
   - {fileID: 793773755}
@@ -125163,7 +125118,7 @@ MonoBehaviour:
   - {fileID: 918096554}
   - {fileID: 363932}
   - {fileID: 1531008399}
-  - {fileID: 32336640}
+  - {fileID: 0}
   - {fileID: 1929147710}
   - {fileID: 1180137420}
   - {fileID: 2127567700}
@@ -125177,7 +125132,7 @@ MonoBehaviour:
   - {fileID: 334289303}
   - {fileID: 1257353491}
   - {fileID: 491547173}
-  - {fileID: 1822687825}
+  - {fileID: 0}
   - {fileID: 329234160}
   torches:
   - {fileID: 718971391}
@@ -127353,7 +127308,7 @@ MonoBehaviour:
   breakables:
   - {fileID: 1486619716}
   - {fileID: 1625636488}
-  - {fileID: 1355335213}
+  - {fileID: 0}
   - {fileID: 1339654707}
   - {fileID: 1185542881}
   - {fileID: 2112737098}
@@ -127363,12 +127318,12 @@ MonoBehaviour:
   - {fileID: 857913941}
   - {fileID: 222128298}
   - {fileID: 82835135}
-  - {fileID: 505002731}
+  - {fileID: 0}
   - {fileID: 35336098}
   - {fileID: 1139986825}
   - {fileID: 81338368}
   - {fileID: 1376104155}
-  - {fileID: 1112785802}
+  - {fileID: 0}
   - {fileID: 533294071}
   - {fileID: 1025842456}
   - {fileID: 1042084749}
@@ -127379,7 +127334,7 @@ MonoBehaviour:
   - {fileID: 1948317964}
   - {fileID: 1770132866}
   - {fileID: 187322714}
-  - {fileID: 91950196}
+  - {fileID: 0}
   - {fileID: 214976412}
   torches:
   - {fileID: 269900448}
@@ -127389,7 +127344,7 @@ MonoBehaviour:
   candles:
   - {fileID: 1211024553}
   - {fileID: 245477705}
-  - {fileID: 499029862}
+  - {fileID: 0}
   - {fileID: 1978659709}
   - {fileID: 1809922292}
   - {fileID: 1726981807}
