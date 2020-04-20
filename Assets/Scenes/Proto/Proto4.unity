@@ -367,7 +367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 58394654}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -501,7 +501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 81697635}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125011639}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   - component: {fileID: 202625207}
   - component: {fileID: 202625209}
   - component: {fileID: 202625208}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4892,7 +4892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 240397119}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Pots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5066,7 +5066,7 @@ GameObject:
   - component: {fileID: 276413808}
   - component: {fileID: 276413807}
   - component: {fileID: 276413810}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6588,7 +6588,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 343002025}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7932,7 +7932,7 @@ GameObject:
   - component: {fileID: 511021361}
   - component: {fileID: 511021363}
   - component: {fileID: 511021362}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11360,7 +11360,7 @@ GameObject:
   - component: {fileID: 561111720}
   - component: {fileID: 561111722}
   - component: {fileID: 561111721}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18725,7 +18725,7 @@ GameObject:
   - component: {fileID: 653173115}
   - component: {fileID: 653173117}
   - component: {fileID: 653173116}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22384,7 +22384,7 @@ GameObject:
   - component: {fileID: 673605305}
   - component: {fileID: 673605307}
   - component: {fileID: 673605306}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27928,7 +27928,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 904087904}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Barrels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28007,7 +28007,7 @@ GameObject:
   - component: {fileID: 923354473}
   - component: {fileID: 923354472}
   - component: {fileID: 923354475}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusPath1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29891,7 +29891,7 @@ GameObject:
   - component: {fileID: 1018736773}
   - component: {fileID: 1018736775}
   - component: {fileID: 1018736774}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34954,7 +34954,7 @@ GameObject:
   - component: {fileID: 1255475740}
   - component: {fileID: 1255475742}
   - component: {fileID: 1255475741}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38892,7 +38892,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1333725461}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40036,7 +40036,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433693282}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40308,7 +40308,7 @@ GameObject:
   - component: {fileID: 1485438202}
   - component: {fileID: 1485438201}
   - component: {fileID: 1485438204}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46514,7 +46514,7 @@ GameObject:
   - component: {fileID: 1741154851}
   - component: {fileID: 1741154850}
   - component: {fileID: 1741154853}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BonusPath2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48408,7 +48408,7 @@ GameObject:
   - component: {fileID: 1936337107}
   - component: {fileID: 1936337108}
   - component: {fileID: 1936337110}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50201,7 +50201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993713324}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50262,7 +50262,7 @@ GameObject:
   - component: {fileID: 2029015848}
   - component: {fileID: 2029015850}
   - component: {fileID: 2029015851}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51328,7 +51328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2031276363}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51659,7 +51659,7 @@ GameObject:
   - component: {fileID: 2070510140}
   - component: {fileID: 2070510139}
   - component: {fileID: 2070510142}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52985,7 +52985,7 @@ GameObject:
   - component: {fileID: 2091692421}
   - component: {fileID: 2091692420}
   - component: {fileID: 2091692423}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Room3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53970,7 +53970,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2105637072}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Torches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54004,7 +54004,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2117244601}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Doors (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54044,7 +54044,7 @@ GameObject:
   - component: {fileID: 2117510298}
   - component: {fileID: 2117510297}
   - component: {fileID: 2117510300}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: BossRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55031,7 +55031,7 @@ GameObject:
   - component: {fileID: 2136871837}
   - component: {fileID: 2136871839}
   - component: {fileID: 2136871838}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
