@@ -932,7 +932,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 533585016}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 204211055}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
@@ -4788,6 +4788,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 202968499}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &204211055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8932269673663184979, guid: a21dbd28dd9a951178ef21a47455dbb7,
+    type: 3}
+  m_PrefabInstance: {fileID: 533585016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &204211056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204211055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 900184864883556660, guid: 193489576be2f0fddbd8c2238618cc8b,
+    type: 3}
 --- !u!1001 &221791529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7599,6 +7619,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &483185842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5532560370144322761, guid: ee909bd85f058cb29a946346417a83de,
+    type: 3}
+  m_PrefabInstance: {fileID: 686262776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &483185846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483185842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &484274508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49258,7 +49296,7 @@ CompositeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_GeometryType: 1
+  m_GeometryType: 0
   m_GenerationType: 0
   m_EdgeRadius: 0
   m_ColliderPaths:
@@ -50224,7 +50262,6 @@ GameObject:
   - component: {fileID: 2029015848}
   - component: {fileID: 2029015850}
   - component: {fileID: 2029015851}
-  - component: {fileID: 2029015852}
   m_Layer: 8
   m_Name: Room1
   m_TagString: Untagged
@@ -51282,20 +51319,6 @@ PolygonCollider2D:
       - {x: -0.011918545, y: -1.0083046}
       - {x: 25.95615, y: -0.9840803}
       - {x: 25.892895, y: 13.896879}
---- !u!114 &2029015852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029015844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae05dac63bf448748ae8592c6b8c9477, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies: []
-  breakables: []
 --- !u!1 &2031276362
 GameObject:
   m_ObjectHideFlags: 0

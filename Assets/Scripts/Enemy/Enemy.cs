@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float maxHealth = 100;
+    protected float maxHealth;
     // TODO: implement better way of inflicting damage
-    public float damageTaken;
+    protected float damageTaken;
     private float health;
 
 
