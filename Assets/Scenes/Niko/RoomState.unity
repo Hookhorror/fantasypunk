@@ -38124,7 +38124,6 @@ GameObject:
   - component: {fileID: 1936337105}
   - component: {fileID: 1936337107}
   - component: {fileID: 1936337108}
-  - component: {fileID: 1936337109}
   - component: {fileID: 1936337110}
   m_Layer: 8
   m_Name: Start
@@ -39126,29 +39125,6 @@ PolygonCollider2D:
       - {x: 0.071920395, y: 14.056807}
       - {x: 0.14432049, y: -0.9617753}
       - {x: 26.041546, y: -0.9617734}
---- !u!114 &1936337109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936337101}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75558f14e3f7e2945837b06f7f18bef1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 107949796}
-  breakables:
-  - {fileID: 595030349}
-  - {fileID: 1253130558}
-  - {fileID: 1789366804}
-  - {fileID: 443301378}
-  - {fileID: 1996254655}
-  - {fileID: 1181408066}
-  - {fileID: 6883718}
-  - {fileID: 2019785190}
 --- !u!114 &1936337110
 MonoBehaviour:
   m_ObjectHideFlags: 0
