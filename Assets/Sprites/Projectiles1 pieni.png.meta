@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: 59e7b425138238a45962cd42d39ddfa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4562217655707125844
+    second: Projectiles1 pieni_0
+  - first:
+      213: -5413196488010540069
+    second: Projectiles1 pieni_1
+  - first:
+      213: -7461984136942669831
+    second: Projectiles1 pieni_2
+  - first:
+      213: 5778018655192289788
+    second: Projectiles1 pieni_3
+  - first:
+      213: -7516065254129043202
+    second: Projectiles1 pieni_4
+  - first:
+      213: -3284351250805436864
+    second: Projectiles1 pieni_5
+  - first:
+      213: 4394109309051718528
+    second: Projectiles1 pieni_6
+  - first:
+      213: 3269149794221517681
+    second: Projectiles1 pieni_7
+  - first:
+      213: -5569967305227770884
+    second: Projectiles1 pieni_8
+  - first:
+      213: -7461097409884070434
+    second: Projectiles1 pieni_9
+  - first:
+      213: 2247512044695692716
+    second: Projectiles1 pieni_10
+  - first:
+      213: 8345058384673268623
+    second: Projectiles1 pieni_11
+  - first:
+      213: -842238008538854580
+    second: Projectiles1 pieni_12
+  - first:
+      213: -1261853751970094686
+    second: Projectiles1 pieni_13
+  - first:
+      213: 7359654288841526290
+    second: Projectiles1 pieni_14
+  - first:
+      213: 5219556193273477831
+    second: Projectiles1 pieni_15
+  - first:
+      213: -6942877351800207579
+    second: Projectiles1 pieni_16
+  - first:
+      213: 6876022691091524792
+    second: Projectiles1 pieni_17
+  - first:
+      213: -3391821292668536195
+    second: Projectiles1 pieni_18
+  - first:
+      213: 7478300974278862833
+    second: Projectiles1 pieni_19
+  - first:
+      213: -2659883262506624550
+    second: Projectiles1 pieni_20
+  - first:
+      213: 1515374048189254096
+    second: Projectiles1 pieni_21
+  - first:
+      213: -7535829412958757803
+    second: Projectiles1 pieni_22
+  - first:
+      213: 5391029753080490061
+    second: Projectiles1 pieni_23
+  - first:
+      213: -4902086444588817230
+    second: Projectiles1 pieni_24
+  - first:
+      213: -3416334753408199902
+    second: Projectiles1 pieni_25
+  - first:
+      213: 6583629283050962547
+    second: Projectiles1 pieni_26
+  - first:
+      213: -4120924672889650637
+    second: Projectiles1 pieni_27
+  - first:
+      213: 4071418930694231968
+    second: Projectiles1 pieni_28
+  - first:
+      213: 1855104091328577569
+    second: Projectiles1 pieni_29
+  - first:
+      213: 117946733742211501
+    second: Projectiles1 pieni_30
+  - first:
+      213: 5814011485891367835
+    second: Projectiles1 pieni_31
+  - first:
+      213: 455202180521810820
+    second: Projectiles1 pieni_32
+  - first:
+      213: -5816945653939647270
+    second: Projectiles1 pieni_33
+  - first:
+      213: 7062823186950727975
+    second: Projectiles1 pieni_34
+  - first:
+      213: -3131716130235730627
+    second: Projectiles1 pieni_35
+  - first:
+      213: 2938149424465967675
+    second: Projectiles1 pieni_36
+  - first:
+      213: 959082104586684411
+    second: Projectiles1 pieni_37
+  - first:
+      213: -7145116199810523082
+    second: Projectiles1 pieni_38
+  - first:
+      213: -4849527770561685698
+    second: Projectiles1 pieni_39
+  - first:
+      213: -5673362388631086436
+    second: Projectiles1 pieni_40
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Projectiles1 pieni_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 169
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458407449c0405f30800000000000000
+      internalID: 4562217655707125844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 182
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffaee576f4b17890800000000000000
+      internalID: -7461984136942669831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 186
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf111588a55af2050800000000000000
+      internalID: 5778018655192289788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 185
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef87bf2297291b790800000000000000
+      internalID: -7516065254129043202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 94
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bc346b2230bfc30800000000000000
+      internalID: 4394109309051718528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 169
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b6d1aca6a5e5d20800000000000000
+      internalID: 3269149794221517681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 174
+        width: 40
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3eb513f3083b2b0800000000000000
+      internalID: -5569967305227770884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_9
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 159
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddd541bf6bd47890800000000000000
+      internalID: -7461097409884070434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_10
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 142
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5af7cfb44c03f10800000000000000
+      internalID: 2247512044695692716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 123
+        width: 67
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f836858036a9fc370800000000000000
+      internalID: 8345058384673268623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 142
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1245bb2befc7ee0800000000000000
+      internalID: -1261853751970094686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 100
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca714114b69f6840800000000000000
+      internalID: 5219556193273477831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52708de55d1f5af90800000000000000
+      internalID: -6942877351800207579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 101
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc2902f43a8c6f50800000000000000
+      internalID: 6876022691091524792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 116
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ab2e44184dde0d0800000000000000
+      internalID: -3391821292668536195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 115
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f769574d1348c760800000000000000
+      internalID: 7478300974278862833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 68
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d98a240ba0b70510800000000000000
+      internalID: 1515374048189254096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_22
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 100
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c17a0531b5b6790800000000000000
+      internalID: -7535829412958757803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_23
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 101
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48aced5ff8c0da40800000000000000
+      internalID: 5391029753080490061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 102
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4a60cd95a48fbb0800000000000000
+      internalID: -4902086444588817230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 56
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3320546f7d88fc6c0800000000000000
+      internalID: -4120924672889650637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 58
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a794d732f5908830800000000000000
+      internalID: 4071418930694231968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_30
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 52
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da14f1fede703a100800000000000000
+      internalID: 117946733742211501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_31
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 51
+        width: 55
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93989874a48fa050800000000000000
+      internalID: 5814011485891367835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 31
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b5cfea8f3315600800000000000000
+      internalID: 455202180521810820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adccc2b4fbe064fa0800000000000000
+      internalID: -5816945653939647270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_34
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 11
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7292791a440340260800000000000000
+      internalID: 7062823186950727975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_35
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3530f7a5c8e984d0800000000000000
+      internalID: -3131716130235730627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 9
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aff46a55766c820800000000000000
+      internalID: 2938149424465967675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 198
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7c25ab7185f4d00800000000000000
+      internalID: 959082104586684411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_38
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 165
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a7673ca277dc90800000000000000
+      internalID: -7145116199810523082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 125
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e375743cf2403bcb0800000000000000
+      internalID: -4849527770561685698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 85
+        width: 70
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b85bc5ef4cf44f0800000000000000
+      internalID: -842238008538854580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_14
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 198
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c4414259eb22660800000000000000
+      internalID: 7359654288841526290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 195
+        width: 86
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb5db8797670e4b0800000000000000
+      internalID: -5413196488010540069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectiles1 pieni_5
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 28
+        width: 72
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec12a40f3ab62d0800000000000000
+      internalID: -3284351250805436864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,29 +5,35 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Transform firePoint;
-    public GameObject bulletPrefab;
-    public AudioClip soundEffect;
 
-    public float bulletForce = 20f;
-    // Update is called once per frame
-
+    public Weapon weapon;
+    private Bullet bulletPrefab;
+    private FirePattern firePattern;
+    private float bulletForce;
+    private AudioClip soundEffect;
     private AudioSource source;
+    private double fireTimer = 0;
+    private int mag;
+    private double reloadTimer;
 
     void Awake()
     {
-
         source = GetComponent<AudioSource>();
+        bulletPrefab = weapon.bullet;
+        soundEffect = weapon.sound;
+        bulletForce = weapon.bulletForce;
+        mag = weapon.magazine;
+        firePattern = weapon.firePattern;
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        fireTimer -= Time.deltaTime;
+        reloadTimer -= Time.deltaTime;
+
+        if (reloadTimer<=0 && fireTimer<=0 && Input.GetButton("Fire1"))
         {
-            // Just for fun :D
-            // for (int i = 0; i < 100; i++)
-            // {
-            //     Shoot();
-            // }
             Shoot();
         }
     }
@@ -35,11 +41,39 @@ public class Shooting : MonoBehaviour
     void Shoot()
     {
         source.PlayOneShot(soundEffect);
-        // Spawn a bullet
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        // Adds rigidbody to the bullet
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        // Makes the bullet fly in simple
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        Vector3 forward = firePoint.up * bulletForce;
+
+        for (int i = 0; i < firePattern.angles.Length; i++)
+        {
+            // Spawn a bullet
+            Bullet bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            // Adds rigidbody to the bullet
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            // Makes the bullet fly in simple
+            rb.AddForce(rotateVector(forward, firePattern.angles[i]), ForceMode2D.Impulse);
+        }
+
+        fireTimer = weapon.fireRate;
+        mag--;
+        if (mag <= 0) Reload();
+    }
+
+    public void Reload()
+    {
+        Debug.Log("RELOAD START");
+        reloadTimer = weapon.reload;
+        mag = weapon.magazine;
+    }
+
+    private static Vector3 rotateVector(Vector3 v, float degrees)
+    {
+        float sin = Mathf.Sin(degrees * Mathf.Deg2Rad);
+        float cos = Mathf.Cos(degrees * Mathf.Deg2Rad);
+
+        float tx = v.x;
+        float ty = v.y;
+        v.x= (cos * tx) - (sin * ty);
+        v.y = (sin * tx) + (cos * ty);
+        return v;
     }
 }
