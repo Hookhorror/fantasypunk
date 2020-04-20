@@ -24,7 +24,7 @@ public class FollowTargetAI : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("ConsoleMessage", 1f, 1f);
+        // InvokeRepeating("ConsoleMessage", 1f, 1f);
     }
 
     void Update()
@@ -41,7 +41,10 @@ public class FollowTargetAI : MonoBehaviour
         {
             SetMovementDirection();
 
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            // transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position
+                                            , Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime)
+                                            , 0.5f);
         }
 
         if (distanceToTarget <= attackRange && !shooting)
