@@ -31,24 +31,26 @@ public class breakable : MonoBehaviour
 
     public void Smash()
     {
-        try
-        {
+        //try
+        //{
             animator.SetBool("smash", true);
             source.PlayOneShot(soundEffect[UnityEngine.Random.Range(0, soundEffect.Length)]);
-            //StartCoroutine(breakCo());
+            StartCoroutine(breakCo());
             //boxCollider.enabled = false;
-        }
-        catch(NullReferenceException ex)
-        {
-            Debug.Log("animator not set");  
-            Debug.Log(ex);  
-        }
+       // }
+        //catch(NullReferenceException ex)
+        //{
+           // Debug.Log("animator not set");  
+           // Debug.Log(ex);  
+        //}
         
     }
 
     public IEnumerator breakCo()
     {
+        boxCollider.enabled = false;
         yield return new WaitForSecondsRealtime(5);
+        boxCollider.enabled = true;
         this.gameObject.SetActive(false);
     }
 }

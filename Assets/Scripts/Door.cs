@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class Door : MonoBehaviour
+public class Door : Interactable
 {
     public Vector2 camChange;
 
@@ -17,43 +17,56 @@ public class Door : MonoBehaviour
     public GameObject text;
     public Text placeText;
 
-    private BoxCollider2D box;
+    public BoxCollider2D box;
 
-    private void Start() 
-    {
-        cam = Camera.main.GetComponent<CameraMovement>();
-    }
-
-    private void Update() 
-    {
-        
-    }
 
     public void Open()
     {
-        box.enabled = true;
+        try
+        {
+            active = true;
+            box.enabled = true;
+        }
+        catch (System.Exception e)
+        {
+            
+            throw e;
+        }
+        
     }
 
     public void Close()
     {
-        box.enabled = false;
-    }
-
-    private void OnTriggerEnter2D(Collider2D other) 
-    {
-        if(other.CompareTag("Player") && active==true)
+        try
         {
-            cam.minP += camChange;
-            cam.maxP += camChange;
-            other.transform.position += playerChange;
-            if(needText)
-            {
-                StartCoroutine(placeNameCo());
-            }
+            active = false;
+            box.enabled = false;
         }
+        catch (System.Exception ex)
+        {
+            
+            throw ex;
+        }
+       
     }
 
-    private IEnumerator placeNameCo()
+    public void OnTriggerEnter2D(Collider2D other) 
+    {
+            if(other.CompareTag("Player") && active==true)
+            {
+                cam.minP += camChange;
+                cam.maxP += camChange;
+                other.transform.position += playerChange;
+                if(needText)
+                {
+                    StartCoroutine(placeNameCo());
+                }
+            }
+    }
+
+    
+
+    protected IEnumerator placeNameCo()
     {
         text.SetActive(true);
         placeText.text = placeName;

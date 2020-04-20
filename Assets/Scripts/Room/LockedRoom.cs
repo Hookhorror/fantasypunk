@@ -8,21 +8,34 @@ public class LockedRoom : DungeonRoom
 
 
     // Start is called before the first frame update
-
-
-    protected void CheckEnemies()
-    {
-        for(int i = 0; i < enemies.Length; i++)
-        {
-            if(enemies[i].gameObject.activeInHierarchy)
-            {
-                return;
-            }
-        }
+    public void Start() {
         OpenDoors();
     }
 
-    protected void CloseDoors()
+    public void CheckEnemies()
+    {
+       if(EnemiesActive() == 1)
+       {
+            OpenDoors();
+       }
+        
+    }
+
+    public int EnemiesActive()
+    {
+        int activeEnemies = 0;
+        for (int i = 0; i < enemies.Length; i++)
+        {
+            if (enemies[i].gameObject.activeInHierarchy)
+            {
+                activeEnemies++;
+            }
+        }
+        return activeEnemies;
+        
+    }
+
+    public void CloseDoors()
     {
         for (int i = 0; i < doors.Length; i++)
         {
@@ -31,7 +44,7 @@ public class LockedRoom : DungeonRoom
     }
 
     
-    protected void OpenDoors()
+    public void OpenDoors()
     {
         for (int i = 0; i < doors.Length; i++)
         {
@@ -58,7 +71,6 @@ public class LockedRoom : DungeonRoom
             }
             
         }
-        CloseDoors();
     }
 
 
@@ -81,6 +93,7 @@ public class LockedRoom : DungeonRoom
             }
             
         }
+        CloseDoors();
     }
 
 }
