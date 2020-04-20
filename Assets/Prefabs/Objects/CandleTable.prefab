@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -306504859
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -7414090908898952512, guid: d3634c7f06f5a8a2d8cda5ab1db2af4b,
     type: 3}
@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 6388050464048741144}
   - component: {fileID: 6388050464048741145}
   - component: {fileID: 6388050464048741146}
+  - component: {fileID: 2077461018}
   m_Layer: 0
   m_Name: CandleTable
   m_TagString: Untagged
@@ -197,8 +198,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -306504859
-  m_SortingLayer: 2
+  m_SortingLayerID: -194792619
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 2439228211136827020, guid: d3634c7f06f5a8a2d8cda5ab1db2af4b,
     type: 3}
@@ -212,3 +213,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2077461018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6388050464048741147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc139d5366a916489a22c76fffe1fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
