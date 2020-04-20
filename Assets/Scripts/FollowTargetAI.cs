@@ -41,7 +41,10 @@ public class FollowTargetAI : MonoBehaviour
         {
             SetMovementDirection();
 
-            // transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            // Old version of movement without lerp
+            /* transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime); */
+
+            // Movement with lerp
             transform.position = Vector3.Lerp(transform.position
                                             , Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime)
                                             , 0.5f);
@@ -79,15 +82,6 @@ public class FollowTargetAI : MonoBehaviour
     }
     private void SetMovementDirection()
     {
-        // TODO: Do some research which works better for enemy turning
-
-        // float hypotenuse = Mathf.Sqrt((target.position.x * target.position.x) + (target.position.y * target.position.y));
-        // movementDirection.x = target.position.x / hypotenuse;
-        // movementDirection.y = target.position.y / hypotenuse;
-
-        // movementDirection.x = target.position.x;
-        // movementDirection.y = target.position.y;
-
         movementDirection.x = target.position.x - transform.position.x;
         movementDirection.y = target.position.y - transform.position.y;
     }
@@ -101,6 +95,7 @@ public class FollowTargetAI : MonoBehaviour
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
 
+    // For debugging purposes
     private void ConsoleMessage()
     {
         Debug.Log("x: " + movementDirection.x + " y: " + movementDirection.y);
