@@ -987,6 +987,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &18133919 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6764045439823581339, guid: 55a0f460b228497498b00cab2cff340d,
+    type: 3}
+  m_PrefabInstance: {fileID: 18133915}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18133917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &20312153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7270397244202844338, guid: 46c731f2c09c4d84eadb8f3ded8e3e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 474841326}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &31866738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39862,6 +39886,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &650539770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2077461018, guid: 057fed181267e72c2bf2d67b5ebbb07b,
+    type: 3}
+  m_PrefabInstance: {fileID: 64381771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc139d5366a916489a22c76fffe1fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &650633039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52477,6 +52513,18 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7270397244202844338, guid: 46c731f2c09c4d84eadb8f3ded8e3e89,
     type: 3}
   m_PrefabInstance: {fileID: 910332835}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &751638624 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7270397244202844338, guid: 46c731f2c09c4d84eadb8f3ded8e3e89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1704371562}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -68598,6 +68646,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1049279322 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6764045439823581339, guid: 55a0f460b228497498b00cab2cff340d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1049279318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049279320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1054789769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95885,6 +95945,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1609350168 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6764045439823581339, guid: 55a0f460b228497498b00cab2cff340d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1609350164}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609350166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1609444974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106517,6 +106589,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1761766544 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2077461018, guid: 057fed181267e72c2bf2d67b5ebbb07b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1708586232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc139d5366a916489a22c76fffe1fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1764161509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -111844,6 +111928,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1853302957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6764045439823581339, guid: 55a0f460b228497498b00cab2cff340d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1853302953}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853302955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1854327886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -121510,8 +121606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fc21397e263ec0468a91b0d5db80615, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies:
-  - {fileID: 107949796}
+  enemies: []
   breakables:
   - {fileID: 0}
   - {fileID: 41191213}
@@ -121629,6 +121724,122 @@ MonoBehaviour:
   - {fileID: 740975680}
   - {fileID: 0}
   - {fileID: 1819336124}
+  - {fileID: 883126446}
+  - {fileID: 1609350168}
+  - {fileID: 1891688098}
+  - {fileID: 914930175}
+  - {fileID: 975530350}
+  - {fileID: 951490017}
+  - {fileID: 1219803547}
+  - {fileID: 794734029}
+  - {fileID: 1677226382}
+  - {fileID: 829459883}
+  - {fileID: 2080586967}
+  - {fileID: 1786818940}
+  - {fileID: 1670082014}
+  - {fileID: 276353452}
+  - {fileID: 1019982469}
+  - {fileID: 190743013}
+  - {fileID: 1703041206}
+  - {fileID: 1753356828}
+  - {fileID: 573528911}
+  - {fileID: 479403338}
+  - {fileID: 1119514910}
+  - {fileID: 1291738080}
+  - {fileID: 1201930516}
+  - {fileID: 2100887599}
+  - {fileID: 530876217}
+  - {fileID: 2083496956}
+  - {fileID: 318981003}
+  - {fileID: 1303277948}
+  - {fileID: 1063105842}
+  - {fileID: 2138717083}
+  - {fileID: 1141203852}
+  - {fileID: 213531224}
+  - {fileID: 1291033655}
+  - {fileID: 1357599977}
+  - {fileID: 1611514724}
+  - {fileID: 1094291895}
+  - {fileID: 1009917214}
+  - {fileID: 1386043527}
+  - {fileID: 1965731166}
+  - {fileID: 1853302957}
+  - {fileID: 289408982}
+  - {fileID: 2055373991}
+  - {fileID: 1381522234}
+  - {fileID: 236935520}
+  - {fileID: 1462984526}
+  - {fileID: 521485319}
+  - {fileID: 1882508415}
+  - {fileID: 427674090}
+  - {fileID: 1927889403}
+  - {fileID: 1834003213}
+  - {fileID: 718296070}
+  - {fileID: 694151631}
+  - {fileID: 120789923}
+  - {fileID: 2096106367}
+  - {fileID: 1057496336}
+  - {fileID: 1277902132}
+  - {fileID: 1387243354}
+  - {fileID: 1767005665}
+  - {fileID: 1171786350}
+  - {fileID: 1837523999}
+  - {fileID: 1820801531}
+  - {fileID: 961051908}
+  - {fileID: 1155661015}
+  - {fileID: 1979508621}
+  - {fileID: 641688174}
+  - {fileID: 797523850}
+  - {fileID: 1049279322}
+  - {fileID: 237106507}
+  - {fileID: 127449717}
+  - {fileID: 1807446004}
+  - {fileID: 2131418117}
+  - {fileID: 1511891889}
+  - {fileID: 1201374178}
+  - {fileID: 1056228281}
+  - {fileID: 1100707032}
+  - {fileID: 1263425130}
+  - {fileID: 217983079}
+  - {fileID: 2046344606}
+  - {fileID: 1963529806}
+  - {fileID: 1524088469}
+  - {fileID: 698631174}
+  - {fileID: 1908213967}
+  - {fileID: 2030566276}
+  - {fileID: 206745308}
+  - {fileID: 849147666}
+  - {fileID: 1986021236}
+  - {fileID: 903152835}
+  - {fileID: 564529220}
+  - {fileID: 1667370755}
+  - {fileID: 1514691450}
+  - {fileID: 346857529}
+  - {fileID: 1910446578}
+  - {fileID: 1736853459}
+  - {fileID: 840624989}
+  - {fileID: 1327034815}
+  - {fileID: 677794217}
+  - {fileID: 1945861533}
+  - {fileID: 810117211}
+  - {fileID: 1714139511}
+  - {fileID: 740975680}
+  - {fileID: 18133919}
+  - {fileID: 1819336124}
+  - {fileID: 20312153}
+  - {fileID: 41191213}
+  - {fileID: 585820346}
+  - {fileID: 265240152}
+  - {fileID: 1633012380}
+  - {fileID: 2023583005}
+  - {fileID: 674231525}
+  - {fileID: 1652226183}
+  - {fileID: 138317264}
+  - {fileID: 387172405}
+  - {fileID: 751638624}
+  - {fileID: 36222803}
+  - {fileID: 347908115}
+  - {fileID: 1661015836}
   torches:
   - {fileID: 1203676634}
   - {fileID: 769833272}
@@ -121636,9 +121847,16 @@ MonoBehaviour:
   - {fileID: 1018874317}
   - {fileID: 827693280}
   - {fileID: 651106319}
+  - {fileID: 1203676634}
+  - {fileID: 769833272}
+  - {fileID: 2029978887}
+  - {fileID: 1018874317}
+  - {fileID: 827693280}
+  - {fileID: 651106319}
   candles:
-  - {fileID: 0}
+  - {fileID: 1761766544}
   - {fileID: 1445791506}
+  - {fileID: 650539770}
   doors:
   - {fileID: 1283950353}
   - {fileID: 1892564054}
