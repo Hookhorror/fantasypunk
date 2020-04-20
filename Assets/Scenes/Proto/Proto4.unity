@@ -34049,6 +34049,26 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287727, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.04011917
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287727, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.6618004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287727, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287727, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.2983942
+      objectReference: {fileID: 0}
     - target: {fileID: 3807467020434122762, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
       propertyPath: m_SortingLayerID
@@ -38686,7 +38706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1311554404}
   - component: {fileID: 1311554403}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Rooms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
