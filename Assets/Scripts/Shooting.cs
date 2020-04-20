@@ -58,7 +58,7 @@ public class Shooting : MonoBehaviour
         if (mag <= 0) Reload();
     }
 
-    void Reload()
+    public void Reload()
     {
         Debug.Log("RELOAD START");
         reloadTimer = weapon.reload;

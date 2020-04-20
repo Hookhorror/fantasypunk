@@ -861,7 +861,7 @@ PrefabInstance:
     - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: angles.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
@@ -876,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: angles.Array.data[2]
-      value: 20
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 962698214846904230, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
@@ -966,12 +966,12 @@ PrefabInstance:
     - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: fireRate
-      value: 0.02
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
       propertyPath: magazine
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7044841090211999399, guid: d822ffc436c40e5cea1d11a7e5d17325,
         type: 3}
@@ -1425,6 +1425,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 554047313}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &582798127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5539043995779566273, guid: d822ffc436c40e5cea1d11a7e5d17325,
+    type: 3}
+  m_PrefabInstance: {fileID: 322919581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &582798136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582798127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39ec9b313bcfb764cb66a1a86940cdec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &603750960
 PrefabInstance:
   m_ObjectHideFlags: 0
