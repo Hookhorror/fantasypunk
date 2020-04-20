@@ -5,7 +5,7 @@ using UnityEngine;
 public class FollowTargetAI : MonoBehaviour
 {
     public float speed;
-    public Rigidbody2D target;
+    // public Rigidbody2D target;
     public float spottingRange;
     public float attackRange;
     public GameObject bulletPrefab;
@@ -16,6 +16,7 @@ public class FollowTargetAI : MonoBehaviour
     private Vector2 lastPosition;
     private Vector2 movementDirection;
     private bool shooting = false;
+    private GameObject target;
 
     void Awake()
     {
@@ -24,6 +25,7 @@ public class FollowTargetAI : MonoBehaviour
 
     void Start()
     {
+        target = PlayerManager.instance.player;
         // InvokeRepeating("ConsoleMessage", 1f, 1f);
     }
 
@@ -46,7 +48,7 @@ public class FollowTargetAI : MonoBehaviour
 
             // Movement with lerp
             transform.position = Vector3.Lerp(transform.position
-                                            , Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime)
+                                            , Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime)
                                             , 0.5f);
         }
 
@@ -82,8 +84,8 @@ public class FollowTargetAI : MonoBehaviour
     }
     private void SetMovementDirection()
     {
-        movementDirection.x = target.position.x - transform.position.x;
-        movementDirection.y = target.position.y - transform.position.y;
+        movementDirection.x = target.transform.position.x - transform.position.x;
+        movementDirection.y = target.transform.position.y - transform.position.y;
     }
 
     private void Shoot()
