@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 812821924ee2bd8ada974d9fda55bbbb
 =======
 guid: 13114ef98f413ec4aaaa6f3f3e4fc1d9
 >>>>>>> shotgun
+=======
+guid: 13114ef98f413ec4aaaa6f3f3e4fc1d9
+>>>>>>> lockRooms
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

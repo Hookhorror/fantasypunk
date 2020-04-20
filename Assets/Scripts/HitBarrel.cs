@@ -19,7 +19,7 @@ public class HitBarrel : MonoBehaviour
     {
         if(other.CompareTag("breakable"))
         {
-            other.GetComponent<barrel>().Smash();
+            other.GetComponent<breakable>().Smash();
         }
     }
 }

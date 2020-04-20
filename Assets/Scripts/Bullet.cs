@@ -27,5 +27,11 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
             Destroy(gameObject, 3);
         }
+
+        if(other.gameObject.CompareTag("breakable"))
+        {
+            other.GetComponent<breakable>().Smash();
+            Destroy(gameObject);
+        }
     }
 }

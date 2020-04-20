@@ -70,5 +70,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8959660dd36ce41289997bc124ce9ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camChange: {x: -20, y: 0}
-  playerChange: {x: -5, y: 0, z: 0}
+  camChange: {x: -27, y: 0}
+  playerChange: {x: -6, y: 0, z: 0}
+  active: 1
+  needText: 0
+  placeName: 
+  text: {fileID: 0}
+  placeText: {fileID: 0}

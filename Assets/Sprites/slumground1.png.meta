@@ -278,48 +278,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slumground1_4
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8d0217b9954265a0800000000000000
-      internalID: -6529579983230071410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slumground1_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5155a5bc9de129a00800000000000000
-      internalID: 761705207747466517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: slumground1_6
       rect:
         serializedVersion: 2
@@ -407,8 +365,8 @@ TextureImporter:
       name: slumground1_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
+        x: 277
+        y: 132
         width: 64
         height: 64
       alignment: 0
@@ -428,8 +386,8 @@ TextureImporter:
       name: slumground1_11
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
+        x: 341
+        y: 132
         width: 64
         height: 64
       alignment: 0
@@ -533,8 +491,8 @@ TextureImporter:
       name: slumground1_16
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
+        x: 277
+        y: 68
         width: 64
         height: 64
       alignment: 0
@@ -554,8 +512,8 @@ TextureImporter:
       name: slumground1_17
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
+        x: 341
+        y: 68
         width: 64
         height: 64
       alignment: 0

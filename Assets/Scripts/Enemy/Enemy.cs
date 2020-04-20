@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public float damageTaken;
     private float health;
 
+
     void Awake()
     {
         SetHealthToMax();
@@ -56,11 +57,15 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
+        GetComponentInParent<RoomState>().CheckEnemies();
+        // CheckEnemies();
+        //Destroy(gameObject);
     }
 
     private void MoveLeftToRight()
     {
 
     }
+
 }

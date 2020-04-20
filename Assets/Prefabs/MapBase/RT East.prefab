@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9213671836934585805}
   - component: {fileID: 9213671836934585795}
   m_Layer: 0
-  m_Name: RTEast
+  m_Name: RT East
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,5 +70,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8959660dd36ce41289997bc124ce9ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camChange: {x: 20, y: 0}
-  playerChange: {x: 5, y: 0, z: 0}
+  camChange: {x: 27, y: 0}
+  playerChange: {x: 6, y: 0, z: 0}
+  active: 1
+  needText: 0
+  placeName: 
+  text: {fileID: 0}
+  placeText: {fileID: 0}

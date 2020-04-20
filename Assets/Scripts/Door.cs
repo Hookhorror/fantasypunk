@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
 public class Door : MonoBehaviour
 {
@@ -10,15 +12,34 @@ public class Door : MonoBehaviour
 
     public bool active = true;
     private CameraMovement cam;
+    public bool needText;
+    public string placeName;
+    public GameObject text;
+    public Text placeText;
+
+   // protected BoxCollider2D box;
 
     private void Start() 
     {
         cam = Camera.main.GetComponent<CameraMovement>();
+       // box = GetComponent<BoxCollider2D>();
     }
 
     private void Update() 
     {
         
+    }
+
+    public void Open()
+    {
+        active = true;
+        //box.enabled = true;
+    }
+
+    public void Close()
+    {
+        active = false;
+       // box.enabled = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
@@ -28,6 +49,18 @@ public class Door : MonoBehaviour
             cam.minP += camChange;
             cam.maxP += camChange;
             other.transform.position += playerChange;
+            if(needText)
+            {
+                StartCoroutine(placeNameCo());
+            }
         }
+    }
+
+    private IEnumerator placeNameCo()
+    {
+        text.SetActive(true);
+        placeText.text = placeName;
+        yield return new WaitForSeconds(4f);
+        text.SetActive(false);
     }
 }
