@@ -8,7 +8,7 @@ public class Door : MonoBehaviour
 {
     public Vector2 camChange;
 
-    public Vector3 playerChange;
+    public Vector2 playerChange;
 
     public bool active = true;
     private CameraMovement cam;
@@ -48,7 +48,8 @@ public class Door : MonoBehaviour
         {
             cam.minP += camChange;
             cam.maxP += camChange;
-            other.transform.position += playerChange;
+            Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
+            rb.position += playerChange;
             if(needText)
             {
                 StartCoroutine(placeNameCo());
