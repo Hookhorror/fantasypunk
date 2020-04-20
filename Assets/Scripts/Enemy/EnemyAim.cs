@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class EnemyAim : MonoBehaviour
 {
-    // TODO: Pubblegum solution, same target needs to be set now twice. Super stupid, fix!
-    // public Rigidbody2D target;
 
     private float angle;
     private Vector2 lookDir;

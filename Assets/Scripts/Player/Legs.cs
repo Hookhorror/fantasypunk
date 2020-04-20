@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Moving : MonoBehaviour
+public class Legs : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Animator animator;
     Vector2 movement;
-    Vector2 lastMovement;
-    private bool idle = true;
+    // Vector2 lastMovement;
+    // private bool idle = true;
 
 
     // Update is called once per frame

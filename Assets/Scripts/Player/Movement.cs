@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovementAndAim : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
@@ -12,6 +12,14 @@ public class MovementAndAim : MonoBehaviour
     // public Animator animator;
     Vector2 movement;
     Vector2 mousePos;
+    // private GameObject target;
+    // private Camera cam;
+
+    void Start()
+    {
+        // target = PlayerManager.instance.player;
+        // cam = CameraManager.instance.cam;
+    }
 
 
     // Update is called once per frame
@@ -37,7 +45,7 @@ public class MovementAndAim : MonoBehaviour
     void FixedUpdate()
     {
         // rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        rb.position = Vector3.Lerp(rb.position
+        rb.transform.position = Vector3.Lerp(rb.position
                                  , rb.position + movement * moveSpeed * Time.fixedDeltaTime
                                  , 0.5f);
 

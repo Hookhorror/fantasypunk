@@ -26,6 +26,7 @@ public class FollowTargetAI : MonoBehaviour
     void Start()
     {
         target = PlayerManager.instance.player;
+
         // InvokeRepeating("ConsoleMessage", 1f, 1f);
     }
 
