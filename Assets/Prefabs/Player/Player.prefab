@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 8454458072679817463}
   - component: {fileID: 4728949382341769995}
   - component: {fileID: 3807467020457097717}
+  - component: {fileID: 5967568758593002121}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -196,7 +197,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00000017881393, y: -0.33306384}
+  m_Offset: {x: 0.003158465, y: -0.06934512}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -207,7 +208,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5377896, y: 0.25230742}
+  m_Size: {x: 0.2788084, y: 0.62814593}
   m_EdgeRadius: 0
 --- !u!212 &3807467020399287726
 SpriteRenderer:
@@ -300,7 +301,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 48337ec144820bd32ad5121304b2b1f9, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.912
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -460,6 +461,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &5967568758593002121
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3807467020399287696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.022108108, y: 0.43150452}
+      - {x: -0.12673825, y: 0.14478497}
+      - {x: -0.120355606, y: -0.30368787}
+      - {x: 0.095089376, y: -0.3100044}
+      - {x: 0.12042147, y: 0.14794354}
 --- !u!1 &3807467020434122764
 GameObject:
   m_ObjectHideFlags: 0

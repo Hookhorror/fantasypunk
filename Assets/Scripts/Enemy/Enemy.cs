@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Projectile"))
+        if (other.gameObject.CompareTag("Projectile") || health > 0)
         {
             health -= damageTaken;
             if (health <= 0)
