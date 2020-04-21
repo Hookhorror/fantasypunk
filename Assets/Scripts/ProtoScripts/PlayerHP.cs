@@ -50,7 +50,7 @@ public class PlayerHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            SceneManager.LoadScene("DeathScreen");
+            SceneManager.LoadScene("Death");
         }
     }
 }
