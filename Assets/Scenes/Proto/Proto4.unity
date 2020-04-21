@@ -19865,8 +19865,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1926745462}
-  - {fileID: 201954527}
   - {fileID: 628846335}
+  - {fileID: 201954527}
   - {fileID: 2102847811}
   m_Father: {fileID: 1936337102}
   m_RootOrder: 2
@@ -25339,10 +25339,20 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1534200605}
+    - target: {fileID: 3807467020399287722, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3807467020399287724, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287724, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3807467020399287725, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
@@ -25422,7 +25432,7 @@ PrefabInstance:
     - target: {fileID: 8649290902338468695, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
       propertyPath: m_Volume
-      value: 0.31
+      value: 0.271
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52050fb9b38e847dba260e186550a14, type: 3}
@@ -112742,7 +112752,7 @@ PrefabInstance:
     - target: {fileID: 5503138644656688539, guid: 7190b047689f99e4f825c7f39df79005,
         type: 3}
       propertyPath: m_Volume
-      value: 0.568
+      value: 0.301
       objectReference: {fileID: 0}
     - target: {fileID: 5503138644656688539, guid: 7190b047689f99e4f825c7f39df79005,
         type: 3}
