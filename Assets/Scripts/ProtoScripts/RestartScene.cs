@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class RestartScene : MonoBehaviour
 {
+
+    public GameObject canvas;
     // Start is called before the first frame update
  void Start()
  {
@@ -15,5 +17,19 @@ public class RestartScene : MonoBehaviour
          {
               SceneManager.LoadScene( SceneManager.GetActiveScene().name );
          }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+         {
+             if(canvas.activeSelf == false)
+             {
+                 canvas.SetActive(true);
+             }
+             else canvas.SetActive(false);
+            
+         }
+
+
+
+
      }
 }

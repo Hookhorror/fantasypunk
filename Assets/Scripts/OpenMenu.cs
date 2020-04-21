@@ -8,7 +8,7 @@ public class OpenMenu : MonoBehaviour
 
     void Update()
      {
-         if (Input.GetKeyDown(KeyCode.Escape))
+         if (Input.GetKeyDown(KeyCode.Q))
          {
               canvas.enabled = true;
          }
