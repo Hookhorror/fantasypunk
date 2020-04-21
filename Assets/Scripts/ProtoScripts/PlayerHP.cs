@@ -15,6 +15,7 @@ public class PlayerHP : MonoBehaviour
     public HPBar hpBar;
 
     private AudioSource source;
+    private bool dead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +51,7 @@ public class PlayerHP : MonoBehaviour
 
         if(currentHP<=0)
         {
+            dead = true;
             SceneManager.LoadScene("Death");
         }
             //DIE
