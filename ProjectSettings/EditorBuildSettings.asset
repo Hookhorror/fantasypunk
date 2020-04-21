@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: eb5199cdb6f36cf23836738035b25269
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 52d92e7208b14f041bf83f2196681413
+  - enabled: 1
+    path: Assets/Scenes/Proto/Proto4.unity
+    guid: dc3a6cc127910f34bad24c95e2b31ec3
   - enabled: 0
     path: Assets/Scenes/Level1.unity
     guid: 29dc35dca41cbf26087ac0e616b45365
@@ -24,12 +30,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Joni/JoniTestNextLevel.unity
     guid: 705f09117be57496c8ea31bd04cd122b
   - enabled: 0
-    path: Assets/Scenes/Proto/Room1.unity
-    guid: 653ddfd92e0244e0e849b97c408ac4eb
-  - enabled: 0
-    path: Assets/Scenes/Proto/Room2.unity
-    guid: d020d1e138ad2427d8f9f04e55ee9590
-  - enabled: 1
     path: Assets/Scenes/Joni/PlayerAnimationTest.unity
     guid: 99d0760b97f56b544b575a4c8ef8f78e
   m_configObjects: {}
