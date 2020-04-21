@@ -10,13 +10,14 @@ public class FollowTargetAI : MonoBehaviour
     public float attackRange;
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float bulletForce = 15;
+    public float bulletForce = 25;
     public Animator animator;
 
     private Vector2 lastPosition;
     private Vector2 movementDirection;
-    private bool shooting = false;
     private GameObject target;
+
+    private double fireTimer;
 
     void Awake()
     {
@@ -32,6 +33,8 @@ public class FollowTargetAI : MonoBehaviour
 
     void Update()
     {
+        fireTimer -= Time.deltaTime;
+
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementDirection.sqrMagnitude);
@@ -53,15 +56,10 @@ public class FollowTargetAI : MonoBehaviour
                                             , 0.5f);
         }
 
-        if (distanceToTarget <= attackRange && !shooting)
+        if (distanceToTarget <= attackRange && fireTimer<=0)
         {
-            shooting = true;
-            InvokeRepeating("Shoot", 1f, 1f);
-        }
-        else if (distanceToTarget > attackRange && shooting)
-        {
-            shooting = false;
-            CancelInvoke("Shoot");
+            Shoot();
+            fireTimer = 1;
         }
     }
 

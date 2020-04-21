@@ -14,6 +14,14 @@ public class Proto2buttons : MonoBehaviour
         shooting = GetComponent<Shooting>();
         weapon= GetComponent<Weapon>();
         firePattern = weapon.firePattern;
+
+        shooting.Reload();
+        firePattern.angles = new float[] { 0 };
+
+        weapon.fireRate = 0.1;
+        weapon.magazine = 5;
+        weapon.reload = 0.8;
+        weapon.bulletForce = 20;
     }
 
     // Update is called once per frame
@@ -25,9 +33,9 @@ public class Proto2buttons : MonoBehaviour
             shooting.Reload();
             firePattern.angles = new float[] { 0 };
 
-            weapon.fireRate = 0.05;
-            weapon.magazine = 7;
-            weapon.reload = 1.0;
+            weapon.fireRate = 0.1;
+            weapon.magazine = 5;
+            weapon.reload = 0.8;
             weapon.bulletForce = 20;
         }
 
