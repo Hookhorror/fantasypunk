@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class DamagePlayer : MonoBehaviour
 {
-private GameObject player;
+    private GameObject player;
+
+    public int amount;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +19,7 @@ private GameObject player;
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            player.GetComponent<PlayerHP>().DealDamage(10);
+            player.GetComponent<PlayerHP>().DealDamage(amount);
         }
     }
 }
