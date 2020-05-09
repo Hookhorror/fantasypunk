@@ -53,4 +53,10 @@ public class PlayerHP : MonoBehaviour
             SceneManager.LoadScene("Death");
         }
     }
+
+    public void DealDamage(int dmg)
+    {
+        TakeDMG(dmg);
+        Debug.Log(currentHP);
+    }
 }
