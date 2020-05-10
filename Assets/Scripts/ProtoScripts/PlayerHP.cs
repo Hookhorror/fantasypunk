@@ -71,7 +71,7 @@ public class PlayerHP : MonoBehaviour
         Debug.Log("Took damage: HP now " + currentHP);
     }
 
-    public void DealDamage(int dmg)
+    public void DealDamageToSelf(int dmg)
     {
         TakeDMG(dmg);
         // Debug.Log(currentHP);
