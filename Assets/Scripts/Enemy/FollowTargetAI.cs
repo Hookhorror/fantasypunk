@@ -85,6 +85,8 @@ public class FollowTargetAI : MonoBehaviour
     {
         movementDirection.x = target.transform.position.x - transform.position.x;
         movementDirection.y = target.transform.position.y - transform.position.y;
+        // Not quite sure if this is needed at all
+        movementDirection = movementDirection.normalized;
     }
 
     private void Shoot()
