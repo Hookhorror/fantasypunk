@@ -66,6 +66,7 @@ public class PlayerHP : MonoBehaviour
             dead = true;
             // MakeLegsAndTorsoOpaque();
             Debug.Log("You died");
+            Invoke("LoadDeathScreen", 2);
         }
         Debug.Log("Took damage: HP now " + currentHP);
     }
@@ -80,5 +81,10 @@ public class PlayerHP : MonoBehaviour
     {
         // player.GetComponent<Legs>().MakeOpaque();
         // player.GetComponent<Facing>().MakeOpaque();
+    }
+
+    private void LoadDeathScreen()
+    {
+        SceneManager.LoadScene("Death");
     }
 }
