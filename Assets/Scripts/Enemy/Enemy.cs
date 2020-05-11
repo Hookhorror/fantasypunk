@@ -7,7 +7,14 @@ public class Enemy : MonoBehaviour
     public float maxHealth;
     // TODO: implement better way of inflicting damage
     public float damageTaken;
+    public bool boss;
     private float health;
+    private bool dead = false;
+
+    public bool Dead()
+    {
+        return dead;
+    }
 
 
     void Awake()
@@ -57,7 +64,11 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
-        gameObject.SetActive(false);
+        dead = true;
+        if (!boss)
+        {
+            gameObject.SetActive(false);
+        }
         // GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);

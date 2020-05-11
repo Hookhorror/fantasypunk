@@ -38,6 +38,8 @@ public class FollowTargetAI : MonoBehaviour
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementDirection.sqrMagnitude);
+        animator.SetBool("Dead", gameObject.GetComponentInParent<Enemy>().Dead());
+        
 
         float distanceToTarget = Vector2.Distance(transform.position, target.transform.position);
 
