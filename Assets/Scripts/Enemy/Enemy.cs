@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     // TODO: implement better way of inflicting damage
     public float damageTaken;
     public bool hasDeathAnimation;
+    public GameObject deathPrefab;
     private float health;
     private bool dead = false;
 
@@ -65,10 +66,11 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         dead = true;
-        if (!hasDeathAnimation)
+        if (hasDeathAnimation)
         {
-            gameObject.SetActive(false);
+            Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
+        gameObject.SetActive(false);
         // GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
