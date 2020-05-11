@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class SettingsMenu : MonoBehaviour
 {
+    public GameObject pauseMenu;
+    public GameObject settingsMenu;
     public AudioMixer audioMixer;
 
     Resolution[] resolutions;
@@ -59,5 +61,11 @@ public class SettingsMenu : MonoBehaviour
     {
         Resolution resolution = resolutions[resIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+    }
+
+    public void CloseMenu()
+    {
+        settingsMenu.SetActive(false);
+        pauseMenu.SetActive(true);
     }
 }
