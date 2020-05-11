@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 6168108956303286041}
   - component: {fileID: 6168108956303286040}
   - component: {fileID: 437133282841472481}
-  - component: {fileID: -1709307393769549108}
   - component: {fileID: 4879874665035556827}
+  - component: {fileID: -3044028859765605111}
   m_Layer: 0
   m_Name: ProjectileDrone
   m_TagString: Projectile
@@ -133,20 +133,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-1709307393769549108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6168108956303286039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 057b0b3650b8db738850827cabcf55e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitEffect: {fileID: 1794759777170705244, guid: 9f1c5ee19d2f5adbdbbeb88a2448ed95,
-    type: 3}
 --- !u!61 &4879874665035556827
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -173,3 +159,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13, y: 0.13}
   m_EdgeRadius: 0
+--- !u!114 &-3044028859765605111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6168108956303286039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffect: {fileID: 1794759777170705244, guid: 9f1c5ee19d2f5adbdbbeb88a2448ed95,
+    type: 3}

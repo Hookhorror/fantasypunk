@@ -139,7 +139,6 @@ GameObject:
   - component: {fileID: 5532560370144322774}
   - component: {fileID: 7753216651702549518}
   - component: {fileID: 1173100680742494667}
-  - component: {fileID: 770199660}
   m_Layer: 0
   m_Name: Drone2
   m_TagString: Enemy
@@ -303,17 +302,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63c6e894a2ad05549a07b86ffd230482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &770199660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5532560370144322761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dfa464d9d481a4aa3162914c921cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitEffect: {fileID: 900184864883556660, guid: 193489576be2f0fddbd8c2238618cc8b,
-    type: 3}
