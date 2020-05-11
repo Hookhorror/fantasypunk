@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public float maxHealth;
     // TODO: implement better way of inflicting damage
     public float damageTaken;
-    public bool boss;
+    public bool hasDeathAnimation;
     private float health;
     private bool dead = false;
 
@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         dead = true;
-        if (!boss)
+        if (!hasDeathAnimation)
         {
             gameObject.SetActive(false);
         }
