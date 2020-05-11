@@ -663,6 +663,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3807467020399287697, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: cursorReload
+      value: 
+      objectReference: {fileID: 2800000, guid: df5fd209d8e072038957031d93f7871e, type: 3}
     - target: {fileID: 3807467020399287722, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
       propertyPath: cam
