@@ -5,7 +5,6 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float maxHealth;
-    // TODO: implement better way of inflicting damage
     private float health;
 
 
@@ -30,11 +29,9 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile") && health >= 0)
         {
-            health -= damageTaken;
-            if (health <= 0)
-            {
-                Die();
-            }
+
+            var bullet = other.gameObject.GetComponent<Bullet>();
+            TakeDamage(bullet.damage);
         }
     }
 

@@ -57,11 +57,11 @@ TagManager:
   - name: Furniture
     uniqueID: 4100174677
     locked: 0
-  - name: Enemy
-    uniqueID: 763053989
-    locked: 0
   - name: Player
     uniqueID: 543792971
+    locked: 0
+  - name: Enemy
+    uniqueID: 763053989
     locked: 0
   - name: Bullet
     uniqueID: 2418302911
