@@ -34,4 +34,4 @@ public class Objects : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 }
-}
+

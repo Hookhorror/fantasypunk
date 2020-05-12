@@ -63,9 +63,13 @@ public class Door : MonoBehaviour
 
     private IEnumerator placeNameCo()
     {
-        text.SetActive(true);
-        placeText.text = placeName;
-        yield return new WaitForSeconds(4f);
-        text.SetActive(false);
+        if(text != null)
+        {
+            text.SetActive(true);
+            placeText.text = placeName;
+            yield return new WaitForSeconds(4f);
+            text.SetActive(false); 
+        }
+
     }
 }
