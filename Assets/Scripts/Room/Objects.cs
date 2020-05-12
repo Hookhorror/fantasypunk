@@ -4,15 +4,34 @@ using UnityEngine;
 
 public class Objects : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    protected Animator animator;
+
+    protected string clip;
+
+    protected BoxCollider2D boxCollider;
+
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Smash()
     {
-        
+        animator.SetBool("smash", true);
+        AudioManager.instance.Play(clip);
+        StartCoroutine(breakCo());
+        //boxCollider.enabled = false;
+    
     }
+
+    public IEnumerator breakCo()
+    {
+        boxCollider.enabled = false;
+        yield return new WaitForSeconds(1F);
+        boxCollider.enabled = true;
+        this.gameObject.SetActive(false);
+    }
+}
 }
