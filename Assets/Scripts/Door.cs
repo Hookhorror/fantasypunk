@@ -10,6 +10,9 @@ public class Door : MonoBehaviour
 
     public Vector2 playerChange;
 
+    public GameObject currentRoom;
+    public GameObject roomToGo;
+
 
     public bool active = true;
     private CameraMovement cam;
@@ -54,6 +57,8 @@ public class Door : MonoBehaviour
             Rigidbody2D rb = other.GetComponent<Rigidbody2D>();
             rb.position += playerChange;
             bc.enabled = true;
+            roomToGo.SetActive(true);
+            currentRoom.SetActive(false);
             if(needText)
             {
                 StartCoroutine(placeNameCo());

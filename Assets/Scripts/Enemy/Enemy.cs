@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     private float health;
 
 
+
+
     void Awake()
     {
         SetHealthToMax();
@@ -58,7 +60,7 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         gameObject.SetActive(false);
-        // GetComponentInParent<RoomState>().CheckEnemies();
+        GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
     }
