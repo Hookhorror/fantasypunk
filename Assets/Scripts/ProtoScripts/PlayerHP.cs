@@ -14,8 +14,8 @@ public class PlayerHP : MonoBehaviour
 
     public HPBar hpBar;
 
-    public int enemyPush;
-    public int enemyBulletPush;
+    public float enemyPush;
+    public float enemyBulletPush;
 
     private AudioSource source;
     private GameObject player;
