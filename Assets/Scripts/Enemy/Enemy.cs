@@ -79,7 +79,7 @@ public class Enemy : MonoBehaviour
         }
 
         gameObject.SetActive(false);
-        // GetComponentInParent<RoomState>().CheckEnemies();
+        GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
     }
