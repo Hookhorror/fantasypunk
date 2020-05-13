@@ -19,7 +19,7 @@ public class DamagePlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            player.GetComponent<PlayerHP>().DealDamage(amount);
+            player.GetComponent<PlayerHP>().DealDamageToSelf(amount);
         }
     }
 }

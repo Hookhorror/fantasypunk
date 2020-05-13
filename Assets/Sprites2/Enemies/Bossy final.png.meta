@@ -1,0 +1,1558 @@
+fileFormatVersion: 2
+guid: dc38b095e207e67d183548d5b4617b36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5339790343966130804
+    second: Bossy final_0
+  - first:
+      213: -196998743642142858
+    second: Bossy final_1
+  - first:
+      213: 5421181872606942604
+    second: Bossy final_2
+  - first:
+      213: -2903521322628354905
+    second: Bossy final_3
+  - first:
+      213: -1448980247487221347
+    second: Bossy final_4
+  - first:
+      213: -5737071641245028569
+    second: Bossy final_5
+  - first:
+      213: -3119647857348650587
+    second: Bossy final_6
+  - first:
+      213: 2302071907324031110
+    second: Bossy final_7
+  - first:
+      213: -6406785890711430315
+    second: Bossy final_8
+  - first:
+      213: 3576827063802280417
+    second: Bossy final_9
+  - first:
+      213: -4717159234017777786
+    second: Bossy final_10
+  - first:
+      213: 5665741248468529331
+    second: Bossy final_11
+  - first:
+      213: -6956716077169266527
+    second: Bossy final_12
+  - first:
+      213: 3207739407102236238
+    second: Bossy final_13
+  - first:
+      213: 410576853570415652
+    second: Bossy final_14
+  - first:
+      213: 6255527331831666865
+    second: Bossy final_15
+  - first:
+      213: -7187088436237670814
+    second: Bossy final_16
+  - first:
+      213: 881381177749988322
+    second: Bossy final_17
+  - first:
+      213: 2099126650679599055
+    second: Bossy final_18
+  - first:
+      213: -1324683050058987132
+    second: Bossy final_19
+  - first:
+      213: 8036340788049344548
+    second: Bossy final_20
+  - first:
+      213: -974534967145216786
+    second: Bossy final_21
+  - first:
+      213: -4310574150492056758
+    second: Bossy final_22
+  - first:
+      213: 5173641979988554226
+    second: Bossy final_23
+  - first:
+      213: 3647217380452638941
+    second: Bossy final_24
+  - first:
+      213: 329415902787426471
+    second: Bossy final_25
+  - first:
+      213: -5754014888097247898
+    second: Bossy final_26
+  - first:
+      213: -4732162531164092244
+    second: Bossy final_27
+  - first:
+      213: -1093580007486733244
+    second: Bossy final_28
+  - first:
+      213: -6553227435783646196
+    second: Bossy final_29
+  - first:
+      213: 7873459247773881702
+    second: Bossy final_30
+  - first:
+      213: -1626148945359339933
+    second: Bossy final_31
+  - first:
+      213: -6904882131793123286
+    second: Bossy final_32
+  - first:
+      213: 5315256555793388611
+    second: Bossy final_33
+  - first:
+      213: -43681667230292136
+    second: Bossy final_34
+  - first:
+      213: 8787920788484392620
+    second: Bossy final_35
+  - first:
+      213: 6514590831348629555
+    second: Bossy final_36
+  - first:
+      213: 8617387230026292649
+    second: Bossy final_37
+  - first:
+      213: -8544684524804233020
+    second: Bossy final_38
+  - first:
+      213: -5787471277621735643
+    second: Bossy final_39
+  - first:
+      213: -1896652290172143686
+    second: Bossy final_40
+  - first:
+      213: 3392121648058017428
+    second: Bossy final_41
+  - first:
+      213: 5648209419326421030
+    second: Bossy final_42
+  - first:
+      213: -8733843264824266628
+    second: Bossy final_43
+  - first:
+      213: -9022865915797999163
+    second: Bossy final_44
+  - first:
+      213: -7627292339501813107
+    second: Bossy final_45
+  - first:
+      213: 5721590841605614705
+    second: Bossy final_46
+  - first:
+      213: -6300195877980154103
+    second: Bossy final_47
+  - first:
+      213: 241064738312779767
+    second: Bossy final_48
+  - first:
+      213: -2529563840756261949
+    second: Bossy final_49
+  - first:
+      213: 6784426957743955060
+    second: Bossy final_50
+  - first:
+      213: 575439753859578701
+    second: Bossy final_51
+  - first:
+      213: 7861961546633922778
+    second: Bossy final_52
+  - first:
+      213: -6136741363483100473
+    second: Bossy final_53
+  - first:
+      213: -5945241750733668947
+    second: Bossy final_54
+  - first:
+      213: 8781830113031923783
+    second: Bossy final_55
+  - first:
+      213: 2006045279355416571
+    second: Bossy final_56
+  - first:
+      213: 7555698261148587079
+    second: Bossy final_57
+  - first:
+      213: -7388138122788425014
+    second: Bossy final_58
+  - first:
+      213: -5849698807825299558
+    second: Bossy final_59
+  - first:
+      213: -4428032384171352695
+    second: Bossy final_60
+  - first:
+      213: -848737651161429255
+    second: Bossy final_61
+  - first:
+      213: -6626720190171152464
+    second: Bossy final_62
+  - first:
+      213: 4735402741940577883
+    second: Bossy final_63
+  - first:
+      213: -5579344889362066921
+    second: Bossy final_64
+  - first:
+      213: 3710363014030516080
+    second: Bossy final_65
+  - first:
+      213: -5719779144349515992
+    second: Bossy final_66
+  - first:
+      213: 6697257333199624877
+    second: Bossy final_67
+  - first:
+      213: 2540284597551271992
+    second: Bossy final_68
+  - first:
+      213: -7346089387209876335
+    second: Bossy final_69
+  - first:
+      213: 198514638333816858
+    second: Bossy final_70
+  - first:
+      213: 7016393936148848571
+    second: Bossy final_71
+  - first:
+      213: 1779385985047719889
+    second: Bossy final_72
+  - first:
+      213: 2246874052263057844
+    second: Bossy final_73
+  - first:
+      213: 2370031415972821267
+    second: Bossy final_74
+  - first:
+      213: 5411644566266629324
+    second: Bossy final_75
+  - first:
+      213: -4433949402516412845
+    second: Bossy final_76
+  - first:
+      213: 8516325536968957770
+    second: Bossy final_77
+  - first:
+      213: 182467255779430162
+    second: Bossy final_78
+  - first:
+      213: -2677993744449987317
+    second: Bossy final_79
+  - first:
+      213: -8685651144916800523
+    second: Bossy final_80
+  - first:
+      213: 7590687126729407652
+    second: Bossy final_81
+  - first:
+      213: 86575202343485041
+    second: Bossy final_82
+  - first:
+      213: -400063246929533489
+    second: Bossy final_83
+  - first:
+      213: 1291458409897676162
+    second: Bossy final_84
+  - first:
+      213: -2004600692603233491
+    second: Bossy final_85
+  - first:
+      213: -6522342138558185463
+    second: Bossy final_86
+  - first:
+      213: 7458597374115115712
+    second: Bossy final_87
+  - first:
+      213: -8619703791265121088
+    second: Bossy final_88
+  - first:
+      213: 6330400345970137959
+    second: Bossy final_89
+  - first:
+      213: 8176974407128845375
+    second: Bossy final_90
+  - first:
+      213: -2330443210219065324
+    second: Bossy final_91
+  - first:
+      213: 5421787289904382366
+    second: Bossy final_92
+  - first:
+      213: 5299302598277005544
+    second: Bossy final_93
+  - first:
+      213: -8819611985465249108
+    second: Bossy final_94
+  - first:
+      213: 1771570591568790059
+    second: Bossy final_95
+  - first:
+      213: -6987481133656082484
+    second: Bossy final_96
+  - first:
+      213: 3746320785992079299
+    second: Bossy final_97
+  - first:
+      213: 6924708824552955570
+    second: Bossy final_98
+  - first:
+      213: 8063732291097968431
+    second: Bossy final_99
+  - first:
+      213: 1973121823389903404
+    second: Bossy final_100
+  - first:
+      213: -1507378524035770737
+    second: Bossy final_101
+  - first:
+      213: -5872708746050850182
+    second: Bossy final_102
+  - first:
+      213: -8278575556098414048
+    second: Bossy final_103
+  - first:
+      213: -4587499917374969766
+    second: Bossy final_104
+  - first:
+      213: 4185130189622512445
+    second: Bossy final_105
+  - first:
+      213: -4487181554944137175
+    second: Bossy final_106
+  - first:
+      213: 6555570011265534549
+    second: Bossy final_107
+  - first:
+      213: -4019847057755160105
+    second: Bossy final_108
+  - first:
+      213: -3326668871758967232
+    second: Bossy final_109
+  - first:
+      213: -3072327462302584552
+    second: Bossy final_110
+  - first:
+      213: 4148558905982612226
+    second: Bossy final_111
+  - first:
+      213: -917426144360758284
+    second: Bossy final_112
+  - first:
+      213: -4632092039072526329
+    second: Bossy final_113
+  - first:
+      213: -5932093734859462792
+    second: Bossy final_114
+  - first:
+      213: -1366749065440309724
+    second: Bossy final_115
+  - first:
+      213: 520659988367380702
+    second: Bossy final_116
+  - first:
+      213: -5337096314215643804
+    second: Bossy final_117
+  - first:
+      213: -3562097255556728173
+    second: Bossy final_118
+  - first:
+      213: -8274886596468383134
+    second: Bossy final_119
+  - first:
+      213: 4172558184355983734
+    second: Bossy final_120
+  - first:
+      213: -5116829521170180490
+    second: Bossy final_121
+  - first:
+      213: -899429502064471551
+    second: Bossy final_122
+  - first:
+      213: 3448384377686458976
+    second: Bossy final_123
+  - first:
+      213: -283184870250595461
+    second: Bossy final_124
+  - first:
+      213: -1927595035769020442
+    second: Bossy final_125
+  - first:
+      213: 5448330166331585935
+    second: Bossy final_126
+  - first:
+      213: -6752287383578407343
+    second: Bossy final_127
+  - first:
+      213: 7668260326024511214
+    second: Bossy final_128
+  - first:
+      213: 5612709986628462263
+    second: Bossy final_129
+  - first:
+      213: 8661780858458622654
+    second: Bossy final_130
+  - first:
+      213: 3833593825391660222
+    second: Bossy final_131
+  - first:
+      213: -1295501020453302158
+    second: Bossy final_132
+  - first:
+      213: -645260103862058633
+    second: Bossy final_133
+  - first:
+      213: -3106101039379762287
+    second: Bossy final_134
+  - first:
+      213: -2342685426037931408
+    second: Bossy final_135
+  - first:
+      213: -7389012558878621593
+    second: Bossy final_136
+  - first:
+      213: 6373858565396920044
+    second: Bossy final_137
+  - first:
+      213: -973683579863723064
+    second: Bossy final_138
+  - first:
+      213: 5446967656641278726
+    second: Bossy final_139
+  - first:
+      213: -852086239267373583
+    second: Bossy final_140
+  - first:
+      213: -2245561901484165094
+    second: Bossy final_141
+  - first:
+      213: -1402934516442492998
+    second: Bossy final_142
+  - first:
+      213: 4275643918744918541
+    second: Bossy final_143
+  - first:
+      213: -1494387253025694694
+    second: Bossy final_144
+  - first:
+      213: -1725944124756377154
+    second: Bossy final_145
+  - first:
+      213: 3624091702934261714
+    second: Bossy final_146
+  - first:
+      213: 1148576461919424550
+    second: Bossy final_147
+  - first:
+      213: -8589365703642664849
+    second: Bossy final_148
+  - first:
+      213: 314868777838711529
+    second: Bossy final_149
+  - first:
+      213: 559516214782664470
+    second: Bossy final_150
+  - first:
+      213: -1080562368708206031
+    second: Bossy final_151
+  - first:
+      213: -1648312239233467320
+    second: Bossy final_152
+  - first:
+      213: -4354309327777334016
+    second: Bossy final_153
+  - first:
+      213: -434044664644412785
+    second: Bossy final_154
+  - first:
+      213: 5513433747022763385
+    second: Bossy final_155
+  - first:
+      213: -7945632380823506292
+    second: Bossy final_156
+  - first:
+      213: 894727654730972082
+    second: Bossy final_157
+  - first:
+      213: -5948949879039665701
+    second: Bossy final_158
+  - first:
+      213: 8213169045822146119
+    second: Bossy final_159
+  - first:
+      213: 3486287890609328242
+    second: Bossy final_160
+  - first:
+      213: 9153086901652484894
+    second: Bossy final_161
+  - first:
+      213: -5577459999757417582
+    second: Bossy final_162
+  - first:
+      213: 9011503175227732211
+    second: Bossy final_163
+  - first:
+      213: 393032779905106631
+    second: Bossy final_164
+  - first:
+      213: 8122690833468928620
+    second: Bossy final_165
+  - first:
+      213: -7702565346970108148
+    second: Bossy final_166
+  - first:
+      213: -1934038631840582501
+    second: Bossy final_167
+  - first:
+      213: 9198837914022429259
+    second: Bossy final_168
+  - first:
+      213: -295453303278943979
+    second: Bossy final_169
+  - first:
+      213: 7819451584262836636
+    second: Bossy final_170
+  - first:
+      213: -1439774592666412070
+    second: Bossy final_171
+  - first:
+      213: 869733579469859034
+    second: Bossy final_172
+  - first:
+      213: -2290055246665499962
+    second: Bossy final_173
+  - first:
+      213: 385202849532232942
+    second: Bossy final_174
+  - first:
+      213: -2731338981456199650
+    second: Bossy final_175
+  - first:
+      213: 2895081273905671797
+    second: Bossy final_176
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bossy final_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4728923c60fba1a40800000000000000
+      internalID: 5339790343966130804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6770308bfae144df0800000000000000
+      internalID: -196998743642142858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c851683c038eb3b40800000000000000
+      internalID: 5421181872606942604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ace6f69dbe94b7d0800000000000000
+      internalID: -2903521322628354905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9177f5542034ebe0800000000000000
+      internalID: -1448980247487221347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f6f941db3d160b0800000000000000
+      internalID: -5737071641245028569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9dc666dc8c4b4d0800000000000000
+      internalID: -3119647857348650587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680747be33a92ff10800000000000000
+      internalID: 2302071907324031110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b19205d268617a0800000000000000
+      internalID: -6406785890711430315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e930f0834173a130800000000000000
+      internalID: 3576827063802280417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687aa635ba8498eb0800000000000000
+      internalID: -4717159234017777786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0be38a5a1c0ae40800000000000000
+      internalID: 5665741248468529331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0b3190697c47f90800000000000000
+      internalID: -6956716077169266527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46d954defd248c20800000000000000
+      internalID: 3207739407102236238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cef061979a2b500800000000000000
+      internalID: 410576853570415652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8d29017f810d650800000000000000
+      internalID: 6255527331831666865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2666cb46525524c90800000000000000
+      internalID: -7187088436237670814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3e08be28b4b3c00800000000000000
+      internalID: 881381177749988322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf10503198912d10800000000000000
+      internalID: 2099126650679599055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489c041d8c7cd9de0800000000000000
+      internalID: -1324683050058987132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428f9ad4e51d68f60800000000000000
+      internalID: 8036340788049344548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4cc165c91c972f0800000000000000
+      internalID: -974534967145216786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4390f506a3cd24c0800000000000000
+      internalID: -4310574150492056758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1344c38f77cc740800000000000000
+      internalID: 5173641979988554226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0a28c32e48d9230800000000000000
+      internalID: 3647217380452638941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8520da402529400800000000000000
+      internalID: 329415902787426471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d87a202f1a520b0800000000000000
+      internalID: -5754014888097247898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80d8eff3bf35eb0800000000000000
+      internalID: -4732162531164092244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c848f6c2d2d0f0800000000000000
+      internalID: -1093580007486733244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0495cd1e524e05a0800000000000000
+      internalID: -6553227435783646196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66593117875244d60800000000000000
+      internalID: 7873459247773881702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36efaff5622ce69e0800000000000000
+      internalID: -1626148945359339933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 565
+        width: 256
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5528145, y: 0.45535052}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a286786e84eec20a0800000000000000
+      internalID: -6904882131793123286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34491221da593c940800000000000000
+      internalID: 5315256555793388611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857aa8d41cfc46ff0800000000000000
+      internalID: -43681667230292136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca602ef8567f4f970800000000000000
+      internalID: 8787920788484392620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304d8768d9786a50800000000000000
+      internalID: 6514590831348629555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 304
+        width: 256
+        height: 212
+      alignment: 9
+      pivot: {x: 0.57640934, y: 0.45077473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad54b1670c179770800000000000000
+      internalID: 8617387230026292649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8244542be2b6980800000000000000
+      internalID: -8544684524804233020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f849d4985ceafa0800000000000000
+      internalID: -5787471277621735643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7bbdd7accbda5e0800000000000000
+      internalID: -1896652290172143686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_41
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496296baaac331f20800000000000000
+      internalID: 3392121648058017428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62877f79a88726e40800000000000000
+      internalID: 5648209419326421030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bossy final_43
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 34
+        width: 256
+        height: 222
+      alignment: 9
+      pivot: {x: 0.57620573, y: 0.43010375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70363413d72bc680800000000000000
+      internalID: -8733843264824266628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

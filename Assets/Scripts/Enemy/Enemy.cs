@@ -4,10 +4,21 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    protected float maxHealth;
+    public float maxHealth;
     // TODO: implement better way of inflicting damage
-    protected float damageTaken;
+    public float damageTaken;
+    public bool hasDeathAnimation;
+    public GameObject deathPrefab;
+    public GameObject explosionPrefab;
+    public GameObject goo2;
+    public GameObject goo2Splitted;
     private float health;
+    private bool dead = false;
+
+    public bool Dead()
+    {
+        return dead;
+    }
 
 
     void Awake()
@@ -31,11 +42,9 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile") && health >= 0)
         {
-            health -= damageTaken;
-            if (health <= 0)
-            {
-                Die();
-            }
+
+            var bullet = other.gameObject.GetComponent<Bullet>();
+            TakeDamage(bullet.damage);
         }
     }
 
@@ -57,10 +66,43 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        Debug.Log(gameObject.name + " is dead");
+        dead = true;
+        if (hasDeathAnimation)
+        {
+            Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
+            Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
+        }
+        if (gameObject.name == goo2.name)
+        {
+            Split();
+        }
+
         gameObject.SetActive(false);
-        // GetComponentInParent<RoomState>().CheckEnemies();
+        GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
+    }
+
+    private void Split()
+    {
+        Vector3 spawn1 = new Vector3(gameObject.transform.position.x + 0.5f
+                                   , gameObject.transform.position.y + 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn2 = new Vector3(gameObject.transform.position.x - 0.5f
+                                   , gameObject.transform.position.y + 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn3 = new Vector3(gameObject.transform.position.x + 0.5f
+                                   , gameObject.transform.position.y - 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn4 = new Vector3(gameObject.transform.position.x - 0.5f
+                                   , gameObject.transform.position.y - 0.5f
+                                   , gameObject.transform.position.z);                                   
+        
+        Instantiate(goo2Splitted, spawn1, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn2, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn3, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn4, Quaternion.identity);
     }
 
     private void MoveLeftToRight()
