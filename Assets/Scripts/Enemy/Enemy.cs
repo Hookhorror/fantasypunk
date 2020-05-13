@@ -5,15 +5,9 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float maxHealth;
-<<<<<<< HEAD
-=======
-    // TODO: implement better way of inflicting damage
     public float damageTaken;
     public bool hasDeathAnimation;
     public GameObject deathPrefab;
-<<<<<<< HEAD
->>>>>>> e2cc1171fafc431dca9d2b0ed8d06bfe396424c8
-=======
     public GameObject explosionPrefab;
     public GameObject goo2;
     public GameObject goo2Splitted;
@@ -49,7 +43,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile") && health >= 0)
         {
-
+            Debug.Log("HEALTH: " + health);
             var bullet = other.gameObject.GetComponent<Bullet>();
             TakeDamage(bullet.damage);
         }
@@ -79,7 +73,7 @@ public class Enemy : MonoBehaviour
             Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
-        if (gameObject.name == goo2.name)
+        if (goo2!= null && gameObject.name == goo2.name)
         {
             Split();
         }
