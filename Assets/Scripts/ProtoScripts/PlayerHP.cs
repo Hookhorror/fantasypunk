@@ -46,7 +46,7 @@ public class PlayerHP : MonoBehaviour
             {
                 Debug.Log("IMPULSE");
                 Vector3 diff = rbB.position - rbA.position;
-                rbB.AddForce((diff.normalized)*5, ForceMode2D.Impulse);
+                rbB.AddForce((diff.normalized)*8, ForceMode2D.Impulse);
             }
         }
         
