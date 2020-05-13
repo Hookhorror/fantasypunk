@@ -8,6 +8,8 @@ public class Proto2buttons : MonoBehaviour
     private Weapon weapon;
     private FirePattern firePattern;
 
+    public GameObject weaponUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +29,7 @@ public class Proto2buttons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        // preset 1
+        // preset 1. First AR Gun
         if (Input.GetButton("Fire2"))
         {
             shooting.Reload();
@@ -39,7 +41,7 @@ public class Proto2buttons : MonoBehaviour
             weapon.bulletForce = 20;
         }
 
-        // preset 2
+        // preset 2 Shotgun
         if (Input.GetButton("Fire3"))
         {
             shooting.Reload();

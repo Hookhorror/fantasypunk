@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class breakable : MonoBehaviour
+public class breakable : Objects
 {
-
-    private Animator animator;
-
-    private BoxCollider2D boxCollider;
 
     public AudioClip[] soundEffect;
     private AudioSource source;
@@ -27,22 +23,5 @@ public class breakable : MonoBehaviour
     
     private void Awake() {
         source = GetComponent<AudioSource>();
-    }
-
-    public void Smash()
-    {
-            animator.SetBool("smash", true);
-            source.PlayOneShot(soundEffect[UnityEngine.Random.Range(0, soundEffect.Length)]);
-            StartCoroutine(breakCo());
-            //boxCollider.enabled = false;
-    
-    }
-
-    public IEnumerator breakCo()
-    {
-        boxCollider.enabled = false;
-        yield return new WaitForSeconds(1F);
-        boxCollider.enabled = true;
-        this.gameObject.SetActive(false);
     }
 }

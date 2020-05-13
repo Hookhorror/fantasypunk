@@ -1,19 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class RoomState : Room
 {
 
     public Door[] doors;
-
+    public EnemyMarker enemyMarker;
+    private bool wait = true;
 
     private void Start() {
         CloseDoors();
         CheckEnemies();
     }
 
-    // Start is called before the first frame update
+   private void Update() 
+   {
+       if(wait)
+       {
+           StartCoroutine(WaitCo());
+       }
+       
+   }
 
 
     public void CheckEnemies()
@@ -28,8 +35,10 @@ public class RoomState : Room
         OpenDoors();
     }
 
-    protected void CloseDoors()
+    public void CloseDoors()
     {
+        enemyMarker.SetMarkerOn();
+        Debug.Log("Closing Doors");
         for (int i = 0; i < doors.Length; i++)
         {
             doors[i].Close();
@@ -38,9 +47,21 @@ public class RoomState : Room
 
         protected void OpenDoors()
     {
+        enemyMarker.SetMarkerOff();
+        Debug.Log("Opening Doors");
         for (int i = 0; i < doors.Length; i++)
         {
             doors[i].Open();
         }
+    }
+
+    IEnumerator WaitCo()
+    {
+        Debug.Log("CheckEnemies Wait Corona");
+        wait = false;
+        yield return new WaitForSeconds(5f);
+        Debug.Log("CheckEnemies Wait stopped, checks now");
+        CheckEnemies();
+        wait = true;
     }
 }
