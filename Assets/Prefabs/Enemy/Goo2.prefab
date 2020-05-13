@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 763053989
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -207061555201131296, guid: 927593563a511d371990c916fad874d6,
     type: 3}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 7.53
   spottingRange: 12
   attackRange: 0
   bulletPrefab: {fileID: 0}
@@ -207,3 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: def4595af5a10f343a2e97dd48a6af96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 345.02
+  hasDeathAnimation: 0
+  deathPrefab: {fileID: 0}

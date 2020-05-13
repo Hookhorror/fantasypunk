@@ -7,7 +7,7 @@ public class Goo : Enemy
     // Start is called before the first frame update
     void Start()
     {
-        maxHealth = 30;
+        
     }
 
     // Update is called once per frame

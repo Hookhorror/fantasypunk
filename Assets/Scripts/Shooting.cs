@@ -68,7 +68,6 @@ public class Shooting : MonoBehaviour
     public void Reload()
     {
         Cursor.SetCursor(cursorReload, Vector2.zero, cursorMode);
-        Debug.Log("RELOADING");
         reloadTimer = weapon.reload;
         mag = weapon.magazine;
     }
