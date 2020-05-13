@@ -198,7 +198,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 763053989
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 6255527331831666865, guid: dc38b095e207e67d183548d5b4617b36,
     type: 3}
@@ -336,3 +336,6 @@ MonoBehaviour:
   deathPrefab: {fileID: 3135569349973234295, guid: 46cc78b0bc572b7509209485616741e5,
     type: 3}
   explosionPrefab: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+  goo2: {fileID: 3344013023537676441, guid: d2060d5a364767e4c96de9243dd4a97c, type: 3}
+  goo2Splitted: {fileID: 483218234188364215, guid: dee8e1172af490c7bac339378f66f67f,
+    type: 3}

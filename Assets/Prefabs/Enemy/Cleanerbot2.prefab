@@ -343,3 +343,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 33.98
+  damageTaken: 10
+  hasDeathAnimation: 0
+  deathPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 0}
+  goo2: {fileID: 3344013023537676441, guid: d2060d5a364767e4c96de9243dd4a97c, type: 3}
+  goo2Splitted: {fileID: 0}

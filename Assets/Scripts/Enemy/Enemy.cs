@@ -26,6 +26,10 @@ public class Enemy : MonoBehaviour
     void Awake()
     {
         SetHealthToMax();
+        if (explosionPrefab != null)
+        {
+            explosionPrefab.layer = 31;
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -75,13 +79,13 @@ public class Enemy : MonoBehaviour
             Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
-        if (gameObject.name == goo2.name)
+        if (gameObject.name.StartsWith("Goo2") && gameObject.name.Length < 10)
         {
             Split();
         }
 
         gameObject.SetActive(false);
-        GetComponentInParent<RoomState>().CheckEnemies();
+        // GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
     }

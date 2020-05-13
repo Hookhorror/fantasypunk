@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3344013023537676423}
   - component: {fileID: 3344013023537676422}
   - component: {fileID: 1225591973}
-  - component: {fileID: 7475672508674754353}
+  - component: {fileID: 6013225281346717651}
   m_Layer: 9
   m_Name: Goo2
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 763053989
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -207061555201131296, guid: 927593563a511d371990c916fad874d6,
     type: 3}
@@ -178,7 +178,7 @@ PolygonCollider2D:
       - {x: -0.12, y: 0.02}
       - {x: -0.04, y: 0}
       - {x: 0.35999998, y: 0}
---- !u!114 &7475672508674754353
+--- !u!114 &6013225281346717651
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,13 +187,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3344013023537676441}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: def4595af5a10f343a2e97dd48a6af96, type: 3}
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  damageTaken: 0
+  maxHealth: 5
+  damageTaken: 1
   hasDeathAnimation: 0
   deathPrefab: {fileID: 0}
   explosionPrefab: {fileID: 0}
-  goo2: {fileID: 0}
-  goo2Splitted: {fileID: 0}
+  goo2: {fileID: 3344013023537676441}
+  goo2Splitted: {fileID: 483218234188364215, guid: dee8e1172af490c7bac339378f66f67f,
+    type: 3}
