@@ -14,6 +14,9 @@ public class PlayerHP : MonoBehaviour
 
     public HPBar hpBar;
 
+    public int enemyPush;
+    public int enemyBulletPush;
+
     private AudioSource source;
     private GameObject player;
 
@@ -39,15 +42,31 @@ public class PlayerHP : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
-           TakeDMG(10); 
+            TakeDMG(10);
+            var rbA = other.gameObject.GetComponent<Rigidbody2D>();
+            var rbB = player.gameObject.GetComponent<Rigidbody2D>();
+            if (rbA != null && rbB != null)
+            {
+                Vector3 diff = rbB.position - rbA.position;
+                rbB.AddForce((diff.normalized) * enemyPush, ForceMode2D.Impulse);
+            }
+
         }
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
-           TakeDMG(10); 
+            TakeDMG(10);
+            var rbA = other.gameObject.GetComponent<Rigidbody2D>();
+            var rbB = player.gameObject.GetComponent<Rigidbody2D>();
+            if (rbA != null && rbB != null)
+            {
+                Vector3 diff = rbB.position - rbA.position;
+                rbB.AddForce((diff.normalized) * enemyBulletPush, ForceMode2D.Impulse);
+            }
+
         }
     }
 
