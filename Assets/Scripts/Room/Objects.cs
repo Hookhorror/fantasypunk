@@ -11,19 +11,24 @@ public class Objects : MonoBehaviour
 
     protected BoxCollider2D boxCollider;
 
+    protected CapsuleCollider2D capsuleCollider;
+
     void Start()
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        capsuleCollider = GetComponent<CapsuleCollider2D>();
     }
 
     public void Smash()
     {
         animator.SetBool("smash", true);
-        AudioManager.instance.Play(clip);
+        // AudioManager.instance.Play(clip);
         StartCoroutine(breakCo());
-        //boxCollider.enabled = false;
-    
+        if (capsuleCollider != null)
+        {
+            capsuleCollider.enabled = false;
+        }
     }
 
     public IEnumerator breakCo()

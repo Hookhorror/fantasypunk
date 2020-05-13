@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float maxHealth;
+
     public float damageTaken;
     public bool hasDeathAnimation;
     public GameObject deathPrefab;
@@ -67,6 +68,7 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        Debug.Log(gameObject.name + " is dead");
         dead = true;
         if (hasDeathAnimation)
         {
