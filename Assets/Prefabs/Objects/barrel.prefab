@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3394295029730997377}
   - component: {fileID: 3394295029730997376}
   - component: {fileID: 2885782876051788693}
-  - component: {fileID: 6764045439823581339}
+  - component: {fileID: 7565193419217464933}
   m_Layer: 0
   m_Name: barrel
   m_TagString: breakable
@@ -226,7 +226,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6764045439823581339
+--- !u!114 &7565193419217464933
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,9 +235,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3394295029730997378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ba1231112ea234297c30e5fb707878, type: 3}
+  m_Script: {fileID: 11500000, guid: b483d6d6f615cd848b457476d323c0e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEffect:
-  - {fileID: 8300000, guid: fc5f7f86111336c498d72247c99c7881, type: 3}
-  - {fileID: 8300000, guid: 0f901a15986aa4b419955136631aa9d0, type: 3}
