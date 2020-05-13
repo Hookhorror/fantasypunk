@@ -39,7 +39,15 @@ public class PlayerHP : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
-           TakeDMG(10); 
+            TakeDMG(10);
+            var rbA = other.gameObject.GetComponent<Rigidbody2D>();
+            var rbB = player.gameObject.GetComponent<Rigidbody2D>();
+            if (rbA != null && rbB != null)
+            {
+                Debug.Log("IMPULSE");
+                Vector3 diff = rbB.position - rbA.position;
+                rbB.AddForce((diff.normalized)*5, ForceMode2D.Impulse);
+            }
         }
         
     }
@@ -47,7 +55,15 @@ public class PlayerHP : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
-           TakeDMG(10); 
+            TakeDMG(10);
+            var rbA = other.gameObject.GetComponent<Rigidbody2D>();
+            var rbB = player.gameObject.GetComponent<Rigidbody2D>();
+            if (rbA != null && rbB != null)
+            {
+                Debug.Log("IMPULSE");
+                Vector3 diff = rbB.position - rbA.position;
+                rbB.AddForce((diff.normalized) * 8, ForceMode2D.Impulse);
+            }
         }
     }
 
