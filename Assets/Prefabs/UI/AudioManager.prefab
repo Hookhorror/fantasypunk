@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3809569526143825857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3809569526143825859}
+  - component: {fileID: 3809569526143825856}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3809569526143825859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809569526143825857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 587.928, y: 231.59016, z: -208.1533}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3809569526143825856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809569526143825857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e5f6afb3e9d124f87d42ba2c2c9474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Pot
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 4597faee755f54244843353182e6f387, type: 3}
+    volume: 0.257
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BattleTheme
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 963841ac1a49f6c43a263ff8072b0620, type: 3}
+    volume: 0.359
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Barrel1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 0f901a15986aa4b419955136631aa9d0, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: SilenceMusic
+    mixer: {fileID: 3017193469150540434, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 9a2800ef52483844d80570ec61fa74e2, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: DeathScreen2
+    mixer: {fileID: 0}
+    clip: {fileID: 8300000, guid: 01d457ce8d711d2469c456fc07222159, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: DeathScreen1
+    mixer: {fileID: 3017193469150540434, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 78e69dc239014ac4cb01799978264d27, type: 3}
+    volume: 0.128
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: MenuTheme1
+    mixer: {fileID: 3017193469150540434, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 3c31e8cddd765034e88b3ed172dabff8, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: MenuTheme2
+    mixer: {fileID: 3017193469150540434, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 30a7c02162e131c4fb07ff59f1d84217, type: 3}
+    volume: 0.113
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: DarkerPath
+    mixer: {fileID: 3017193469150540434, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: ee8f935c596ad75429625a7c3cc8d7ae, type: 3}
+    volume: 0.139
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Drone
+    mixer: {fileID: -333453719356305182, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 809686ecfa6faa2489372fa49b907811, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: RoboHit1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 02bb52894c6a11f4c8e3939b72a0a0d4, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: RoboHit2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: da9df2c39c9119243b5a91e305f477bc, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Slime
+    mixer: {fileID: -333453719356305182, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 51511b1047844a74087a5129ed7672dc, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: SlimeHit1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 284e0b255ddd2884b87f66361dfecae7, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: SlimeHit2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 3e5afd3c0a45781459082e32f7993015, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Imuri
+    mixer: {fileID: -333453719356305182, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 6172dffa0cb6eed428311d5360c94966, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BossGun2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 9f31acf296f16114bb16c5dc58655861, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: BossGun3
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: e0ce2ca168a57024aba811e9b02383f5, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Door1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: f02e799aa1a556f4c8d43a26f84b6511, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: EmptyClip1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 275a45e08d365084889986d6169299f8, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: EmptyClip2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 6b6d0f62aef6d0140821a32861a8e706, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: FinalDoor
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: d9d068629afdd6a45a5eed6014fb9769, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Gun
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 48337ec144820bd32ad5121304b2b1f9, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: fcbaeaf2540bc68438ffefa3cbd48781, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 433b67eaf9e09b745a4d2c206f104405, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Reload1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: f66e234112079ac4f955ab3a0156c19b, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Reload2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: e542b6ab338a8af409f519b8778ea862, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: RoboGun1
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: aab8cf5abba4f3943a84605dabf89e69, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Robogun2
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 7b9ee79c114671a449f0a9fba71c91fe, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Shot
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: 8286aae623ef78e1fb7142c22a4f1312, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: SomethingBreaks
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: f9f4558471b413640af7e0063fe3f24a, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
