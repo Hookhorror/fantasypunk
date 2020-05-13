@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51748346df44c48b79fca1d0b2f02efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 170
   currentHP: 0
   hit: {fileID: 8300000, guid: 433b67eaf9e09b745a4d2c206f104405, type: 3}
   criticalHit: {fileID: 8300000, guid: fcbaeaf2540bc68438ffefa3cbd48781, type: 3}
