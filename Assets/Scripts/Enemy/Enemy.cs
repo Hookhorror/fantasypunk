@@ -11,7 +11,11 @@ public class Enemy : MonoBehaviour
     public float damageTaken;
     public bool hasDeathAnimation;
     public GameObject deathPrefab;
+<<<<<<< HEAD
 >>>>>>> e2cc1171fafc431dca9d2b0ed8d06bfe396424c8
+=======
+    public GameObject explosionPrefab;
+>>>>>>> 17f49a68e6638ed11bd8f9303fd2f1c9fb37405b
     private float health;
     private bool dead = false;
 
@@ -71,6 +75,7 @@ public class Enemy : MonoBehaviour
         dead = true;
         if (hasDeathAnimation)
         {
+            Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
         gameObject.SetActive(false);
