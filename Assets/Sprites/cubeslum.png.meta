@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: a3de2635144b241188b0c6c2f1df763a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5726343813699986914
+    second: cubeslum_0
+  - first:
+      213: 2825647827980329825
+    second: cubeslum_1
+  - first:
+      213: 2566699958581644530
+    second: cubeslum_2
+  - first:
+      213: -1329216746214116582
+    second: cubeslum_3
+  - first:
+      213: 1544559167642361242
+    second: cubeslum_4
+  - first:
+      213: -3349271343895355763
+    second: cubeslum_5
+  - first:
+      213: 1550913410653444093
+    second: cubeslum_6
+  - first:
+      213: -512375737370874751
+    second: cubeslum_7
+  - first:
+      213: 2891022777384142871
+    second: cubeslum_8
+  - first:
+      213: 6655353671096876394
+    second: cubeslum_9
+  - first:
+      213: 7430528957687379760
+    second: cubeslum_10
+  - first:
+      213: 6643954947799563495
+    second: cubeslum_11
+  - first:
+      213: 543477868229101472
+    second: cubeslum_12
+  - first:
+      213: -5275230892712945677
+    second: cubeslum_13
+  - first:
+      213: 1442859211450389272
+    second: cubeslum_14
+  - first:
+      213: -5469447701417923266
+    second: cubeslum_15
+  - first:
+      213: 5359031152434393139
+    second: cubeslum_16
+  - first:
+      213: 5269633914340887977
+    second: cubeslum_17
+  - first:
+      213: 4340067804484926665
+    second: cubeslum_18
+  - first:
+      213: 899232240688428489
+    second: cubeslum_19
+  - first:
+      213: 3688467258494706557
+    second: cubeslum_20
+  - first:
+      213: -5212652663488503882
+    second: cubeslum_21
+  - first:
+      213: -2278031811454211329
+    second: cubeslum_22
+  - first:
+      213: 5522797969983157685
+    second: cubeslum_23
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +112,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +142,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cubeslum_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 268
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5e75deb5f087f40800000000000000
+      internalID: 5726343813699986914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 267
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632f178ab7b63720800000000000000
+      internalID: 2825647827980329825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 265
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcc44c6300ce9320800000000000000
+      internalID: 2566699958581644530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13386c696cad8de0800000000000000
+      internalID: -1329216746214116582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d55e921606f6510800000000000000
+      internalID: 1544559167642361242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 116
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed8ba357ff481d0800000000000000
+      internalID: -3349271343895355763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 111
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df75367a783f58510800000000000000
+      internalID: 1550913410653444093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubeslum_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 116
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cea764bfca3e8f0800000000000000
+      internalID: -512375737370874751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

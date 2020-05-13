@@ -695,45 +695,6 @@ TextureImporter:
   - first:
       213: -2215679139676324610
     second: flatsslum_5
-<<<<<<< HEAD
-=======
-  - first:
-      213: -8740402568854936040
-    second: flatsslum_225
-  - first:
-      213: 7984497900675725396
-    second: flatsslum_6
-  - first:
-      213: -7717855003382937660
-    second: flatsslum_7
-  - first:
-      213: 1555632341790739045
-    second: flatsslum_8
-  - first:
-      213: -3746125507432928934
-    second: flatsslum_10
-  - first:
-      213: 990060267704379792
-    second: flatsslum_11
-  - first:
-      213: 844918222155785620
-    second: flatsslum_12
-  - first:
-      213: -3991371699418792152
-    second: flatsslum_13
-  - first:
-      213: -2997681487358769885
-    second: flatsslum_14
-  - first:
-      213: -6377229614763473870
-    second: flatsslum_15
-  - first:
-      213: -3318010378961104256
-    second: flatsslum_16
-  - first:
-      213: -7319978221560014244
-    second: flatsslum_17
->>>>>>> lockRooms
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -763,12 +724,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -777,11 +738,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-  spritePixelsToUnits: 128
-=======
   spritePixelsToUnits: 64
->>>>>>> lockRooms
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -799,7 +756,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -811,19 +768,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -832,413 +777,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 657
-        width: 128
-        height: 128
-=======
-      name: flatsslum_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
->>>>>>> lockRooms
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: 5bddce231dc442a00800000000000000
-      internalID: 730793500927122869
-=======
-      spriteID: 458f0a77982aece60800000000000000
-      internalID: 7984497900675725396
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_1
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 656
-        width: 128
-        height: 128
-=======
-      name: flatsslum_7
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 273
-        width: 256
-        height: 256
->>>>>>> lockRooms
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: 3bb22ba7b93ff21e0800000000000000
-      internalID: -2220288242166387789
-=======
-      spriteID: 4c7836fe3cba4e490800000000000000
-      internalID: -7717855003382937660
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_2
-      rect:
-        serializedVersion: 2
-        x: 317
-        y: 657
-        width: 128
-        height: 128
-=======
-      name: flatsslum_8
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 24
-        width: 512
-        height: 512
->>>>>>> lockRooms
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: e1c1a54ef77d3d010800000000000000
-      internalID: 1212549668984724510
-=======
-      spriteID: 56acb8d6f57b69510800000000000000
-      internalID: 1555632341790739045
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
-=======
-      name: flatsslum_9
-      rect:
-        serializedVersion: 2
-        x: 788
-        y: 281
-        width: 256
-        height: 256
->>>>>>> lockRooms
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: 945c5377aabe09690800000000000000
-      internalID: -7597313453997046455
-=======
-      spriteID: 95821c82eb6dc5590800000000000000
-      internalID: -7684030751985031079
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_4
-      rect:
-        serializedVersion: 2
-        x: 532
-=======
-      name: flatsslum_10
-      rect:
-        serializedVersion: 2
-        x: 1068
->>>>>>> lockRooms
-        y: 24
-        width: 512
-        height: 512
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: 4f044b95769420360800000000000000
-      internalID: 7134345467943731444
-=======
-      spriteID: a592e65e2b6130cc0800000000000000
-      internalID: -3746125507432928934
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-<<<<<<< HEAD
-      name: flatsslum_5
-      rect:
-        serializedVersion: 2
-        x: 1068
-        y: 24
-        width: 512
-        height: 512
-=======
-      name: flatsslum_11
-      rect:
-        serializedVersion: 2
-        x: 1324
-        y: 280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0996fb261966dbd00800000000000000
-      internalID: 990060267704379792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 17
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 495a9df75a0c9bb00800000000000000
-      internalID: 844918222155785620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_13
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 17
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82f7899269ccb98c0800000000000000
-      internalID: -3991371699418792152
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_14
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 25
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3254734d1981666d0800000000000000
-      internalID: -2997681487358769885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_15
-      rect:
-        serializedVersion: 2
-        x: 788
-        y: 25
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2340ce014778f77a0800000000000000
-      internalID: -6377229614763473870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_16
-      rect:
-        serializedVersion: 2
-        x: 1067
-        y: 23
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 082d6f0d32f04f1d0800000000000000
-      internalID: -3318010378961104256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_17
-      rect:
-        serializedVersion: 2
-        x: 1324
-        y: 23
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5ad15427963a6a90800000000000000
-      internalID: -7319978221560014244
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 657
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 869e3588e7d703a40800000000000000
-      internalID: 5345910740095330664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_1
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 656
-        width: 129
-        height: 129
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cffa78d334bc9aa0800000000000000
-      internalID: -6152844856126668863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flatsslum_2
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 657
-        width: 128
-        height: 128
->>>>>>> lockRooms
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< HEAD
-      spriteID: efc7957cf835041e0800000000000000
-      internalID: -2215679139676324610
-=======
-      spriteID: bb965dfd59b0a11c0800000000000000
-      internalID: -4532297336661644869
->>>>>>> lockRooms
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
