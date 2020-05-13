@@ -250,7 +250,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6168108956303286039, guid: 58499020e90b37b248fd61b62b7e7684,
     type: 3}
   firePoint: {fileID: 926052515}
-  bulletForce: 10
+  bulletForce: 0.8
   animator: {fileID: 5532560370144322775}
 --- !u!60 &7753216651702549518
 PolygonCollider2D:
