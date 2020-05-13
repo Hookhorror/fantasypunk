@@ -12,11 +12,14 @@ public class Movement : MonoBehaviour
     // public Animator animator;
     Vector2 movement;
     Vector2 mousePos;
+
+    private GameObject player;
     // private GameObject target;
     // private Camera cam;
 
     void Start()
     {
+        player = PlayerManager.instance.player;
         // target = PlayerManager.instance.player;
         // cam = CameraManager.instance.cam;
     }
@@ -45,10 +48,12 @@ public class Movement : MonoBehaviour
     void FixedUpdate()
     {
         // rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        rb.transform.position = Vector3.Lerp(rb.position
-                                 , rb.position + movement * moveSpeed * Time.fixedDeltaTime
-                                 , 0.5f);
-
+        if (!player.GetComponent<PlayerHP>().dead)
+        {
+            rb.transform.position = Vector3.Lerp(rb.position
+                                    , rb.position + movement * moveSpeed * Time.fixedDeltaTime
+                                    , 0.5f);
+        }
         // Vector2 lookDir = mousePos - rb.position;
         // float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
         // rb.rotation = angle;

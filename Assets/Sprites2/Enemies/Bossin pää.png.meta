@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: ecffff94036f249418d9a0ded78bce08
+guid: 937f29cfc0414609689e58a33d17414a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2686457831849465359
-    second: potsmall_0
+      213: -7939338956815124047
+    second: "Bossin p\xE4\xE4_0"
   - first:
-      213: 6166562651888514053
-    second: potsmall_1
+      213: -2848825332062671128
+    second: "Bossin p\xE4\xE4_1"
   - first:
-      213: 7510366323497404615
-    second: potsmall_2
+      213: -1098687304251014545
+    second: "Bossin p\xE4\xE4_2"
   - first:
-      213: -2165397837485825303
-    second: potsmall_3
+      213: 9164446357556952090
+    second: "Bossin p\xE4\xE4_3"
+  - first:
+      213: 8431300520433102951
+    second: "Bossin p\xE4\xE4_0"
+  - first:
+      213: -6840928398799757374
+    second: "Bossin p\xE4\xE4_1"
+  - first:
+      213: 4900256951813249944
+    second: "Bossin p\xE4\xE4_2"
+  - first:
+      213: -3912146482665586730
+    second: "Bossin p\xE4\xE4_3"
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -98,85 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: potsmall_0
+      name: "Bossin p\xE4\xE4_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 12
+        y: 302
+        width: 224
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5246318, y: 0.5174402}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0614732a27384520800000000000000
-      internalID: 2686457831849465359
+      spriteID: 7603bf2072ff10570800000000000000
+      internalID: 8431300520433102951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: potsmall_1
+      name: "Bossin p\xE4\xE4_1"
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 286
+        y: 306
+        width: 224
+        height: 206
+      alignment: 9
+      pivot: {x: 0.5245412, y: 0.49730143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 504710f5f08049550800000000000000
-      internalID: 6166562651888514053
+      spriteID: 2cf98a7bdd32011a0800000000000000
+      internalID: -6840928398799757374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: potsmall_2
+      name: "Bossin p\xE4\xE4_2"
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 18
+        width: 243
+        height: 218
+      alignment: 9
+      pivot: {x: 0.48349136, y: 0.47003138}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c88e1d216e2a3860800000000000000
-      internalID: 7510366323497404615
+      spriteID: 89b97f82cb5310440800000000000000
+      internalID: 4900256951813249944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: potsmall_3
+      name: "Bossin p\xE4\xE4_3"
       rect:
         serializedVersion: 2
-        x: 192
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 294
+        y: 14
+        width: 218
+        height: 232
+      alignment: 9
+      pivot: {x: 0.53898716, y: 0.4419606}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2224bb326f2f1e0800000000000000
-      internalID: -2165397837485825303
+      spriteID: 6df7c6f508345b9c0800000000000000
+      internalID: -3912146482665586730
       vertices: []
       indices: 
       edges: []

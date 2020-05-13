@@ -7,6 +7,7 @@ public class Shooting : MonoBehaviour
     public Transform firePoint;
 
     public Weapon weapon;
+    public Texture2D cursorReload;
     private Bullet bulletPrefab;
     private FirePattern firePattern;
     private float bulletForce;
@@ -15,6 +16,7 @@ public class Shooting : MonoBehaviour
     private double fireTimer = 0;
     private int mag;
     private double reloadTimer;
+    private CursorMode cursorMode = CursorMode.Auto;
 
     void Awake()
     {
@@ -31,6 +33,11 @@ public class Shooting : MonoBehaviour
     {
         fireTimer -= Time.deltaTime;
         reloadTimer -= Time.deltaTime;
+
+        if (reloadTimer <= 0)
+        {
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
+        }
 
         if (reloadTimer<=0 && fireTimer<=0 && Input.GetButton("Fire1"))
         {
@@ -60,7 +67,8 @@ public class Shooting : MonoBehaviour
 
     public void Reload()
     {
-        Debug.Log("RELOAD START");
+        Cursor.SetCursor(cursorReload, Vector2.zero, cursorMode);
+        Debug.Log("RELOADING");
         reloadTimer = weapon.reload;
         mag = weapon.magazine;
     }

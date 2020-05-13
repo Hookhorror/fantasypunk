@@ -38,6 +38,9 @@ public class FollowTargetAI : MonoBehaviour
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementDirection.sqrMagnitude);
+        animator.SetBool("Dead", gameObject.GetComponentInParent<Enemy>().Dead());
+        // gameObject.GetComponent<PolygonCollider2D>().autoTiling = true;
+        
 
         float distanceToTarget = Vector2.Distance(transform.position, target.transform.position);
 
@@ -85,6 +88,8 @@ public class FollowTargetAI : MonoBehaviour
     {
         movementDirection.x = target.transform.position.x - transform.position.x;
         movementDirection.y = target.transform.position.y - transform.position.y;
+        // Not quite sure if this is needed at all
+        movementDirection = movementDirection.normalized;
     }
 
     private void Shoot()

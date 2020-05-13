@@ -5,7 +5,20 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float maxHealth;
+<<<<<<< HEAD
+=======
+    // TODO: implement better way of inflicting damage
+    public float damageTaken;
+    public bool hasDeathAnimation;
+    public GameObject deathPrefab;
+>>>>>>> e2cc1171fafc431dca9d2b0ed8d06bfe396424c8
     private float health;
+    private bool dead = false;
+
+    public bool Dead()
+    {
+        return dead;
+    }
 
 
     void Awake()
@@ -53,8 +66,13 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        dead = true;
+        if (hasDeathAnimation)
+        {
+            Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
+        }
         gameObject.SetActive(false);
-        GetComponentInParent<RoomState>().CheckEnemies();
+        // GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
     }

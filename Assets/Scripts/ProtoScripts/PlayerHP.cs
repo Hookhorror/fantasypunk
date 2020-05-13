@@ -15,10 +15,21 @@ public class PlayerHP : MonoBehaviour
     public HPBar hpBar;
 
     private AudioSource source;
+    private GameObject player;
+
+    internal bool dead = false;
+
+    void Awake()
+    {
+        // currentHP = maxHP;
+        // hpBar.SetMaxHP(maxHP);
+        // source = GetComponent<AudioSource>();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
+        player = PlayerManager.instance.player;
         currentHP = maxHP;
         hpBar.SetMaxHP(maxHP);
         source = GetComponent<AudioSource>();
@@ -27,7 +38,7 @@ public class PlayerHP : MonoBehaviour
     // Update is called once per frame
     void OnCollisionEnter2D(Collision2D other)
     {
-    if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
+        if(other.gameObject.CompareTag("Projectile") || other.gameObject.CompareTag("Enemy")){
            TakeDMG(10); 
         }
         
@@ -50,7 +61,30 @@ public class PlayerHP : MonoBehaviour
 
         if (currentHP <= 0)
         {
-            SceneManager.LoadScene("Death");
+            // System.Threading.Thread.Sleep(2000);
+            // SceneManager.LoadScene("Death");
+            dead = true;
+            // MakeLegsAndTorsoOpaque();
+            Debug.Log("You died");
+            Invoke("LoadDeathScreen", 2);
         }
+        Debug.Log("Took damage: HP now " + currentHP);
+    }
+
+    public void DealDamageToSelf(int dmg)
+    {
+        TakeDMG(dmg);
+        // Debug.Log(currentHP);
+    }
+
+    private void MakeLegsAndTorsoOpaque()
+    {
+        // player.GetComponent<Legs>().MakeOpaque();
+        // player.GetComponent<Facing>().MakeOpaque();
+    }
+
+    private void LoadDeathScreen()
+    {
+        SceneManager.LoadScene("Death");
     }
 }
