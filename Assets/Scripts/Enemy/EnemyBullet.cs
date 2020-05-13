@@ -30,7 +30,7 @@ public GameObject hitEffect;
 
         if(other.gameObject.CompareTag("breakable"))
         {
-            other.GetComponent<breakable>().Smash();
+            other.GetComponent<Objects>().Smash();
             Destroy(gameObject);
         }
     }
