@@ -15,7 +15,8 @@ public class Enemy : MonoBehaviour
 >>>>>>> e2cc1171fafc431dca9d2b0ed8d06bfe396424c8
 =======
     public GameObject explosionPrefab;
->>>>>>> 17f49a68e6638ed11bd8f9303fd2f1c9fb37405b
+    public GameObject goo2;
+    public GameObject goo2Splitted;
     private float health;
     private bool dead = false;
 
@@ -78,10 +79,36 @@ public class Enemy : MonoBehaviour
             Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
+        if (gameObject.name == goo2.name)
+        {
+            Split();
+        }
+
         gameObject.SetActive(false);
         GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
+    }
+
+    private void Split()
+    {
+        Vector3 spawn1 = new Vector3(gameObject.transform.position.x + 0.5f
+                                   , gameObject.transform.position.y + 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn2 = new Vector3(gameObject.transform.position.x - 0.5f
+                                   , gameObject.transform.position.y + 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn3 = new Vector3(gameObject.transform.position.x + 0.5f
+                                   , gameObject.transform.position.y - 0.5f
+                                   , gameObject.transform.position.z);
+        Vector3 spawn4 = new Vector3(gameObject.transform.position.x - 0.5f
+                                   , gameObject.transform.position.y - 0.5f
+                                   , gameObject.transform.position.z);                                   
+        
+        Instantiate(goo2Splitted, spawn1, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn2, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn3, Quaternion.identity);
+        Instantiate(goo2Splitted, spawn4, Quaternion.identity);
     }
 
     private void MoveLeftToRight()
