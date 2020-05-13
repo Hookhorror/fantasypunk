@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 1873082403}
   - component: {fileID: 2040075319}
   - component: {fileID: 3362576295430966520}
+  - component: {fileID: 3653913391695950903}
   m_Layer: 9
   m_Name: Cleanerbot2
   m_TagString: Untagged
@@ -349,3 +350,24 @@ MonoBehaviour:
   explosionPrefab: {fileID: 0}
   goo2: {fileID: 3344013023537676441, guid: d2060d5a364767e4c96de9243dd4a97c, type: 3}
   goo2Splitted: {fileID: 0}
+--- !u!50 &3653913391695950903
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845565827107229783}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.73
+  m_LinearDrag: 4.5
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

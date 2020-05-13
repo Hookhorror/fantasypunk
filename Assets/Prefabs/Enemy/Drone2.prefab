@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 5532560370144322774}
   - component: {fileID: 7753216651702549518}
   - component: {fileID: 1173100680742494667}
+  - component: {fileID: 7534161199057630704}
   m_Layer: 9
   m_Name: Drone2
   m_TagString: Enemy
@@ -198,7 +199,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 763053989
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -7612496756400125628, guid: 97fda71cd985a34c5856579b21fcfa27,
     type: 3}
@@ -302,3 +303,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63c6e894a2ad05549a07b86ffd230482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  damageTaken: 0
+  hasDeathAnimation: 0
+  deathPrefab: {fileID: 0}
+  explosionPrefab: {fileID: 0}
+  goo2: {fileID: 0}
+  goo2Splitted: {fileID: 0}
+--- !u!50 &7534161199057630704
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5532560370144322761}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.35
+  m_LinearDrag: 5.89
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
