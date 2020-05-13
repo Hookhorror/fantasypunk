@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 483218234188364200}
   - component: {fileID: 473975234902512669}
   - component: {fileID: 8708917965049099756}
+  - component: {fileID: 2793379914535918812}
   m_Layer: 0
   m_Name: Goo2Splitted
   m_TagString: Enemy
@@ -179,3 +180,24 @@ MonoBehaviour:
   explosionPrefab: {fileID: 0}
   goo2: {fileID: 3344013023537676441, guid: d2060d5a364767e4c96de9243dd4a97c, type: 3}
   goo2Splitted: {fileID: 483218234188364215}
+--- !u!50 &2793379914535918812
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483218234188364215}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.69
+  m_LinearDrag: 2.05
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
