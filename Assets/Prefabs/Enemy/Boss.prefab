@@ -333,4 +333,6 @@ MonoBehaviour:
   maxHealth: 100
   damageTaken: 10
   hasDeathAnimation: 1
-  deathPrefab: {fileID: 0}
+  deathPrefab: {fileID: 3135569349973234295, guid: 46cc78b0bc572b7509209485616741e5,
+    type: 3}
+  explosionPrefab: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}

@@ -9,6 +9,7 @@ public class Enemy : MonoBehaviour
     public float damageTaken;
     public bool hasDeathAnimation;
     public GameObject deathPrefab;
+    public GameObject explosionPrefab;
     private float health;
     private bool dead = false;
 
@@ -68,6 +69,7 @@ public class Enemy : MonoBehaviour
         dead = true;
         if (hasDeathAnimation)
         {
+            Instantiate(explosionPrefab, gameObject.transform.position, Quaternion.identity);
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
         gameObject.SetActive(false);
