@@ -337,6 +337,11 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8649290902338468694, guid: e52050fb9b38e847dba260e186550a14,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8649290902338468695, guid: e52050fb9b38e847dba260e186550a14,
         type: 3}
       propertyPath: m_Volume
@@ -1385,6 +1390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631776259484913580, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3944574186685880386, guid: 95b13325c17cbd2419fecf76b0631bfc,
         type: 3}
