@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour
     }
 
 
+
+
     void Awake()
     {
         SetHealthToMax();
@@ -72,7 +74,7 @@ public class Enemy : MonoBehaviour
             Instantiate(deathPrefab, gameObject.transform.position, Quaternion.identity);
         }
         gameObject.SetActive(false);
-        // GetComponentInParent<RoomState>().CheckEnemies();
+        GetComponentInParent<RoomState>().CheckEnemies();
         // CheckEnemies();
         //Destroy(gameObject);
     }

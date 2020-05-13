@@ -5,12 +5,7 @@ using UnityEngine;
 public class Room : MonoBehaviour
 {
     public Enemy[] enemies;
-    public breakable[] breakables;
-
-
-    public Torch[] torches;
-
-    public Candle[] candles;
+    public Object[] objects;
 
     /**
     public virtual void OnTriggerEnter2D(Collider2D other) 
