@@ -47,7 +47,8 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        source.PlayOneShot(soundEffect);
+        // source.PlayOneShot(soundEffect);
+        AudioManager.instance.Play("Gun");
         Vector3 forward = firePoint.up * bulletForce;
 
         for (int i = 0; i < firePattern.angles.Length; i++)

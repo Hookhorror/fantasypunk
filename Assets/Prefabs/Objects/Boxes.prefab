@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8209083439376506606}
   - component: {fileID: 8209083439376506605}
-  - component: {fileID: 8209083439376506604}
+  - component: {fileID: 8098157770515843083}
+  - component: {fileID: 249008194299994186}
   m_Layer: 0
   m_Name: Boxes
-  m_TagString: Untagged
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -194792619
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ca300e16e53414f4ba6090bca4be886e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -82,8 +83,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8209083439376506604
-PolygonCollider2D:
+--- !u!95 &8098157770515843083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8209083439376506611}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d8c5eb202cefca0429915a697563406e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &249008194299994186
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -95,7 +115,7 @@ PolygonCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.006845951, y: -0.006846428}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -105,24 +125,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5, y: 0.2890625}
-      - {x: 0.25, y: 0.3984375}
-      - {x: -0.078125, y: 0.6015625}
-      - {x: -0.265625, y: 0.6015625}
-      - {x: -0.5, y: 0.4453125}
-      - {x: -0.5, y: 0.2265625}
-      - {x: -0.3125, y: 0.0859375}
-      - {x: -0.5, y: -0.0546875}
-      - {x: -0.5, y: -0.4296875}
-      - {x: -0.3125, y: -0.6015625}
-      - {x: -0.171875, y: -0.6015625}
-      - {x: 0.015625, y: -0.5234375}
-      - {x: 0.203125, y: -0.3046875}
-      - {x: 0.40625, y: -0.3359375}
-      - {x: 0.5, y: -0.1484375}
-    - - {x: 0.09375, y: 0.1484375}
-      - {x: 0.09375, y: 0.1640625}
-      - {x: 0.0625, y: 0.1328125}
-      - {x: 0.046875, y: 0.0703125}
+  serializedVersion: 2
+  m_Size: {x: 0.82200146, y: 0.72389793}
+  m_EdgeRadius: 0
