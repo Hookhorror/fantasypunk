@@ -8,6 +8,6 @@ public class Barrel : Objects
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-        clip = "Pot";
+        clip = "Barrel1";
     }
 }
