@@ -38,7 +38,7 @@ public class FollowTargetAI : MonoBehaviour
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementDirection.sqrMagnitude);
-        animator.SetBool("Dead", gameObject.GetComponentInParent<Enemy>().Dead());
+        // animator.SetBool("Dead", gameObject.GetComponentInParent<Enemy>().Dead());
         // gameObject.GetComponent<PolygonCollider2D>().autoTiling = true;
         
 
