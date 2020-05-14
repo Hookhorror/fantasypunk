@@ -261,3 +261,10 @@ MonoBehaviour:
     pitch: 0
     loop: 0
     source: {fileID: 0}
+  - name: BossExplosion
+    mixer: {fileID: 8677226215861129662, guid: 958006a5ac3f8cd42a40eb0338fc589e, type: 2}
+    clip: {fileID: 8300000, guid: fd706038486fee041947a774223dc22e, type: 3}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
