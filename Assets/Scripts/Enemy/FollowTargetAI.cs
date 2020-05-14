@@ -22,6 +22,8 @@ public class FollowTargetAI : MonoBehaviour
 
     private double fireTimer;
 
+    private bool wait = true;
+
     void Awake()
     {
         lastPosition = transform.position;
@@ -36,6 +38,9 @@ public class FollowTargetAI : MonoBehaviour
 
     void Update()
     {
+
+        MovingSound();
+
         fireTimer -= Time.deltaTime;
 
         animator.SetFloat("Horizontal", movementDirection.x);
@@ -110,5 +115,21 @@ public class FollowTargetAI : MonoBehaviour
     private void ConsoleMessage()
     {
         Debug.Log("x: " + movementDirection.x + " y: " + movementDirection.y);
+    }
+
+
+    void MovingSound()
+    {
+        if(wait)
+        {
+            StartCoroutine(SoundWaitCo());
+        }
+    }
+    IEnumerator SoundWaitCo()
+    {
+        wait = false;
+        moveSound.Play();
+        yield return new WaitForSeconds(5F);
+        wait = true;
     }
 }
