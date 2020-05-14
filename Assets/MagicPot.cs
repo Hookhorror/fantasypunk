@@ -11,11 +11,18 @@ public class MagicPot : Objects
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            PlayerHP php = other.gameObject.GetComponent<PlayerHP>(); ;
+            if(php != null)
+            {
+                php.maxHP += 70;
+                php.currentHP = php.maxHP;
+            }
+
             Weapon w = other.gameObject.GetComponent<Weapon>();
             if (w != null)
             {
                 w.firePattern.combine(angles);
-                Debug.Log(w.firePattern.angles.Length);
+                //Debug.Log(w.firePattern.angles.Length);
                 w.fireRate *= 2.5;
                 w.magazine += 2;
                 w.reload *= 1.5;

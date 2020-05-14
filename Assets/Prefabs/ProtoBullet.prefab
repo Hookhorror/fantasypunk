@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8529640767785059126}
   - component: {fileID: -8894752121033962147}
   - component: {fileID: 2471460640495873230}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: ProtoBullet
   m_TagString: Projectile
   m_Icon: {fileID: 0}
