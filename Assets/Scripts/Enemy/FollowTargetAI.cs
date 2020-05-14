@@ -13,11 +13,16 @@ public class FollowTargetAI : MonoBehaviour
     public float bulletForce = 25;
     public Animator animator;
 
+    public AudioSource gun;
+    public AudioSource moveSound;
+
     private Vector2 lastPosition;
     private Vector2 movementDirection;
     private GameObject target;
 
     private double fireTimer;
+
+    private bool wait = true;
 
     void Awake()
     {
@@ -33,6 +38,9 @@ public class FollowTargetAI : MonoBehaviour
 
     void Update()
     {
+
+        MovingSound();
+
         fireTimer -= Time.deltaTime;
 
         animator.SetFloat("Horizontal", movementDirection.x);
@@ -94,7 +102,9 @@ public class FollowTargetAI : MonoBehaviour
 
     private void Shoot()
     {
+
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        gun.Play();
         // Adds rigidbody to the bullet
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         // Makes the bullet fly in simple
@@ -105,5 +115,21 @@ public class FollowTargetAI : MonoBehaviour
     private void ConsoleMessage()
     {
         Debug.Log("x: " + movementDirection.x + " y: " + movementDirection.y);
+    }
+
+
+    void MovingSound()
+    {
+        if(wait)
+        {
+            StartCoroutine(SoundWaitCo());
+        }
+    }
+    IEnumerator SoundWaitCo()
+    {
+        wait = false;
+        moveSound.Play();
+        yield return new WaitForSeconds(4F);
+        wait = true;
     }
 }

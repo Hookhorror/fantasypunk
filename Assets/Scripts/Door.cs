@@ -26,6 +26,7 @@ public class Door : MonoBehaviour
     private void Start() 
     {
         cam = Camera.main.GetComponent<CameraMovement>();
+        needText = false;
        // box = GetComponent<BoxCollider2D>();
     }
 

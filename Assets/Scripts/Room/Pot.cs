@@ -12,7 +12,8 @@ public class Pot : Objects
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-        clip = "Pot";
+        source = GetComponent<AudioSource>();
+        // clip = "Pot";
     }
 
     // Update is called once per frame
