@@ -13,6 +13,9 @@ public class FollowTargetAI : MonoBehaviour
     public float bulletForce = 25;
     public Animator animator;
 
+    public AudioSource gun;
+    public AudioSource moveSound;
+
     private Vector2 lastPosition;
     private Vector2 movementDirection;
     private GameObject target;
@@ -94,7 +97,9 @@ public class FollowTargetAI : MonoBehaviour
 
     private void Shoot()
     {
+
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        gun.Play();
         // Adds rigidbody to the bullet
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         // Makes the bullet fly in simple
