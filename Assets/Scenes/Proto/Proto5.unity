@@ -854,7 +854,8 @@ PrefabInstance:
       propertyPath: enemyMarker
       value: 
       objectReference: {fileID: 544112706}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6358989212110807489, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}
 --- !u!1001 &8017008842656663379
 PrefabInstance:

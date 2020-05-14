@@ -7,6 +7,7 @@ public class Room : MonoBehaviour
     public Enemy[] enemies;
     public Object[] objects;
 
+[HideInInspector]
     public bool enemiesInTheRoom;
 
     /**
