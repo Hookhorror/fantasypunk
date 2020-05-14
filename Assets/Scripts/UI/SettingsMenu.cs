@@ -49,7 +49,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void SetEffectVolume(float volume)
     {
-        audioMixer.SetFloat("effect", volume);
+        audioMixer.SetFloat("effects", volume);
     }
 
     public void SetFullscreen(bool ifFullscreen)
@@ -67,5 +67,15 @@ public class SettingsMenu : MonoBehaviour
     {
         settingsMenu.SetActive(false);
         pauseMenu.SetActive(true);
+    }
+
+    public void OpenSettings()
+    {
+        settingsMenu.SetActive(true);
+    }
+
+    public void CloseInMainMenu()
+    {
+        settingsMenu.SetActive(false);
     }
 }
