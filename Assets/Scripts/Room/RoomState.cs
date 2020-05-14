@@ -41,6 +41,7 @@ public class RoomState : Room
     public void CloseDoors()
     {
         enemyMarker.SetMarkerOn();
+        enemiesInTheRoom = true;
         Debug.Log("Closing Doors");
         for (int i = 0; i < doors.Length; i++)
         {
@@ -51,6 +52,7 @@ public class RoomState : Room
         protected void OpenDoors()
     {
         enemyMarker.SetMarkerOff();
+        enemiesInTheRoom = false;
         Debug.Log("Opening Doors");
         for (int i = 0; i < doors.Length; i++)
         {
