@@ -50,7 +50,10 @@ public class Enemy : MonoBehaviour
         {
 
             var bullet = other.gameObject.GetComponent<Bullet>();
-            TakeDamage(bullet.damage);
+            if (bullet != null)
+            {
+                TakeDamage(bullet.damage);
+            }
         }
     }
 

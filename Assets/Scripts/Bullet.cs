@@ -31,9 +31,11 @@ public class Bullet : MonoBehaviour
 
         if(other.gameObject.CompareTag("breakable") && other!=null)
         {
-
-            other.GetComponent<Objects>().Smash();
-            Destroy(gameObject);
+            if (other.GetComponent<Objects>() != null)
+            {
+                other.GetComponent<Objects>().Smash();
+                Destroy(gameObject);
+            }
         }
     }
 }
