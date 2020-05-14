@@ -858,6 +858,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f888f3c8766263527bda608dcdb50cd0, type: 3}
+--- !u!114 &1434014072 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3476003764187011090, guid: 95b13325c17cbd2419fecf76b0631bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1911938583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!19719996 &1485440141 stripped
 TilemapCollider2D:
   m_CorrespondingSourceObject: {fileID: 4161271647143838767, guid: 95b13325c17cbd2419fecf76b0631bfc,
@@ -1194,6 +1206,11 @@ PrefabInstance:
       propertyPath: enemyMarker
       value: 
       objectReference: {fileID: 544112706}
+    - target: {fileID: 4161271647215508861, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 1434014072}
     - target: {fileID: 4161271647556509581, guid: 95b13325c17cbd2419fecf76b0631bfc,
         type: 3}
       propertyPath: enemyMarker

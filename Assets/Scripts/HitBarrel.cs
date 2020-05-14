@@ -22,4 +22,5 @@ public class HitBarrel : MonoBehaviour
             other.GetComponent<Objects>().Smash();
         }
     }
+    
 }

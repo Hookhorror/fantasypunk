@@ -19,6 +19,11 @@ public class FollowTargetBoss : MonoBehaviour
 
     private double fireTimer;
 
+    public AudioSource gun;
+    public AudioSource moveSound;
+
+    private bool wait = true;
+
     // for special move
     private int attackVariation = 0;
     public float[] shotgunAngles;
@@ -37,6 +42,9 @@ public class FollowTargetBoss : MonoBehaviour
 
     void Update()
     {
+        
+        MovingSound();
+
         fireTimer -= Time.deltaTime;
 
         animator.SetFloat("Horizontal", movementDirection.x);
@@ -97,6 +105,7 @@ public class FollowTargetBoss : MonoBehaviour
 
     private void Shoot()
     {
+        gun.Play();
         if (attackVariation % 3 != 0)
         {
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
@@ -138,5 +147,20 @@ public class FollowTargetBoss : MonoBehaviour
     private void ConsoleMessage()
     {
         Debug.Log("x: " + movementDirection.x + " y: " + movementDirection.y);
+    }
+
+    void MovingSound()
+    {
+        if(wait)
+        {
+            StartCoroutine(SoundWaitCo());
+        }
+    }
+    IEnumerator SoundWaitCo()
+    {
+        wait = false;
+        moveSound.Play();
+        yield return new WaitForSeconds(4F);
+        wait = true;
     }
 }
