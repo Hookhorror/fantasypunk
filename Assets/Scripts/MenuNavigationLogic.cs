@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuNavigationLogic : MonoBehaviour
 {
+    public GameObject settings;
     public void OpenMainMenu()
     {
         Debug.Log("Back button clicked");
@@ -25,5 +26,10 @@ public class MenuNavigationLogic : MonoBehaviour
     {
         Debug.Log("Quit clicked");
         Application.Quit();
+    }
+
+    public void OpenSettings()
+    {
+        settings.SetActive(true);
     }
 }
