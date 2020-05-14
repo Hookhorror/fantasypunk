@@ -19,6 +19,8 @@ public class FollowTargetBoss : MonoBehaviour
 
     private double fireTimer;
 
+    private AudioSource source;
+
     // for special move
     private int attackVariation = 0;
     public float[] shotgunAngles;
@@ -31,7 +33,7 @@ public class FollowTargetBoss : MonoBehaviour
     void Start()
     {
         target = PlayerManager.instance.player;
-
+        source = GetComponent<AudioSource>();
         // InvokeRepeating("ConsoleMessage", 1f, 1f);
     }
 
@@ -116,9 +118,18 @@ public class FollowTargetBoss : MonoBehaviour
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
                 // Makes the bullet fly in simple
                 rb.AddForce(rotateVector(firePoint.up, f) * bulletForce, ForceMode2D.Impulse);
+                PlayShootingSound();
             }
             fireTimer = 3;
             attackVariation++;
+        }
+    }
+
+    public void PlayShootingSound()
+    {
+        if (source != null && source.clip != null)
+        {
+            source.PlayOneShot(source.clip);
         }
     }
 
