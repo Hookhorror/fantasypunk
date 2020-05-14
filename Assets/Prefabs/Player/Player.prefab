@@ -70,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 6295647136071227489, guid: 6cda54399e819fa41b42c65a4314da8e,
     type: 3}
@@ -179,7 +179,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 5.03
+  m_LinearDrag: 9.93
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -197,7 +197,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.003158465, y: -0.06934512}
@@ -250,7 +250,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c8d46673936e532dbcbd65865e03fe7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
+  moveSpeed: 16.07
   rb: {fileID: 3807467020399287724}
   cam: {fileID: 0}
 --- !u!114 &3807467020399287697
@@ -483,8 +483,8 @@ MonoBehaviour:
   hit: {fileID: 8300000, guid: 433b67eaf9e09b745a4d2c206f104405, type: 3}
   criticalHit: {fileID: 8300000, guid: fcbaeaf2540bc68438ffefa3cbd48781, type: 3}
   hpBar: {fileID: 7119410289203487841}
-  enemyPush: 6
-  enemyBulletPush: 1
+  enemyPush: 3.45
+  enemyBulletPush: 1.38
 --- !u!114 &7119410289203487841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +579,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: da6995269d4b05a1aabb48678c2b5431, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -789,7 +789,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: -7557614080426886764, guid: cfeb74994ce9bc74294fb4bc7d814807,
     type: 3}
