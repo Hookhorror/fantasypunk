@@ -8,6 +8,7 @@ public class Barrel : Objects
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        source = GetComponent<AudioSource>();
         clip = "Barrel1";
     }
 }

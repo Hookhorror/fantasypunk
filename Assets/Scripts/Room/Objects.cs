@@ -10,19 +10,24 @@ public class Objects : MonoBehaviour
     protected string clip;
 
     protected BoxCollider2D boxCollider;
+    protected AudioSource source;
+
+    public GameObject shadow;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        source = GetComponent<AudioSource>();
     }
 
     public void Smash()
     {
         boxCollider.enabled = false;
+        shadow.SetActive(false);
         animator.SetBool("smash", true);
-        Debug.Log(clip);
-        AudioManager.instance.Play(clip);
+        source.Play();
+        
         StartCoroutine(breakCo());
     
     }
