@@ -24,7 +24,10 @@ public class Objects : MonoBehaviour
     public void Smash()
     {
         boxCollider.enabled = false;
-        shadow.SetActive(false);
+        if(shadow != null)
+        {
+           shadow.SetActive(false); 
+        }
         animator.SetBool("smash", true);
         source.Play();
         
