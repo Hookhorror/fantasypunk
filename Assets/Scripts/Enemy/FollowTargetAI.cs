@@ -13,14 +13,14 @@ public class FollowTargetAI : MonoBehaviour
     public float bulletForce = 25;
     public Animator animator;
 
-    public AudioSource gun;
-    public AudioSource moveSound;
-
+    
     private Vector2 lastPosition;
     private Vector2 movementDirection;
     private GameObject target;
 
     private double fireTimer;
+    public AudioSource gun;
+    public AudioSource moveSound;
 
     private bool wait = true;
 
