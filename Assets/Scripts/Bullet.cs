@@ -19,7 +19,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy") && other!=null)
         {
             // Spawns the hit effect when bullet collides
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
@@ -29,8 +29,9 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject, 3);
         }
 
-        if(other.gameObject.CompareTag("breakable"))
+        if(other.gameObject.CompareTag("breakable") && other!=null)
         {
+
             other.GetComponent<Objects>().Smash();
             Destroy(gameObject);
         }

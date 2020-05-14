@@ -19,11 +19,11 @@ public class Objects : MonoBehaviour
 
     public void Smash()
     {
+        boxCollider.enabled = false;
         animator.SetBool("smash", true);
         Debug.Log(clip);
         AudioManager.instance.Play(clip);
         StartCoroutine(breakCo());
-        boxCollider.enabled = false;
     
     }
 

@@ -47,8 +47,8 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        // source.PlayOneShot(soundEffect);
-        AudioManager.instance.Play("Gun");
+        source.PlayOneShot(soundEffect);
+        //AudioManager.instance.Play("Gun"); Not Working
         Vector3 forward = firePoint.up * bulletForce;
 
         for (int i = 0; i < firePattern.angles.Length; i++)

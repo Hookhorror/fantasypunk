@@ -15,10 +15,13 @@ public class RoomState : Room
 
    private void Update() 
    {
+       /**
        if(wait)
        {
            StartCoroutine(WaitCo());
        }
+        */
+       CheckEnemies();
        
    }
 
