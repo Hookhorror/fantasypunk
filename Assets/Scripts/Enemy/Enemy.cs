@@ -48,9 +48,11 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Projectile") && health >= 0)
         {
-
-            var bullet = other.gameObject.GetComponent<Bullet>();
-            TakeDamage(bullet.damage);
+            if (other.gameObject.GetComponent<Bullet>() != null)
+            {
+                var bullet = other.gameObject.GetComponent<Bullet>();
+                TakeDamage(bullet.damage);
+            }
         }
     }
 
