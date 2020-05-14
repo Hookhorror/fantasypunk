@@ -9,6 +9,7 @@ public class Box : Objects
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame

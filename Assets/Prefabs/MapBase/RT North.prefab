@@ -70,6 +70,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8959660dd36ce41289997bc124ce9ec3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camChange: {x: 0, y: 13}
-  playerChange: {x: 0, y: 5, z: 0}
+  camChange: {x: 0, y: 16}
+  playerChange: {x: 0, y: 5}
+  currentRoom: {fileID: 0}
+  roomToGo: {fileID: 0}
   active: 1
+  needText: 0
+  placeName: Bonus Path 1
+  text: {fileID: 0}
+  placeText: {fileID: 0}
