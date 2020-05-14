@@ -3,7 +3,10 @@ guid: 22dfa464d9d481a4aa3162914c921cea
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hitEffect: {instanceID: 0}
+  - shrapnelProjectileBoss: {fileID: 5698144025459940137, guid: fcfda0e26aa5b0b7f985d94ca22581c7,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
