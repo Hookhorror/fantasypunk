@@ -129,7 +129,7 @@ public class FollowTargetAI : MonoBehaviour
     {
         wait = false;
         moveSound.Play();
-        yield return new WaitForSeconds(5F);
+        yield return new WaitForSeconds(4F);
         wait = true;
     }
 }
