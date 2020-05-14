@@ -199,7 +199,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: -7612496756400125628, guid: 97fda71cd985a34c5856579b21fcfa27,
     type: 3}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63c6e894a2ad05549a07b86ffd230482, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealth: 16.56
   damageTaken: 0
   hasDeathAnimation: 0
   deathPrefab: {fileID: 0}

@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f561db22b0502859aa54838248a7f9f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  spottingRange: 12
+  speed: 2.93
+  spottingRange: 12.35
   attackRange: 0
   bulletPrefab: {fileID: 0}
   firePoint: {fileID: 0}

@@ -483,8 +483,8 @@ MonoBehaviour:
   hit: {fileID: 8300000, guid: 433b67eaf9e09b745a4d2c206f104405, type: 3}
   criticalHit: {fileID: 8300000, guid: fcbaeaf2540bc68438ffefa3cbd48781, type: 3}
   hpBar: {fileID: 7119410289203487841}
-  enemyPush: 3.45
-  enemyBulletPush: 1.38
+  enemyPush: 9.93
+  enemyBulletPush: 0.67
 --- !u!114 &7119410289203487841
 MonoBehaviour:
   m_ObjectHideFlags: 0

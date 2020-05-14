@@ -200,7 +200,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 543792971
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: -2202320709489785202, guid: 0ea28a3f11255dfa887588f35d407337,
     type: 3}
@@ -246,8 +246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  spottingRange: 6
-  attackRange: 5
+  spottingRange: 21.62
+  attackRange: 9
   bulletPrefab: {fileID: 6168108956303286039, guid: 58499020e90b37b248fd61b62b7e7684,
     type: 3}
   firePoint: {fileID: 1800724149}
