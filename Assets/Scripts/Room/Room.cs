@@ -7,6 +7,8 @@ public class Room : MonoBehaviour
     public Enemy[] enemies;
     public Object[] objects;
 
+    public bool enemiesInTheRoom;
+
     /**
     public virtual void OnTriggerEnter2D(Collider2D other) 
     {
