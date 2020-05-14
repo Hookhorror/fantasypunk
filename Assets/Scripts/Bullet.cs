@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
         // Spawns the hit effect when bullet collides
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
         // Destroys the effect after given time
-        Destroy(effect, 1);
+        Destroy(effect, 0.1f);
         Destroy(gameObject);
         Destroy(gameObject, 3);
     }
@@ -24,7 +24,7 @@ public class Bullet : MonoBehaviour
             // Spawns the hit effect when bullet collides
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             // Destroys the effect after given time
-            Destroy(effect, 1);
+            Destroy(effect, 0.1f);
             Destroy(gameObject);
             Destroy(gameObject, 3);
         }
