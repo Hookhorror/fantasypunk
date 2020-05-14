@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &96174355 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4161271648668087378, guid: 95b13325c17cbd2419fecf76b0631bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1911938583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de653aa59948e82c8a112c06799a0239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &140228190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -474,6 +486,12 @@ PrefabInstance:
         type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7190b047689f99e4f825c7f39df79005, type: 3}
+--- !u!1 &447172577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4161271648358248655, guid: 95b13325c17cbd2419fecf76b0631bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1911938583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &544112706 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8017008843195795217, guid: 57b0cc7119e5b5c44bf19b04c1a35ed6,
@@ -486,6 +504,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4745181a9295d184995f10b93d16581e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &794008082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4161271647556509621, guid: 95b13325c17cbd2419fecf76b0631bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1911938583}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &799316977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3807467022284812860, guid: e52050fb9b38e847dba260e186550a14,
@@ -749,6 +773,14 @@ PrefabInstance:
       propertyPath: enemyMarker
       value: 
       objectReference: {fileID: 544112706}
+    - target: {fileID: 1911938587, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}
+      propertyPath: enemies.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911938587, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}
+      propertyPath: enemies.Array.data[0]
+      value: 
+      objectReference: {fileID: 96174355}
     - target: {fileID: 987354330845604316, guid: 95b13325c17cbd2419fecf76b0631bfc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -769,6 +801,11 @@ PrefabInstance:
       propertyPath: enemyMarker
       value: 
       objectReference: {fileID: 544112706}
+    - target: {fileID: 4161271647169663294, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4161271647215508861, guid: 95b13325c17cbd2419fecf76b0631bfc,
         type: 3}
       propertyPath: enemyMarker
@@ -854,6 +891,21 @@ PrefabInstance:
       propertyPath: enemyMarker
       value: 
       objectReference: {fileID: 544112706}
+    - target: {fileID: 4813292844907171418, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: roomToGo
+      value: 
+      objectReference: {fileID: 794008082}
+    - target: {fileID: 4813292844907171418, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: currentRoom
+      value: 
+      objectReference: {fileID: 447172577}
+    - target: {fileID: 4813292846107464604, guid: 95b13325c17cbd2419fecf76b0631bfc,
+        type: 3}
+      propertyPath: needText
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6358989212110807489, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 95b13325c17cbd2419fecf76b0631bfc, type: 3}

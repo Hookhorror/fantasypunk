@@ -37,6 +37,13 @@ public class SettingsMenu : MonoBehaviour
         resDropdown.RefreshShownValue();
     }
 
+    private void Update() {
+        if(Input.GetKeyDown(KeyCode.Escape) &&  PauseMenu.GameIsPaused)
+        {
+            settingsMenu.SetActive(false);
+        }
+    }
+
     public void SetMasterVolume(float volume)
     {
         audioMixer.SetFloat("volume", volume);
