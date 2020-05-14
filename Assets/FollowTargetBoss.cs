@@ -105,9 +105,9 @@ public class FollowTargetBoss : MonoBehaviour
 
     private void Shoot()
     {
-        gun.Play();
         if (attackVariation % 3 != 0)
         {
+            gun.Play();
             GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
             // Adds rigidbody to the bullet
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
@@ -120,6 +120,7 @@ public class FollowTargetBoss : MonoBehaviour
         {
             foreach(float f in shotgunAngles)
             {
+                gun.Play();
                 GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
                 // Adds rigidbody to the bullet
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
